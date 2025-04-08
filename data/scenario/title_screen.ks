@@ -30,8 +30,8 @@
 [wait  time="1500"  ]
 [tb_image_show  time="1000"  storage="default/ろご_EA_1.png"  width="685"  height="403"  x="135"  y="-81"  _clickable_img=""  name="img_24"  ]
 [wait  time="4500"  ]
-[button  storage="title_screen2.ks"  target="*first"  graphic="title/無題953_20250408231325.png"  width="300"  height="70"  x="139"  y="500"  _clickable_img=""  name="img_26"  ]
-[button  storage="title_screen2.ks"  target="*loadmenu"  y="500"  graphic="title/無題953_20250408231345.png"  width="300"  height="70"  x="540"  _clickable_img=""  ]
+[button  storage="title_screen.ks"  target="*first"  graphic="title/無題953_20250408231325.png"  width="300"  height="70"  x="145"  y="500"  _clickable_img=""  name="img_26"  ]
+[button  storage="title_screen.ks"  target="*loadmenu"  graphic="title/無題953_20250408231345.png"  width="300"  height="70"  y="500"  x="515"  _clickable_img=""  ]
 [s  ]
 *loadmenu
 
