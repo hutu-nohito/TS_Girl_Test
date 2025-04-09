@@ -472,7 +472,6 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [chara_hide_all  time="1000"  wait="true"  ]
-[stopbgm  time="1000"  fadeout="true"  ]
-[jump  storage="title_screen2.ks"  target=""  ]
+[jump  storage="scene_2_1.ks"  target=""  ]
 [end]
 

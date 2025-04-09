@@ -478,8 +478,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
 初めまして、
-&f.first_name
 &f.last_name
+&f.first_name
 です。よろしくお願いします！[p]
 [_tb_end_text]
 

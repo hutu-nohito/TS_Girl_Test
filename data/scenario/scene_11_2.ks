@@ -1,51 +1,79 @@
+[_tb_system_call storage=system/_scene_11_2.ks]
+
 *scene_start
+
 [tb_show_message_window  ]
 [if exp="f.likeability_hiiro < 15"]
+
 [iscript]
 f.nick_name_hiiro = f.first_name + "くん"
 [endscript]
+
 [elsif exp="f.likeability_hiiro >= 15"]
+
 [iscript]
 f.nick_name_hiiro = f.first_name
 [endscript]
+
 [endif]
+
 [if exp="f.likeability_hisui < 15"]
+
 [iscript]
 f.nick_name_hisui = f.last_name + "さん"
 [endscript]
+
 [elsif exp="f.likeability_hisui >= 15"]
+
 [iscript]
 f.nick_name_hisui = f.first_name + "さん"
 [endscript]
+
 [endif]
+
 [if exp="f.likeability_touka < 15"]
+
 [iscript]
 f.nick_name_touka = f.first_name
 [endscript]
+
 [elsif exp="f.likeability_touka >= 15"]
+
 [iscript]
 f.nick_name_touka = f.first_name
 [endscript]
+
 [endif]
+
 [if exp="f.likeability_tigusa < 15"]
+
 [iscript]
 f.nick_name_tigusa = f.last_name + "くん"
 [endscript]
+
 [elsif exp="f.likeability_tigusa >= 15"]
+
 [iscript]
 f.nick_name_tigusa = f.first_name + "くん"
 [endscript]
+
 [endif]
+
 [if exp="f.likeability_yuuma < 15"]
+
 [iscript]
 f.nick_name_yuuma = f.first_name + "くん"
 [endscript]
+
 [elsif exp="f.likeability_yuuma >= 15"]
+
 [iscript]
 f.nick_name_yuuma = f.first_name
 [endscript]
+
 [endif]
-; --- 観光客の男性A のメッセージ ---
+
+[mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -54,7 +82,6 @@ f.nick_name_yuuma = f.first_name
 お姉さんかわいいね〜ここら辺の人？[p]
 [_tb_end_text]
 
-; --- 観光客の男性B のメッセージ ---
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -63,7 +90,6 @@ f.nick_name_yuuma = f.first_name
 俺たちここ初めてでさ〜案内してくれない？[p]
 [_tb_end_text]
 
-; --- 観光客の男性A のメッセージ ---
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -72,8 +98,7 @@ f.nick_name_yuuma = f.first_name
 てか、仮装すごいね～写真撮ろうよ？[p]
 [_tb_end_text]
 
-; --- ひいろ のメッセージ ---
-[chara_show name="ひいろ" face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="-45"  reflect="false"]
+[chara_show  name="ひいろ"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="-45"  reflect="false"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
@@ -81,7 +106,6 @@ f.nick_name_yuuma = f.first_name
 えっ、あの……わたし、友達と来てて……[p]
 [_tb_end_text]
 
-; --- 観光客の男性B のメッセージ ---
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -90,9 +114,8 @@ f.nick_name_yuuma = f.first_name
 その友達も女の子？一緒に周ろうよ[p]
 [_tb_end_text]
 
-; --- ひいろ のメッセージ ---
-[chara_hide name="ひいろ"  time="1"  wait="true"  pos_mode="false" ]
-[chara_show name="ひいろ" face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="-45"  reflect="false"]
+[chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
+[chara_show  name="ひいろ"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="-45"  reflect="false"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
@@ -100,10 +123,10 @@ f.nick_name_yuuma = f.first_name
 えっと…[p]
 [_tb_end_text]
 
-; --- 主人公 のメッセージ ---
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
+
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -112,9 +135,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 すみません、この子俺のツレなので。失礼します[p]
 [_tb_end_text]
 
-; --- ひいろ のメッセージ ---
-[chara_hide name="ひいろ"  time="1"  wait="true"  pos_mode="false" ]
-[chara_show name="ひいろ" face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="-45"  reflect="false"]
+[chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
+[chara_show  name="ひいろ"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="-45"  reflect="false"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
@@ -124,10 +146,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 ……！？[p]
 [_tb_end_text]
 
-; --- 主人公 のメッセージ ---
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
+
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -136,9 +158,12 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 （ひいろの手を引き、急いでその場を後にした…）[p]
 [_tb_end_text]
 
-; --- ひいろ のメッセージ ---
-[chara_hide name="ひいろ"  time="1"  wait="true"  pos_mode="false" ]
-[chara_show name="ひいろ" face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="-45"  reflect="false"]
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="esc01.mp3"  ]
+[bg  time="1000"  method="crossfade"  storage="射的の屋台（夜）.jpg"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
+[chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
+[chara_show  name="ひいろ"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="-45"  reflect="false"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
@@ -146,10 +171,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 ごめん……迷子になっちゃって……あと、ありがとう[p]
 [_tb_end_text]
 
-; --- 主人公 のメッセージ ---
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
+
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -158,9 +183,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 いいよ、無事でよかった[p]
 [_tb_end_text]
 
-; --- ひいろ のメッセージ ---
-[chara_hide name="ひいろ"  time="1"  wait="true"  pos_mode="false" ]
-[chara_show name="ひいろ" face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="-45"  reflect="false"]
+[chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
+[chara_show  name="ひいろ"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="-45"  reflect="false"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
@@ -168,10 +192,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 えっと…あの……[p]
 [_tb_end_text]
 
-; --- 主人公 のメッセージ ---
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
+
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -180,9 +204,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 どうした？[p]
 [_tb_end_text]
 
-; --- ひいろ のメッセージ ---
-[chara_hide name="ひいろ"  time="1"  wait="true"  pos_mode="false" ]
-[chara_show name="ひいろ" face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="-45"  reflect="false"]
+[chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
+[chara_show  name="ひいろ"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="-45"  reflect="false"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
@@ -190,10 +213,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 手……[p]
 [_tb_end_text]
 
-; --- 主人公 のメッセージ ---
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
+
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -202,10 +225,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 （さっきひいろを連れ出した時から手を繋いだままだった）[p]
 [_tb_end_text]
 
-; --- 主人公 のメッセージ ---
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
+
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -214,10 +237,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 （急に手を繋がれたらひいろも嫌だよな…？）[p]
 [_tb_end_text]
 
-; --- 主人公 のメッセージ ---
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
+
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -226,9 +249,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 …あ！ごめん！？[p]
 [_tb_end_text]
 
-; --- ひいろ のメッセージ ---
-[chara_hide name="ひいろ"  time="1"  wait="true"  pos_mode="false" ]
-[chara_show name="ひいろ" face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="-45"  reflect="false"]
+[chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
+[chara_show  name="ひいろ"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="-45"  reflect="false"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
@@ -236,7 +258,6 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 い、いや、良いよ…！[p]
 [_tb_end_text]
 
-; --- ひいろ のメッセージ ---
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
@@ -244,10 +265,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 そ、そろそろ日が落ちるし、聖火もらいに行こっか！[p]
 [_tb_end_text]
 
-; --- 主人公 のメッセージ ---
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
+
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -257,5 +278,9 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [_tb_end_text]
 
 *scene_end
-; シーン終了
+
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[chara_hide_all  time="1000"  wait="true"  ]
+[jump  storage="scene_11_3.ks"  target=""  ]
 [end]
+

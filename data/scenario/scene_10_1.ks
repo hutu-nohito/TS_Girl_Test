@@ -1,52 +1,81 @@
+[_tb_system_call storage=system/_scene_10_1.ks]
+
 *scene_start
+
 [tb_show_message_window  ]
 [if exp="f.likeability_hiiro < 15"]
+
 [iscript]
 f.nick_name_hiiro = f.first_name + "くん"
 [endscript]
+
 [elsif exp="f.likeability_hiiro >= 15"]
+
 [iscript]
 f.nick_name_hiiro = f.first_name
 [endscript]
+
 [endif]
+
 [if exp="f.likeability_hisui < 15"]
+
 [iscript]
 f.nick_name_hisui = f.last_name + "さん"
 [endscript]
+
 [elsif exp="f.likeability_hisui >= 15"]
+
 [iscript]
 f.nick_name_hisui = f.first_name + "さん"
 [endscript]
+
 [endif]
+
 [if exp="f.likeability_touka < 15"]
+
 [iscript]
 f.nick_name_touka = f.first_name
 [endscript]
+
 [elsif exp="f.likeability_touka >= 15"]
+
 [iscript]
 f.nick_name_touka = f.first_name
 [endscript]
+
 [endif]
+
 [if exp="f.likeability_tigusa < 15"]
+
 [iscript]
 f.nick_name_tigusa = f.last_name + "くん"
 [endscript]
+
 [elsif exp="f.likeability_tigusa >= 15"]
+
 [iscript]
 f.nick_name_tigusa = f.first_name + "くん"
 [endscript]
+
 [endif]
+
 [if exp="f.likeability_yuuma < 15"]
+
 [iscript]
 f.nick_name_yuuma = f.first_name + "くん"
 [endscript]
+
 [elsif exp="f.likeability_yuuma >= 15"]
+
 [iscript]
 f.nick_name_yuuma = f.first_name
 [endscript]
+
 [endif]
-; --- ひいろ のメッセージ ---
-[chara_show name="ひいろ" face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="-45"  reflect="false"]
+
+[bg  time="1000"  method="crossfade"  storage="縁日の屋台（夜）.jpg"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
+[chara_show  name="ひいろ"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="-45"  reflect="false"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
@@ -54,9 +83,8 @@ f.nick_name_yuuma = f.first_name
 色々回ったねぇ〜あそこにお手洗いあるし、一旦休憩にしようか！[p]
 [_tb_end_text]
 
-; --- ゆうま のメッセージ ---
-[chara_show name="ゆうま" face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="380"  top="0"  reflect="false"]
-[chara_mod name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false" ]
+[chara_show  name="ゆうま"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="380"  top="0"  reflect="false"  ]
+[chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
@@ -64,10 +92,10 @@ f.nick_name_yuuma = f.first_name
 賛成〜[p]
 [_tb_end_text]
 
-; --- 主人公 のメッセージ ---
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
+
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -76,10 +104,9 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 俺、ここら辺で待っとくよ[p]
 [_tb_end_text]
 
-; --- ひすい のメッセージ ---
-[chara_show name="ひすい" face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="30"  top="-45"  reflect="false"]
-[chara_mod name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="ゆうま"  time="10"  wait="false"  face="暗"  cross="false" ]
+[chara_show  name="ひすい"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="30"  top="-45"  reflect="false"  ]
+[chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="ゆうま"  time="10"  wait="false"  face="暗"  cross="false"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
@@ -87,10 +114,12 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 わかりましたわ。ではまた後で[p]
 [_tb_end_text]
 
-; --- 主人公 のメッセージ ---
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
+
+[playse  volume="100"  time="1000"  buf="0"  storage="esc01.mp3"  ]
+[chara_hide_all  time="1000"  wait="true"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -99,10 +128,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 （みんなお手洗いの方に向かい、俺1人になった）[p]
 [_tb_end_text]
 
-; --- 主人公 のメッセージ ---
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
+
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -111,10 +140,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 （ちょっと近場の屋台でも見ながら待っておこうかな）[p]
 [_tb_end_text]
 
-; --- 主人公 のメッセージ ---
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
+
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -123,7 +152,6 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 （なんだか不思議な雰囲気の出店があるな…）[p]
 [_tb_end_text]
 
-; --- 店主 のメッセージ ---
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -132,10 +160,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 そこの少年いらっしゃい、大切な人にアクセサリーのプレゼントはどうじゃ？[p]
 [_tb_end_text]
 
-; --- 主人公 のメッセージ ---
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
+
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -144,10 +172,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 （ジャックオランタンの被り物を被った店主に勧められるがままに商品を見る）[p]
 [_tb_end_text]
 
-; --- 主人公 のメッセージ ---
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
+
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -156,7 +184,6 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 アクセサリーか…[p]
 [_tb_end_text]
 
-; --- 店主 のメッセージ ---
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -165,10 +192,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 このアクセサリーについた石は、光の石と言って、持つ者に不思議な力を与えるのじゃ[p]
 [_tb_end_text]
 
-; --- 主人公 のメッセージ ---
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
+
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -177,7 +204,6 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 不思議な力…？[p]
 [_tb_end_text]
 
-; --- 店主 のメッセージ ---
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -186,10 +212,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 おひとついかが？[p]
 [_tb_end_text]
 
-; --- 主人公 のメッセージ ---
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
+
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -198,10 +224,17 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 （せっかくだし、一つ買うか…）[p]
 [_tb_end_text]
 
-; --- 主人公 のメッセージ ---
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
+
+[button  storage="scene_10_1.ks"  target="*藍"  graphic="選択肢/無題953_20250408224039.png"  width="600"  height="70"  x="180"  y="200"  ]
+[button  storage="scene_10_1.ks"  target="*翠"  graphic="選択肢/無題953_20250408224054.png"  width="600"  height="70"  x="180"  y="300"  ]
+[s  ]
+*藍
+
+[eval exp="f.likeability_hiiro = f.likeability_hiiro + 10"]
+
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -210,20 +243,42 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 じゃあ、これください[p]
 [_tb_end_text]
 
-; --- 店主 のメッセージ ---
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname="<center><p>店主</p></center>"]
 #ダミー
-〇〇色の石じゃな。まいど[p]
+藍色の石じゃな。まいど[p]
 [_tb_end_text]
 
-; --- とうか のメッセージ ---
-[chara_show name="とうか" face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="565"  top="-45"  reflect="false"]
-[chara_mod name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="ゆうま"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="ひすい"  time="10"  wait="false"  face="暗"  cross="false" ]
+[jump  storage="scene_10_1.ks"  target="*shop_end"  ]
+*翠
+
+[eval exp="f.likeability_hisui = f.likeability_hisui + 10"]
+
+[tb_start_text mode=4 ]
+[cm]
+[ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
+[chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
+#ダミー
+じゃあ、これください[p]
+[_tb_end_text]
+
+[tb_start_text mode=4 ]
+[cm]
+[ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
+[chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname="<center><p>店主</p></center>"]
+#ダミー
+翠色の石じゃな。まいど[p]
+[_tb_end_text]
+
+[jump  storage="scene_10_1.ks"  target="*shop_end"  ]
+*shop_end
+
+[chara_show  name="とうか"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="565"  top="-45"  reflect="false"  ]
+[chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="ゆうま"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="ひすい"  time="10"  wait="false"  face="暗"  cross="false"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
@@ -233,10 +288,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 お待たせ～！[p]
 [_tb_end_text]
 
-; --- 主人公 のメッセージ ---
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
+
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -245,10 +300,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 あ、みんな！[p]
 [_tb_end_text]
 
-; --- 主人公 のメッセージ ---
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
+
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -257,12 +312,11 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 （慌てて先ほど購入したものをポケットに隠す）[p]
 [_tb_end_text]
 
-; --- ちぐさ のメッセージ ---
-[chara_show name="ちぐさ" face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="-145"  top="-45"  reflect="false"]
-[chara_mod name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="ゆうま"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="ひすい"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="とうか"  time="10"  wait="false"  face="暗"  cross="false" ]
+[chara_show  name="ちぐさ"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="-145"  top="-45"  reflect="false"  ]
+[chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="ゆうま"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="ひすい"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="とうか"  time="10"  wait="false"  face="暗"  cross="false"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
@@ -270,10 +324,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 こんな所で何してるのぉ？[p]
 [_tb_end_text]
 
-; --- 主人公 のメッセージ ---
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
+
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -282,13 +336,12 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 出店でも見ながら皆を待っておこうかなって思って見てたんだよね[p]
 [_tb_end_text]
 
-; --- ひいろ のメッセージ ---
-[chara_hide name="ひいろ"  time="1"  wait="true"  pos_mode="false" ]
-[chara_show name="ひいろ" face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="-45"  reflect="false"]
-[chara_mod name="ゆうま"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="ひすい"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="とうか"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="ちぐさ"  time="10"  wait="false"  face="暗"  cross="false" ]
+[chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
+[chara_show  name="ひいろ"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="-45"  reflect="false"  ]
+[chara_mod  name="ゆうま"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="ひすい"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="とうか"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="ちぐさ"  time="10"  wait="false"  face="暗"  cross="false"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
@@ -296,10 +349,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 出店？そこ出店ないよ…？[p]
 [_tb_end_text]
 
-; --- 主人公 のメッセージ ---
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
+
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -308,10 +361,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 え？[p]
 [_tb_end_text]
 
-; --- 主人公 のメッセージ ---
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
+
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -320,10 +373,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 （振り返ると先ほどまでそこにあったはずの出店と店主が消えていた）[p]
 [_tb_end_text]
 
-; --- 主人公 のメッセージ ---
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
+
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -332,10 +385,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 （マジかよ…さっきまでここにあったのに…）[p]
 [_tb_end_text]
 
-; --- 主人公 のメッセージ ---
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
+
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -344,10 +397,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 夢だったのか？[p]
 [_tb_end_text]
 
-; --- 主人公 のメッセージ ---
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
+
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -356,13 +409,12 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 （こっそりとポケットの中身を確認すると、先ほど購入したアクセサリーはきちんと存在していた）[p]
 [_tb_end_text]
 
-; --- ゆうま のメッセージ ---
-[chara_hide name="ゆうま"  time="1"  wait="true"  pos_mode="false" ]
-[chara_show name="ゆうま" face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="380"  top="0"  reflect="false"]
-[chara_mod name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="ひすい"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="とうか"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="ちぐさ"  time="10"  wait="false"  face="暗"  cross="false" ]
+[chara_hide  name="ゆうま"  time="1"  wait="true"  pos_mode="false"  ]
+[chara_show  name="ゆうま"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="380"  top="0"  reflect="false"  ]
+[chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="ひすい"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="とうか"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="ちぐさ"  time="10"  wait="false"  face="暗"  cross="false"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
@@ -370,7 +422,6 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 もしかして、幽霊……？[p]
 [_tb_end_text]
 
-; --- 一同 のメッセージ ---
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -379,13 +430,12 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 ！？[p]
 [_tb_end_text]
 
-; --- ちぐさ のメッセージ ---
-[chara_hide name="ちぐさ"  time="1"  wait="true"  pos_mode="false" ]
-[chara_show name="ちぐさ" face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="-145"  top="-45"  reflect="false"]
-[chara_mod name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="ゆうま"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="ひすい"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="とうか"  time="10"  wait="false"  face="暗"  cross="false" ]
+[chara_hide  name="ちぐさ"  time="1"  wait="true"  pos_mode="false"  ]
+[chara_show  name="ちぐさ"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="-145"  top="-45"  reflect="false"  ]
+[chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="ゆうま"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="ひすい"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="とうか"  time="10"  wait="false"  face="暗"  cross="false"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
@@ -393,13 +443,12 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 ハロウィンの時期はあの世とこの世の境目があいまいになるっていうもんねぇ[p]
 [_tb_end_text]
 
-; --- ひすい のメッセージ ---
-[chara_hide name="ひすい"  time="1"  wait="true"  pos_mode="false" ]
-[chara_show name="ひすい" face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="30"  top="-45"  reflect="false"]
-[chara_mod name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="ゆうま"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="とうか"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="ちぐさ"  time="10"  wait="false"  face="暗"  cross="false" ]
+[chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
+[chara_show  name="ひすい"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="30"  top="-45"  reflect="false"  ]
+[chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="ゆうま"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="とうか"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="ちぐさ"  time="10"  wait="false"  face="暗"  cross="false"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
@@ -407,10 +456,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 も、もう！この話は終わりにしますわよ！！[p]
 [_tb_end_text]
 
-; --- 主人公 のメッセージ ---
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
+
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -419,13 +468,12 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 そ、そうだな…[p]
 [_tb_end_text]
 
-; --- とうか のメッセージ ---
-[chara_hide name="とうか"  time="1"  wait="true"  pos_mode="false" ]
-[chara_show name="とうか" face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="565"  top="-45"  reflect="false"]
-[chara_mod name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="ゆうま"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="ひすい"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="ちぐさ"  time="10"  wait="false"  face="暗"  cross="false" ]
+[chara_hide  name="とうか"  time="1"  wait="true"  pos_mode="false"  ]
+[chara_show  name="とうか"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="565"  top="-45"  reflect="false"  ]
+[chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="ゆうま"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="ひすい"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="ちぐさ"  time="10"  wait="false"  face="暗"  cross="false"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
@@ -433,13 +481,12 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 おしっ！じゃあ、あっちの屋台も回ろうぜ！！[p]
 [_tb_end_text]
 
-; --- ひすい のメッセージ ---
-[chara_hide name="ひすい"  time="1"  wait="true"  pos_mode="false" ]
-[chara_show name="ひすい" face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="30"  top="-45"  reflect="false"]
-[chara_mod name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="ゆうま"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="とうか"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="ちぐさ"  time="10"  wait="false"  face="暗"  cross="false" ]
+[chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
+[chara_show  name="ひすい"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="30"  top="-45"  reflect="false"  ]
+[chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="ゆうま"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="とうか"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="ちぐさ"  time="10"  wait="false"  face="暗"  cross="false"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
@@ -447,13 +494,12 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 …申し訳ないのですが、わたくしはそろそろ門限ですので帰りたく…[p]
 [_tb_end_text]
 
-; --- ちぐさ のメッセージ ---
-[chara_hide name="ちぐさ"  time="1"  wait="true"  pos_mode="false" ]
-[chara_show name="ちぐさ" face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="-145"  top="-45"  reflect="false"]
-[chara_mod name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="ゆうま"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="ひすい"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="とうか"  time="10"  wait="false"  face="暗"  cross="false" ]
+[chara_hide  name="ちぐさ"  time="1"  wait="true"  pos_mode="false"  ]
+[chara_show  name="ちぐさ"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="-145"  top="-45"  reflect="false"  ]
+[chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="ゆうま"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="ひすい"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="とうか"  time="10"  wait="false"  face="暗"  cross="false"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
@@ -461,13 +507,12 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 そっかぁ、もうそんな時間かぁ[p]
 [_tb_end_text]
 
-; --- ひいろ のメッセージ ---
-[chara_hide name="ひいろ"  time="1"  wait="true"  pos_mode="false" ]
-[chara_show name="ひいろ" face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="-45"  reflect="false"]
-[chara_mod name="ゆうま"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="ひすい"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="とうか"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="ちぐさ"  time="10"  wait="false"  face="暗"  cross="false" ]
+[chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
+[chara_show  name="ひいろ"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="-45"  reflect="false"  ]
+[chara_mod  name="ゆうま"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="ひすい"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="とうか"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="ちぐさ"  time="10"  wait="false"  face="暗"  cross="false"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
@@ -475,13 +520,12 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 じゃあ、今日はもう解散しようか！[p]
 [_tb_end_text]
 
-; --- ゆうま のメッセージ ---
-[chara_hide name="ゆうま"  time="1"  wait="true"  pos_mode="false" ]
-[chara_show name="ゆうま" face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="380"  top="0"  reflect="false"]
-[chara_mod name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="ひすい"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="とうか"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="ちぐさ"  time="10"  wait="false"  face="暗"  cross="false" ]
+[chara_hide  name="ゆうま"  time="1"  wait="true"  pos_mode="false"  ]
+[chara_show  name="ゆうま"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="380"  top="0"  reflect="false"  ]
+[chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="ひすい"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="とうか"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="ちぐさ"  time="10"  wait="false"  face="暗"  cross="false"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
@@ -491,13 +535,12 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 で家まで送るよ[p]
 [_tb_end_text]
 
-; --- ひすい のメッセージ ---
-[chara_hide name="ひすい"  time="1"  wait="true"  pos_mode="false" ]
-[chara_show name="ひすい" face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="30"  top="-45"  reflect="false"]
-[chara_mod name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="ゆうま"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="とうか"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="ちぐさ"  time="10"  wait="false"  face="暗"  cross="false" ]
+[chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
+[chara_show  name="ひすい"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="30"  top="-45"  reflect="false"  ]
+[chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="ゆうま"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="とうか"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="ちぐさ"  time="10"  wait="false"  face="暗"  cross="false"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
@@ -505,13 +548,12 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 ありがとうございます[p]
 [_tb_end_text]
 
-; --- ちぐさ のメッセージ ---
-[chara_hide name="ちぐさ"  time="1"  wait="true"  pos_mode="false" ]
-[chara_show name="ちぐさ" face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="-145"  top="-45"  reflect="false"]
-[chara_mod name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="ゆうま"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="ひすい"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="とうか"  time="10"  wait="false"  face="暗"  cross="false" ]
+[chara_hide  name="ちぐさ"  time="1"  wait="true"  pos_mode="false"  ]
+[chara_show  name="ちぐさ"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="-145"  top="-45"  reflect="false"  ]
+[chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="ゆうま"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="ひすい"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="とうか"  time="10"  wait="false"  face="暗"  cross="false"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
@@ -521,10 +563,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 、ゆうまくん、みんなのことよろしくねぇ[p]
 [_tb_end_text]
 
-; --- 主人公 のメッセージ ---
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
+
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -533,13 +575,12 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 おう、任せろ！[p]
 [_tb_end_text]
 
-; --- ひすい のメッセージ ---
-[chara_hide name="ひすい"  time="1"  wait="true"  pos_mode="false" ]
-[chara_show name="ひすい" face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="30"  top="-45"  reflect="false"]
-[chara_mod name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="ゆうま"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="とうか"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="ちぐさ"  time="10"  wait="false"  face="暗"  cross="false" ]
+[chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
+[chara_show  name="ひすい"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="30"  top="-45"  reflect="false"  ]
+[chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="ゆうま"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="とうか"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="ちぐさ"  time="10"  wait="false"  face="暗"  cross="false"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
@@ -547,13 +588,12 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 ちぐささん、また明日もよろしくお願いしますね[p]
 [_tb_end_text]
 
-; --- ちぐさ のメッセージ ---
-[chara_hide name="ちぐさ"  time="1"  wait="true"  pos_mode="false" ]
-[chara_show name="ちぐさ" face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="-145"  top="-45"  reflect="false"]
-[chara_mod name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="ゆうま"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="ひすい"  time="10"  wait="false"  face="暗"  cross="false" ]
-[chara_mod name="とうか"  time="10"  wait="false"  face="暗"  cross="false" ]
+[chara_hide  name="ちぐさ"  time="1"  wait="true"  pos_mode="false"  ]
+[chara_show  name="ちぐさ"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="-145"  top="-45"  reflect="false"  ]
+[chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="ゆうま"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="ひすい"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[chara_mod  name="とうか"  time="10"  wait="false"  face="暗"  cross="false"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
@@ -561,10 +601,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 うん、またねぇ[p]
 [_tb_end_text]
 
-; --- 主人公 のメッセージ ---
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
+
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -574,5 +614,9 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [_tb_end_text]
 
 *scene_end
-; シーン終了
+
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[chara_hide_all  time="1000"  wait="true"  ]
+[jump  storage="scene_10_2.ks"  target=""  ]
 [end]
+

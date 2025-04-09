@@ -118,16 +118,16 @@ f.set_name= '<center><p><ruby><rb><span style="color:#FF2020; text-shadow: -1px 
 
 [ptext layer=0 text="※最大4文字まで" x=0 y=180 size=24 color="black"  width=1280 align=center time=0]
 
-[edit  name="f.last_name"  width="280"  height="70"  size="30"  left="500"  top="270"  maxchars="4"  initial="山田"  reflect="false"  ]
-[edit  name="f.first_name"  width="280"  height="70"  size="30"  left="500"  top="370"  maxchars="4"  initial="太郎"  ]
+[edit  name="f.last_name"  width="280"  height="70"  size="30"  left="500"  top="270"  maxchars="4"  initial="赤庭"  reflect="false"  ]
+[edit  name="f.first_name"  width="280"  height="70"  size="30"  left="500"  top="370"  maxchars="4"  initial="星"  ]
 [button  graphic="button/config2.png"  target="*commit"  x="465"  y="540"  enterimg="ok2.png"  storage=""  width="70"  height="25"  ]
 [button  graphic="button/config.png"  target="*reset"  x="665"  y="540"  enterimg="reset2.png"  storage=""  width="70"  height="25"  ]
 [s  ]
 *reset
 
 [iscript]
-f.last_name= "ふつ"
-f.first_name= "ーのひと"
+f.last_name= "赤庭"
+f.first_name= "星"
 [endscript]
 
 [jump  target="*name_entry"  storage=""  ]

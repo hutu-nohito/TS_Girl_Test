@@ -225,7 +225,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ちぐさ
-わたしは[ruby text="よ"]黄[ruby text="み"]泉[ruby text="やま"]山[ruby text="ち"]千[ruby text="ぐさ"]種（よみやまちぐさ）だよぉ[p]
+わたしは[ruby text="よ"]黄[ruby text="み"]泉[ruby text="やま"]山[ruby text="ち"]千[ruby text="ぐさ"]種だよぉ[p]
 [_tb_end_text]
 
 [chara_show  name="とうか"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="40"  top="-45"  reflect="false"  ]
@@ -235,7 +235,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #とうか
-あたしは[ruby text="かみ"]神[ruby text="お"]尾[ruby text="とう"]橙[ruby text="か"]夏（かみおとうか）！[p]
+あたしは[ruby text="かみ"]神[ruby text="お"]尾[ruby text="とう"]橙[ruby text="か"]夏！[p]
 [_tb_end_text]
 
 [chara_show  name="ひすい"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="555"  top="-45"  reflect="false"  ]
@@ -246,7 +246,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
-わたくしは、[ruby text="き"]鬼[ruby text="つき"]月[ruby text="ひ"]氷[ruby text="すい"]翠（きつきひすい）ですわ。このRAGクリエイト高等学校の生徒会長をしておりますので、[p]
+わたくしは、[ruby text="き"]鬼[ruby text="つき"]月[ruby text="ひ"]氷[ruby text="すい"]翠ですわ。このRAGクリエイト高等学校の生徒会長をしておりますので、[p]
 [_tb_end_text]
 
 [chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]
@@ -326,7 +326,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
-いい加減親（ちぐささん）離れしなさい！[p]
+いい加減[ruby text="ちぐささん"]親離れしなさい！[p]
 [_tb_end_text]
 
 [chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
