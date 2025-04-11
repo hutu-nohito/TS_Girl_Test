@@ -39,9 +39,9 @@ mp.frame_opacity = mp.frame_opacity || "255"; // メッセージフレームの�
 
 ;ボタンサイズ60×60px版（メッセージウィンドウのの上に横並びで表示されます）
 ;オート
-[button name="role_button" role="auto" width="60" height="60" graphic="../others/plugin/theme_kopanda_03b/image/button/auto.png" enterimg="../others/plugin/theme_kopanda_03b/image/button/auto2.png" x=610 y=385]
+[button name="role_button" role="auto" width="60" height="60" graphic="../others/plugin/theme_kopanda_03b/image/button/auto.png" enterimg="../others/plugin/theme_kopanda_03b/image/button/auto2.png" x=680 y=385]
 ;スキップ
-[button name="role_button" role="skip" width="60" height="60" graphic="../others/plugin/theme_kopanda_03b/image/button/skip.png" enterimg="../others/plugin/theme_kopanda_03b/image/button/skip2.png" x=680 y=385]
+;[button name="role_button" role="skip" width="60" height="60" graphic="../others/plugin/theme_kopanda_03b/image/button/skip.png" enterimg="../others/plugin/theme_kopanda_03b/image/button/skip2.png" x=680 y=385]
 ;バックログ
 [button name="role_button" role="backlog" width="60" height="60" graphic="../others/plugin/theme_kopanda_03b/image/button/log.png" enterimg="../others/plugin/theme_kopanda_03b/image/button/log2.png" x=750 y=385]
 ;コンフィグ（※sleepgame を使用して config.ks を呼び出しています）

@@ -107,7 +107,7 @@ f.set_name= '<center><p><ruby><rb><span style="color:#FF2020; text-shadow: -1px 
 [cm  ]
 [clearfix]
 
-[bg  storage="bg_base.png"  time="0"  ]
+[bg  storage="名前入力ページ.png"  time="0"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [layopt layer=0 visible=true]
 
@@ -116,23 +116,20 @@ f.set_name= '<center><p><ruby><rb><span style="color:#FF2020; text-shadow: -1px 
 [cm  ]
 [freeimage layer="0"]
 
-[ptext layer=0 text="お名前を入力してください" x=0 y=90 size=50 color="black" width=1280 align=center time=0]
+[ptext layer=0 text="お名前を入力してください" x=-140 y=140 size=40 color="black" width=1280 align=center time=0]
 
-[ptext layer=0 text="※最大4文字まで" x=0 y=180 size=24 color="black"  width=1280 align=center time=0]
+[ptext layer=0 text="" x=-160 y=190 size=40 color="black" width=1280 align=center time=0]
 
-[edit  name="f.last_name"  width="280"  height="70"  size="30"  left="500"  top="270"  maxchars="4"  initial="赤庭"  reflect="false"  ]
-[edit  name="f.first_name"  width="280"  height="70"  size="30"  left="500"  top="370"  maxchars="4"  initial="星"  ]
-[button  graphic="button/config2.png"  target="*commit"  x="465"  y="540"  enterimg="ok2.png"  storage=""  width="70"  height="25"  ]
-[button  graphic="button/config.png"  target="*reset"  x="665"  y="540"  enterimg="reset2.png"  storage=""  width="70"  height="25"  ]
+[ptext layer=0 text="※それぞれ最大6文字まで" x=10 y=340 size=24 color="black"  width=1280 align=center time=0]
+
+[ptext layer=0 text="姓" x=205 y=222 size=30 color="black"  width=240 align=left time=0]
+
+[ptext layer=0 text="名" x=525 y=222 size=30 color="black"  width=240 align=left time=0]
+
+[edit  name="f.last_name"  width="280"  height="70"  size="30"  left="200"  top="260"  maxchars="6"  initial="赤庭"  reflect="false"  ]
+[edit  name="f.first_name"  width="260"  height="70"  size="30"  left="520"  top="260"  maxchars="6"  initial="星"  ]
+[button  graphic="button/決定ボタン.png"  target="*commit"  x="343"  y="440"  enterimg="button/決定ボタン_フロート.png"  storage=""  width="278"  height="81"  _clickable_img="button/決定ボタン_フロート.png"  ]
 [s  ]
-*reset
-
-[iscript]
-f.last_name= "赤庭"
-f.first_name= "星"
-[endscript]
-
-[jump  target="*name_entry"  storage=""  ]
 *commit
 
 [commit  ]
@@ -148,6 +145,8 @@ tf.name_entry_text = "あなたのお名前は【" + f.player_name + "】でよ�
 [freeimage layer=0]
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[add_theme_button]
+
 [jump  storage="scene_1_1.ks"  target=""  ]
 *retry
 

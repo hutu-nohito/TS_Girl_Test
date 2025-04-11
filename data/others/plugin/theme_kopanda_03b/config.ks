@@ -92,9 +92,9 @@
 ;▼未読スキップ
 ;------------------------------------------------------------------------------------------------------
 ; 未読スキップ-OFF
-[button name="unread_off" fix="true" target="*skip_off" graphic="../others/plugin/theme_kopanda_03b/image/config/c_btn.gif" width=220 height=50  x=280 y=430]
+;[button name="unread_off" fix="true" target="*skip_off" graphic="../others/plugin/theme_kopanda_03b/image/config/c_btn.gif" width=220 height=50  x=280 y=430]
 ; 未読スキップ-ON
-[button name="unread_on" fix="true" target="*skip_on" graphic="../others/plugin/theme_kopanda_03b/image/config/c_btn.gif" width=220 height=50 x=510 y=430]
+;[button name="unread_on" fix="true" target="*skip_on" graphic="../others/plugin/theme_kopanda_03b/image/config/c_btn.gif" width=220 height=50 x=510 y=430]
 ;------------------------------------------------------------------------------------------------------
 ;▼コンフィグ起動時の画面更新
 ;------------------------------------------------------------------------------------------------------
@@ -170,28 +170,28 @@ if(tf.current_se_vol == 0){$(".sevol_0").attr("src","data/others/plugin/theme_ko
 ;▼テキスト速度
 ;--------------------------------------------------------------------------------
 *ch_speed_change
-[iscript]
-	$(".ch").attr("src","data/others/plugin/theme_kopanda_03b/image/config/c_btn.gif");
-	$(".ch_"+tf.set_ch_speed).attr("src","data/others/plugin/theme_kopanda_03b/image/config/c_set_speed.gif");
-[endscript]
-[configdelay speed="&tf.set_ch_speed"]
+;[iscript]
+;	$(".ch").attr("src","data/others/plugin/theme_kopanda_03b/image/config/c_btn.gif");
+;	$(".ch_"+tf.set_ch_speed).attr("src","data/others/plugin/theme_kopanda_03b/image/config/c_set_speed.gif");
+;[endscript]
+;[configdelay speed="&tf.set_ch_speed"]
 
 ;	テキスト速度サンプル
-	[position layer=message1 left=40 top=510 width=880 height=100 page=fore visible=true opacity=0]
-	[layopt layer=message1 visible=true]
-	[current layer=message1]
+;	[position layer=message1 left=40 top=510 width=880 height=100 page=fore visible=true opacity=0]
+;	[layopt layer=message1 visible=true]
+;	[current layer=message1]
 ;	↓文字色を変えたいときはここをいじる
-	[font color="0x383c5f"]
-	■■■■■■■■■■■■■■■
+;	[font color="0x383c5f"]
+;	このスピードで表示されます
 
-		[iscript]
-		tf.system.backlog.pop(); // 上の「このスピードで表示されます」のテキストを履歴から削除
-		[endscript]
+;		[iscript]
+;		tf.system.backlog.pop(); // 上の「このスピードで表示されます」のテキストを履歴から削除
+;		[endscript]
 
-	[wait time=2000]
-	[er]
-	[layopt layer=message1 visible=false]
-	[return]
+;	[wait time=2000]
+;	[er]
+;	[layopt layer=message1 visible=false]
+;	[return]
 
 ;--------------------------------------------------------------------------------
 ;▼オート速度

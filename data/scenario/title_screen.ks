@@ -4,21 +4,23 @@
 
 [plugin name="ReloadHide"]
 
-*title
-
 [mask  time="100"  effect="fadeIn"  color="0x000000"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
-[tb_image_show  time="1000"  storage="default/NewRAGロゴ_Vtuber.png"  width="484"  height="378"  x="237"  y="125"  _clickable_img=""  name="img_5"  ]
+[tb_image_show  time="1000"  storage="default/NewRAGロゴ_Vtuber.png"  width="484"  height="378"  x="237"  y="125"  _clickable_img=""  name="img_4"  ]
 [wait  time="3000"  ]
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [tb_image_hide  time="1000"  ]
 [mask_off  time="100"  effect="fadeOut"  ]
-[tb_image_show  time="1000"  storage="default/【ロゴ】悪霊退散ハロウィンジャー.PNG"  width="616"  height="435"  x="168"  y="107"  _clickable_img=""  name="img_10"  ]
+[tb_image_show  time="1000"  storage="default/【ロゴ】悪霊退散ハロウィンジャー.PNG"  width="616"  height="435"  x="168"  y="107"  _clickable_img=""  name="img_9"  ]
 [wait  time="3000"  ]
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [tb_image_hide  time="1000"  ]
 [bg  time="1000"  method="crossfade"  storage="画像37.png"  ]
 [mask_off  time="100"  effect="fadeOut"  ]
+[glink  x="350"  y="260"  text="PUSH&nbsp;START"  target="*start_title"  color="orange"  width=""  height=""  _clickable_img=""  ]
+[s  ]
+*start_title
+
 [playbgm  volume="100"  time="1000"  loop="true"  storage="01_RPG.mp3"  ]
 [layopt layer=message0 visible=false]
 
@@ -29,6 +31,8 @@
 [wait  time="1500"  ]
 [tb_image_show  time="1000"  storage="default/ろご_EA_1.png"  width="685"  height="403"  x="135"  y="-81"  _clickable_img=""  name="img_23"  ]
 [wait  time="4500"  ]
+*title
+
 [button  storage="title_screen.ks"  target="*first"  graphic="title/無題953_20250408231325.png"  width="300"  height="70"  x="145"  y="500"  _clickable_img=""  name="img_25"  ]
 [button  storage="title_screen.ks"  target="*loadmenu"  graphic="title/無題953_20250408231345.png"  width="300"  height="70"  y="500"  x="515"  _clickable_img=""  name="img_26"  ]
 [s  ]
@@ -36,6 +40,8 @@
 
 [cm  ]
 [showload]
+
+[add_theme_button]
 
 [jump  target="*title"  storage=""  ]
 [s  ]

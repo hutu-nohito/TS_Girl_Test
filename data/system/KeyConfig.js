@@ -1,32 +1,28 @@
 var __tyrano_key_config = {
 	"key": {
-		"13": "next",
-		"17": "skip",
-		"32": "skip",
-		"83": "skip",
-		"91": "skip"
+		"13": "next"
 	},
 	"mouse": {
 		"right": "hidemessage",
-		"center": "menu",
-		"wheel_up": "backlog",
-		"wheel_down": "next"
+		"center": "",
+		"wheel_up": "",
+		"wheel_down": ""
 	},
 	"gesture": {
 		"swipe_up_1": {
-			"action": "backlog"
+			"action": ""
 		},
 		"swipe_left_1": {
-			"action": "auto"
+			"action": ""
 		},
 		"swipe_right_1": {
-			"action": "menu"
+			"action": ""
 		},
 		"swipe_down_1": {
-			"action": "load"
+			"action": ""
 		},
 		"hold": {
-			"action": "skip"
+			"action": ""
 		}
 	}
 }
