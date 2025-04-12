@@ -74,7 +74,8 @@ f.nick_name_yuuma = f.first_name
 [endif]
 
 [stopbgm  time="1000"  fadeout="true"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="放課後のおしゃべり.mp3"  fadein="true"  ]
+[wait  time="1000"  ]
+[playbgm  volume="80"  time="1000"  loop="true"  storage="houkago.mp3"  fadein="true"  ]
 [bg  time="1000"  method="crossfade"  storage="rouka.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [chara_show  name="ゆうま"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="0"  reflect="false"  ]
@@ -246,7 +247,11 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [_tb_end_text]
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
-[bg  time="1000"  method="crossfade"  storage="文化系の部室（日中）.jpg"  ]
+[tb_start_text mode=1 ]
+#
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="busitu.jpg"  ]
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
@@ -279,7 +284,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（白衣や工具が散らかる机の上に、漫画やアニメで見るような人物や道具のイラストの描かれたノートが置いてある…）[p]
+（白衣や工具が散らかる机の上に、漫画やアニメで見るようなキャラクターやアイテムのイラストの描かれたノートが置いてある…）[p]
 [_tb_end_text]
 
 [iscript]
@@ -313,8 +318,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-へえ……すごいな[r]
-アイデアだけじゃなくて、ちゃんと形にもしてるんだな[p]
+（周りをよく見ると、ノートに書かれていたアイテムに似たものがたくさん転がっていた）[p]
 [_tb_end_text]
 
 [iscript]
@@ -326,7 +330,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（周りをよく見ると、ノートに書かれていたアイテムに似たものがたくさん転がっていた）[p]
+へえ……すごいな[r]
+アイデアだけじゃなくて、ちゃんと形にもしてるんだな[p]
 [_tb_end_text]
 
 [chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]

@@ -74,9 +74,14 @@ f.nick_name_yuuma = f.first_name
 [endif]
 
 [stopbgm  time="1000"  fadeout="true"  ]
-[playbgm  volume="80"  time="1000"  loop="true"  fadein="true"  storage="縁側_DOVA.mp3"  ]
-[bg  time="1000"  method="crossfade"  storage="縁日の屋台（夜）.jpg"  ]
+[wait  time="1000"  ]
+[playbgm  volume="80"  time="1000"  loop="true"  fadein="true"  storage="enngawa.mp3"  ]
+[bg  time="1000"  method="crossfade"  storage="enniti_yoru.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
+[tb_start_text mode=4 ]
+――10月31日　15:00　ハロウィン祭最終日[p]
+[_tb_end_text]
+
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -547,19 +552,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（でも、それでも……みんなと過ごせたことは、本当に楽しかった）[p]
-[_tb_end_text]
-
-[iscript]
-f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
-[endscript]
-
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
-[chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
-#ダミー
-（きっとこの日の笑顔は、ずっと覚えてる）[p]
+（でも、それでも……みんなと過ごせて本当に楽しかった[r]
+きっとこの日のことは、ずっと覚えてる）[p]
 [_tb_end_text]
 
 [iscript]

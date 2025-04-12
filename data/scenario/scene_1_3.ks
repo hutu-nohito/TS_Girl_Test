@@ -79,7 +79,7 @@ f.nick_name_yuuma = f.first_name
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname="<center><p>ナレーション</p></center>"]
 #
-放課後[p]
+――同日　15:00　放課後[p]
 [_tb_end_text]
 
 [iscript]
@@ -486,8 +486,9 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [_tb_end_text]
 
 [stopbgm  time="1000"  fadeout="true"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="能面師.mp3"  fadein="true"  ]
-[tb_image_show  time="1000"  storage="default/【伝説】死に神と式き神使いの戦い.PNG"  width="960"  height="680"  ]
+[wait  time="1000"  ]
+[playbgm  volume="80"  time="1000"  loop="true"  storage="noumenn.mp3"  fadein="true"  ]
+[tb_image_show  time="1000"  storage="default/densetu.PNG"  width="1280"  height="720"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]
 [cm]
@@ -555,6 +556,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
+[wait  time="1000"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="放課後のおしゃべり.mp3"  fadein="true"  ]
 [tb_image_hide  time="1000"  ]
 [bg  time="1000"  method="crossfade"  storage="room.jpg"  ]
@@ -820,6 +822,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
 
+[playse  volume="100"  time="1000"  buf="0"  storage="sliding-door02.mp3"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]

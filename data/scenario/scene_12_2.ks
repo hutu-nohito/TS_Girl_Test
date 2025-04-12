@@ -233,7 +233,14 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
-では……ぱくっ[r]で、できましたわ！[r]
+では……ぱくっ[p]
+[_tb_end_text]
+
+[tb_start_text mode=4 ]
+[cm]
+[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
+#ひすい
+で、できましたわ！[r]
 &f.nick_name_hisui
 、見ましたか？わたくし”食べ歩き”できましたわよ！[p]
 [_tb_end_text]
@@ -247,7 +254,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-さすが生徒会長だな[r]あれ、ひすい口周りにチョコがついてるぞ[p]
+さすが生徒会長だな[r]
+……あれ、ひすい口周りにチョコがついてるぞ[p]
 [_tb_end_text]
 
 [chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
@@ -268,7 +276,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（ハンカチを取り出し慌てて口をぬぐう）[p]
+（ひすいは慌ててハンカチを取り出し口をぬぐう）[p]
 [_tb_end_text]
 
 [chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]

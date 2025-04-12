@@ -105,7 +105,7 @@ f.set_name= '<center><p><ruby><rb><span style="text-shadow: -1px -1px 0 white, 1
 [cm  ]
 [clearfix]
 
-[bg  storage="名前入力ページ.png"  time="0"  ]
+[bg  storage="input_name.png"  time="0"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [layopt layer=0 visible=true]
 
@@ -126,7 +126,7 @@ f.set_name= '<center><p><ruby><rb><span style="text-shadow: -1px -1px 0 white, 1
 
 [edit  name="f.last_name"  width="280"  height="70"  size="30"  left="200"  top="260"  maxchars="5"  initial="赤庭"  reflect="false"  ]
 [edit  name="f.first_name"  width="260"  height="70"  size="30"  left="520"  top="260"  maxchars="5"  initial="星"  ]
-[button  graphic="button/決定ボタン.png"  target="*commit"  x="343"  y="440"  enterimg="button/決定ボタン_フロート.png"  storage=""  width="278"  height="81"  _clickable_img="button/決定ボタン_フロート.png"  ]
+[button  graphic="button/決定ボタン.png"  target="*commit"  x="343"  y="440"  enterimg="button/決定ボタン_フロート.png"  storage=""  width="415"  height="121"  _clickable_img="button/決定ボタン_フロート.png"  ]
 [s  ]
 *commit
 

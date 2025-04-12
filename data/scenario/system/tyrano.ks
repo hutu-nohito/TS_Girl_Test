@@ -1,6 +1,6 @@
 
 *start
- 
+
 ;背景変更マクロ　storage と time を指定する
 [macro name="back"]
 
@@ -181,4 +181,5 @@ tf.savetext = "<span style='font-size:10px'>"+tf.save_date+"</span><br />"+tf.ti
 [endmacro]
 
 [return]
+
 

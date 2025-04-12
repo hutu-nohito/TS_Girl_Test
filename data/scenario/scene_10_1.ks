@@ -73,7 +73,7 @@ f.nick_name_yuuma = f.first_name
 
 [endif]
 
-[bg  time="1000"  method="crossfade"  storage="縁日の屋台（夜）.jpg"  ]
+[bg  time="1000"  method="crossfade"  storage="enniti_yoru.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [chara_show  name="ひいろ"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="-45"  reflect="false"  ]
 [tb_start_text mode=4 ]
@@ -144,6 +144,9 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
 
+[stopbgm  time="1000"  fadeout="true"  ]
+[wait  time="1000"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="noumenn.mp3"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -279,6 +282,9 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [jump  storage="scene_10_1.ks"  target="*shop_end"  ]
 *shop_end
 
+[stopbgm  time="1000"  ]
+[wait  time="1000"  ]
+[playbgm  volume="80"  time="1000"  loop="true"  storage="enngawa.mp3"  ]
 [chara_show  name="とうか"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="565"  top="-45"  reflect="false"  ]
 [chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]
 [chara_mod  name="ゆうま"  time="10"  wait="false"  face="暗"  cross="false"  ]
@@ -346,6 +352,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [chara_mod  name="ひすい"  time="10"  wait="false"  face="暗"  cross="false"  ]
 [chara_mod  name="とうか"  time="10"  wait="false"  face="暗"  cross="false"  ]
 [chara_mod  name="ちぐさ"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
@@ -357,7 +364,6 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
 
-[stopbgm  time="1000"  fadeout="true"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -479,7 +485,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [chara_mod  name="ゆうま"  time="10"  wait="false"  face="暗"  cross="false"  ]
 [chara_mod  name="ひすい"  time="10"  wait="false"  face="暗"  cross="false"  ]
 [chara_mod  name="ちぐさ"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="縁側_DOVA.mp3"  fadein="true"  ]
+[playbgm  volume="80"  time="1000"  loop="true"  storage="enngawa.mp3"  fadein="true"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]

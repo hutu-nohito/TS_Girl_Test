@@ -74,15 +74,16 @@ f.nick_name_yuuma = f.first_name
 [endif]
 
 [stopbgm  time="1000"  fadeout="true"  ]
-[playbgm  volume="50"  time="1000"  loop="true"  storage="縁側_DOVA.mp3"  fadein="true"  ]
-[bg  time="1000"  method="crossfade"  storage="縁日の屋台（日中）.jpg"  ]
+[wait  time="1000"  ]
+[playbgm  volume="80"  time="1000"  loop="true"  storage="enngawa.mp3"  fadein="true"  ]
+[bg  time="1000"  method="crossfade"  storage="enniti_hiru.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname="<center><p>ナレーション</p></center>"]
 #ダミー
-１０月２５日　ハロウィン祭　初日[p]
+――10月25日　9:00　ハロウィン祭初日[p]
 [_tb_end_text]
 
 [iscript]
@@ -311,8 +312,9 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 
 [chara_hide  name="ゆうま"  time="100"  wait="true"  pos_mode="false"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  fadein="true"  storage="能面師.mp3"  ]
-[bg  time="1000"  method="crossfade"  storage="神社（日中）.jpg"  ]
+[wait  time="1000"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  fadein="true"  storage="noumenn.mp3"  ]
+[bg  time="1000"  method="crossfade"  storage="jinnja_hiru.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]
 [cm]
@@ -441,16 +443,6 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
 
-[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
-[chara_hide  name="ひすい"  time="100"  wait="true"  pos_mode="false"  ]
-[tb_start_text mode=1 ]
-#
-[_tb_end_text]
-
-[stopbgm  time="1000"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="縁側_DOVA.mp3"  ]
-[bg  time="1000"  method="crossfade"  storage="縁日の屋台（日中）.jpg"  ]
-[mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -459,6 +451,17 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 （あいさつを聞いていた町民や観光客から拍手が上がる）[p]
 [_tb_end_text]
 
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[chara_hide  name="ひすい"  time="100"  wait="true"  pos_mode="false"  ]
+[tb_start_text mode=1 ]
+#
+[_tb_end_text]
+
+[stopbgm  time="1000"  ]
+[wait  time="1000"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="enngawa.mp3"  ]
+[bg  time="1000"  method="crossfade"  storage="enniti_hiru.jpg"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]

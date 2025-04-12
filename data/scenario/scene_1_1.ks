@@ -77,11 +77,11 @@ f.nick_name_yuuma = f.first_name
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
 
-[playbgm  volume="80"  time="1000"  loop="true"  storage="放課後のおしゃべり.mp3"  ]
-[bg  time="1000"  method="crossfade"  storage="住宅街２（日中）.jpg"  ]
+[playbgm  volume="80"  time="1000"  loop="true"  storage="houkago.mp3"  ]
+[bg  time="1000"  method="crossfade"  storage="juutakugai_hiru.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
-[tb_start_text mode=1 ]
-10月1日　…[p]
+[tb_start_text mode=4 ]
+――10月1日　8:30　転校初日[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]
@@ -298,7 +298,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [_tb_end_text]
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
-[bg  time="1000"  method="crossfade"  storage="学校の職員室（日中）.jpg"  ]
+[bg  time="1000"  method="crossfade"  storage="syokuinnsitu_hiru.jpg"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="esc01.mp3"  ]
 [tb_start_text mode=4 ]
 #

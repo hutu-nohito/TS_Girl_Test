@@ -1,5 +1,4 @@
-[preload  storage="./data/bgimage/神社（夜・照明ON）.jpg"  ]
-[preload  storage="./data/bgimage/森_夜.jpg"  ]
-[preload  storage="./data/bgimage/地下室（照明ON強め）.jpg"  ]
-[preload  storage="./data/bgimage/夜空.jpg"  ]
+[preload  storage="./data/bgimage/jinnja_yoru.jpg"  ]
+[preload  storage="./data/bgimage/mori_yoru.jpg"  ]
+[preload  storage="./data/bgimage/yozora.jpg"  ]
 [return]

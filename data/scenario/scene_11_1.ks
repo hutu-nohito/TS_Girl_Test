@@ -78,9 +78,14 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
 
 [stopbgm  time="1000"  ]
-[playbgm  volume="80"  time="1000"  loop="true"  storage="縁側_DOVA.mp3"  ]
-[bg  time="1000"  method="crossfade"  storage="縁日の屋台（夜）.jpg"  ]
+[wait  time="1000"  ]
+[playbgm  volume="80"  time="1000"  loop="true"  storage="enngawa.mp3"  ]
+[bg  time="1000"  method="crossfade"  storage="enniti_yoru.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
+[tb_start_text mode=4 ]
+――10月31日　15:00　ハロウィン祭最終日[p]
+[_tb_end_text]
+
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -307,7 +312,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひいろ
-それミイラだよ？。手抜きだけど味があるよね、ああいうのも！[p]
+それミイラだよ?　手抜きだけど味があるよね、ああいうのも！[p]
 [_tb_end_text]
 
 [iscript]

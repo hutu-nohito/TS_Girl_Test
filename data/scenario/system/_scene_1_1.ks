@@ -1,5 +1,5 @@
-[preload  storage="./data/bgimage/住宅街２（日中）.jpg"  ]
-[preload  storage="./data/bgimage/学校の職員室（日中）.jpg"  ]
+[preload  storage="./data/bgimage/juutakugai_hiru.jpg"  ]
+[preload  storage="./data/bgimage/syokuinnsitu_hiru.jpg"  ]
 [preload  storage="./data/bgimage/rouka.jpg"  ]
 [preload  storage="./data/bgimage/room.jpg"  ]
 [return]

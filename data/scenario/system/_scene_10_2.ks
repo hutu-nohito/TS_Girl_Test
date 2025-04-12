@@ -1,2 +1,2 @@
-[preload  storage="./data/bgimage/住宅街（夜・灯り有り）.jpg"  ]
+[preload  storage="./data/bgimage/juutakugai_yoru.jpg"  ]
 [return]

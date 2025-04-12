@@ -165,7 +165,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 #
 [_tb_end_text]
 
-[bg  time="1000"  method="crossfade"  storage="射的の屋台（夕方）.jpg"  ]
+[bg  time="1000"  method="crossfade"  storage="yatai_yuu.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
 [chara_show  name="ひいろ"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="-45"  reflect="false"  ]
@@ -421,7 +421,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
-お２人とも、我が校の生徒として羽目を外しすぎないようにしてくださいね…！[p]
+おふたりとも、我が校の生徒として羽目を外しすぎないようにしてくださいね…！[p]
 [_tb_end_text]
 
 [iscript]

@@ -73,14 +73,14 @@ f.nick_name_yuuma = f.first_name
 
 [endif]
 
-[bg  time="1000"  method="crossfade"  storage="縁日の屋台（夕方）.jpg"  ]
+[bg  time="1000"  method="crossfade"  storage="enniti_yuu.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname="<center><p>ナレーション</p></center>"]
 #ダミー
-同日　15時ごろ　ハロウィン祭　初日[p]
+――同日　15:00　ハロウィン祭初日[p]
 [_tb_end_text]
 
 [chara_show  name="ひいろ"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="-45"  reflect="false"  ]

@@ -7,7 +7,7 @@
 
 [mask  time="100"  effect="fadeIn"  color="0x000000"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
-[tb_image_show  time="1000"  storage="default/NewRAGロゴ_Vtuber.png"  width="484"  height="378"  x="237"  y="125"  _clickable_img=""  name="img_4"  ]
+[tb_image_show  time="1000"  storage="default/NewRAGロゴ_Vtuber.png"  width="1500"  height="1173"  x="237"  y="125"  _clickable_img=""  name="img_4"  ]
 [wait  time="3000"  ]
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [tb_image_hide  time="1000"  ]
@@ -16,13 +16,13 @@
 [wait  time="3000"  ]
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [tb_image_hide  time="1000"  ]
-[bg  time="1000"  method="crossfade"  storage="画像37.png"  ]
+[bg  time="1000"  method="crossfade"  storage="title.png"  ]
 [mask_off  time="100"  effect="fadeOut"  ]
 [glink  x="350"  y="260"  text="PUSH&nbsp;START"  target="*start_title"  color="orange"  width=""  height=""  _clickable_img=""  ]
 [s  ]
 *start_title
 
-[playbgm  volume="100"  time="1000"  loop="true"  storage="01_RPG.mp3"  ]
+[playbgm  volume="50"  time="1000"  loop="true"  storage="rpg.mp3"  ]
 [layopt layer=message0 visible=false]
 
 [chara_show  name="とうか"  time="1500"  wait="true"  storage="chara/3/とうか_普通.png"  width="509"  height="1000"  left="-66"  top="150"  reflect="false"  ]

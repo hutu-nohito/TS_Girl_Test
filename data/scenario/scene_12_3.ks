@@ -78,8 +78,9 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
 
 [stopbgm  time="1000"  ]
-[playbgm  volume="80"  time="1000"  loop="true"  storage="あなたと共に.mp3"  ]
-[bg  time="1000"  method="crossfade"  storage="神社（夜・照明ON）.jpg"  ]
+[wait  time="1000"  ]
+[playbgm  volume="80"  time="1000"  loop="true"  storage="anatatotomoni.mp3"  ]
+[bg  time="1000"  method="crossfade"  storage="jinnja_yoru.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]
 [cm]
@@ -143,13 +144,6 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 #ひすい
 へ、変な意味はございませんわ！[r]
 えっと……以前、他の生徒が友人同士で火を交換し合うとお聞きしましたので…！[r]
-あくまで“調査”の一環ですわ！！[p]
-[_tb_end_text]
-
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
-#ひすい
 あくまで“調査”の一環ですわ！！[p]
 [_tb_end_text]
 
@@ -281,8 +275,14 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
-……あなたの“悪いところ”が、うつってしまったみたいですわ
-[r]それに今日は“調査”ですものね…？[p]
+……あなたの“悪いところ”が、うつってしまったみたいですわ[p]
+[_tb_end_text]
+
+[tb_start_text mode=4 ]
+[cm]
+[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
+#ひすい
+それに今日は“調査”ですものね…？[p]
 [_tb_end_text]
 
 [iscript]
@@ -354,8 +354,9 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 
 [playse  volume="100"  time="1000"  buf="0"  storage="esc01.mp3"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
-[playbgm  volume="40"  time="1000"  loop="true"  storage="キジバトのさえずり1.mp3"  ]
-[bg  time="1000"  method="crossfade"  storage="街中の横断歩道（夜・青信号）.jpg"  ]
+[wait  time="1000"  ]
+[playbgm  volume="40"  time="1000"  loop="true"  storage="kijibato.mp3"  ]
+[bg  time="1000"  method="crossfade"  storage="oudanhodou_yoru.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]
 [cm]
@@ -504,12 +505,13 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
-[playbgm  volume="80"  time="1000"  loop="true"  storage="あなたと共に.mp3"  ]
+[wait  time="1000"  ]
+[playbgm  volume="80"  time="1000"  loop="true"  storage="anatatotomoni.mp3"  ]
 [tb_start_text mode=1 ]
 #
 [_tb_end_text]
 
-[bg  time="1000"  method="crossfade"  storage="夜空.jpg"  ]
+[bg  time="1000"  method="crossfade"  storage="yozora.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]
 [cm]
@@ -796,9 +798,33 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
-……
-[r]まるで結婚式ですわね
-[r]……ええ、誓いますわ…！[p]
+……[p]
+[_tb_end_text]
+
+[iscript]
+f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
+[endscript]
+
+[tb_start_text mode=4 ]
+[cm]
+[ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
+[chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
+#ダミー
+だめかな？[p]
+[_tb_end_text]
+
+[tb_start_text mode=4 ]
+[cm]
+[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
+#ひすい
+まるで結婚式ですわね[p]
+[_tb_end_text]
+
+[tb_start_text mode=4 ]
+[cm]
+[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
+#ひすい
+……ええ、誓いますわ…！[p]
 [_tb_end_text]
 
 [iscript]
@@ -813,7 +839,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 （うれしくなり、ついひすいを抱きしめる。ひすいも腕を回して抱きしめ返してくれる）[p]
 [_tb_end_text]
 
-[playse  volume="100"  time="1000"  buf="0"  storage="打ち上げ花火1.mp3"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="hanabi.mp3"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -885,8 +911,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（数々と打ちあがる花火を見上げるひすいの横顔を、ずっと見ていた。[r]
-ひすいと……聖火に誓った約束を末永く――）[p]
+（次々と打ちあがる花火を見上げるひすいの横顔を、ずっと見ていた。ひすいと……聖火に誓った約束を末永く――）[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]

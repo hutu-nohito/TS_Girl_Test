@@ -1,2 +1,3 @@
-[preload  storage="./data/bgimage/教室の後ろの方（日中）.jpg"  ]
+[preload  storage="./data/fgimage/undefined"  ]
+[preload  storage="./data/bgimage/kyousitu_ushiro_hiru.jpg"  ]
 [return]

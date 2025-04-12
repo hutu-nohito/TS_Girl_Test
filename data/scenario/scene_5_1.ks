@@ -74,7 +74,8 @@ f.nick_name_yuuma = f.first_name
 [endif]
 
 [stopbgm  time="1000"  fadeout="true"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="放課後のおしゃべり.mp3"  ]
+[wait  time="1000"  ]
+[playbgm  volume="80"  time="1000"  loop="true"  storage="houkago.mp3"  ]
 [bg  time="1000"  method="crossfade"  storage="room.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]
@@ -82,7 +83,7 @@ f.nick_name_yuuma = f.first_name
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname="<center><p>ナレーション</p></center>"]
 #ダミー
-10月18日　昼[p]
+――同日　13:00　ハロウィン祭準備期間初日[p]
 [_tb_end_text]
 
 [chara_show  name="ちぐさ"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="-45"  reflect="false"  ]
@@ -266,7 +267,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ちぐさ
-出店も決められたスペースの中でならなにやってもいいから、お祭りの出店みたいにやきそばやクレープを作って売ってもいいし、迷路つくったりだとかなにでもできるんだよぉ[p]
+やきそばやクレープを作って売ってもいいし、射的やくじびきだとかなんでもできるんだよぉ[p]
 [_tb_end_text]
 
 [chara_show  name="ゆうま"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="-145"  top="0"  reflect="false"  ]
@@ -324,7 +325,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ゆうま
-ひいろちゃん、とうかさんが展示チームで、ひすいさん、ちぐさちゃんが屋台チームだよ～[p]
+ひいろちゃん、とうかさんが展示チームで、[r]
+ひすいさん、ちぐさちゃんが屋台チームだよ～[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]

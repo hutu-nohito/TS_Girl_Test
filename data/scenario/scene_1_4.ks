@@ -129,7 +129,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 へっ？！？[p]
 [_tb_end_text]
 
-[playbgm  volume="80"  time="1000"  loop="true"  storage="隣の噂好きさん的なBGM.mp3"  fadein="true"  ]
+[playbgm  volume="80"  time="1000"  loop="true"  storage="uwasa.mp3"  fadein="true"  ]
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
@@ -473,6 +473,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [_tb_end_text]
 
 *scene_end
+
+[tb_start_text mode=1 ]
+#
+[_tb_end_text]
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [chara_hide_all  time="1000"  wait="true"  ]

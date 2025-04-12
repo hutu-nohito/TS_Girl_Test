@@ -87,7 +87,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（そうしてしばらく時間が経ち、俺が学校にだいぶ慣れてきた頃……）[p]
+（それから数日後、俺も学校にだいぶ慣れてきた……）[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]
@@ -95,7 +95,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname="<center><p>ナレーション</p></center>"]
 #ダミー
-10月18日　朝　…　SHR[p]
+――10月18日　9:00　ハロウィン祭準備期間初日[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]
@@ -262,7 +262,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-なるほど…思ったより仰々しいお祭りなんだな…[p]
+なるほど……思ったより厳格そうな感じのお祭りなんだな……[p]
 [_tb_end_text]
 
 [chara_show  name="とうか"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="565"  top="-45"  reflect="false"  ]

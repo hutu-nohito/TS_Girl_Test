@@ -589,7 +589,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-ハロウィン祭って？仮装した子供がお店でお菓子もらったりするだけじゃないのか？[p]
+ハロウィン祭って？[r]
+仮装した子供がお店でお菓子もらったりするだけじゃないのか？[p]
 [_tb_end_text]
 
 [chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]

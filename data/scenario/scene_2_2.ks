@@ -129,7 +129,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
 
-[playse  volume="100"  time="1000"  buf="0"  storage="ドアを開ける1.mp3"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="door_open.mp3"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -200,7 +200,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [_tb_end_text]
 
 [playse  volume="100"  time="1000"  buf="0"  storage="esc01.mp3"  ]
-[bg  time="1000"  method="crossfade"  storage="事務所.jpg"  ]
+[bg  time="1000"  method="crossfade"  storage="seitokai.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
@@ -388,7 +388,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-……それでも、誰かがやらなきゃいけないことなんだよな？[p]
+でも、他人に嫌われない、自分が傷つかない楽な道もあるのに、理想のためにあえて苦しい道を選んで行動しているなんて、ひすいはすごいな……[p]
 [_tb_end_text]
 
 [chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
@@ -398,37 +398,16 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
-……理解していただけるのですか？[p]
+……まさか、
+&f.nick_name_hisui
+に理解していただけるとは思いませんでしたわ[p]
 [_tb_end_text]
 
-[iscript]
-f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
-[endscript]
-
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
-[chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
-#ダミー
-ああ。でも、やらされてるんじゃなくて、自分で選んでやってるんだろ？ひすいはすごいな……[p]
-[_tb_end_text]
-
-[chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
-[chara_show  name="ひすい"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="380"  top="-45"  reflect="false"  ]
-[chara_mod  name="ゆうま"  time="10"  wait="false"  face="暗"  cross="false"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
-ふふ……まさか、転校生に背中を押されるとは思いませんでしたわ[p]
-[_tb_end_text]
-
-[chara_mod  name="ゆうま"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
-#ひすい
-あなた、なかなか見どころがありますわね[p]
+ふふ……あなた、なかなか見どころがありますわね[p]
 [_tb_end_text]
 
 [iscript]

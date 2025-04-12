@@ -168,7 +168,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [chara_hide  name="とうか"  time="100"  wait="true"  pos_mode="false"  ]
 [chara_hide  name="ゆうま"  time="100"  wait="true"  pos_mode="false"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="esc01.mp3"  ]
-[bg  time="1000"  method="crossfade"  storage="教室の後ろの方（日中）.jpg"  ]
+[bg  time="1000"  method="crossfade"  storage="kyousitu_ushiro_hiru.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"

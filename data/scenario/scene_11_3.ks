@@ -78,8 +78,9 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
 
 [stopbgm  time="1000"  ]
-[playbgm  volume="80"  time="1000"  loop="true"  storage="あなたと共に.mp3"  ]
-[bg  time="1000"  method="crossfade"  storage="神社（夜・照明ON）.jpg"  ]
+[wait  time="1000"  ]
+[playbgm  volume="80"  time="1000"  loop="true"  storage="anatatotomoni.mp3"  ]
+[bg  time="1000"  method="crossfade"  storage="jinnja_yoru.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]
 [cm]
@@ -244,8 +245,9 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 
 [playse  volume="100"  time="1000"  buf="0"  storage="esc01.mp3"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
-[playbgm  volume="40"  time="1000"  loop="true"  fadein="true"  storage="キジバトのさえずり1.mp3"  ]
-[bg  time="1000"  method="crossfade"  storage="森_夜.jpg"  ]
+[wait  time="3000"  ]
+[playbgm  volume="40"  time="1000"  loop="true"  fadein="true"  storage="kijibato.mp3"  ]
+[bg  time="1000"  method="crossfade"  storage="mori_yoru.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]
 [cm]
@@ -342,6 +344,13 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 また助けられちゃった……[p]
 [_tb_end_text]
 
+[tb_start_text mode=4 ]
+[cm]
+[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
+#ひいろ
+本当にヒーローみたいだね……[p]
+[_tb_end_text]
+
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
@@ -380,14 +389,6 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
 
-[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
-[tb_start_text mode=1 ]
-#
-[_tb_end_text]
-
-[playse  volume="100"  time="1000"  buf="0"  storage="esc01.mp3"  ]
-[bg  time="1000"  method="crossfade"  storage="地下室（照明ON強め）.jpg"  ]
-[mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -523,7 +524,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [_tb_end_text]
 
 [playse  volume="100"  time="1000"  buf="0"  storage="esc01.mp3"  ]
-[bg  time="1000"  method="crossfade"  storage="夜空.jpg"  ]
+[bg  time="1000"  method="crossfade"  storage="yozora.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]
 [cm]
@@ -582,7 +583,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
 [chara_show  name="ひいろ"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="-45"  reflect="false"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  fadein="true"  storage="あなたと共に.mp3"  ]
+[wait  time="1000"  ]
+[playbgm  volume="80"  time="1000"  loop="true"  fadein="true"  storage="anatatotomoni.mp3"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
@@ -899,7 +901,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 （うれしくなり、ついひいろを抱きしめる。ひいろも腕を回して抱きしめ返してくれる）[p]
 [_tb_end_text]
 
-[playse  volume="100"  time="1000"  buf="0"  storage="打ち上げ花火1.mp3"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="hanabi.mp3"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -971,8 +973,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（数々と打ちあがる花火を見上げるひいろの横顔を、ずっと見ていた。[r]
-ひいろを…俺たちの、これからを守りたいと思いながら――）[p]
+（次々と打ちあがる花火を見上げるひいろの横顔を、ずっと見ていた。ひいろを…俺たちの、これからを守りたいと思いながら――）[p]
 [_tb_end_text]
 
 [iscript]

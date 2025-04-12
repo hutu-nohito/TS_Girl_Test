@@ -110,7 +110,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
-[bg  time="1000"  method="crossfade"  storage="学校のグラウンド（日中）.jpg"  ]
+[bg  time="1000"  method="crossfade"  storage="guraundo_hiru.jpg"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="esc01.mp3"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]
@@ -248,7 +248,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
 
-[playse  volume="100"  time="1000"  buf="0"  storage="超高速ダッシュ.mp3"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="run.mp3"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -345,8 +345,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #とうか
-みんなありがとな。
-[r]よーし、次はリレーの練習だ！ タイム測るから気合い入れていくよー！みんな準備開始！[p]
+みんなありがとな[r]
+よーし、次はリレーの練習だ！　 タイム測るから気合い入れていくよー！　みんな準備開始！[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]

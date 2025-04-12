@@ -78,9 +78,14 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
 
 [stopbgm  time="1000"  ]
-[playbgm  volume="80"  time="1000"  loop="true"  storage="隣の噂好きさん的なBGM.mp3"  ]
-[bg  time="1000"  method="crossfade"  storage="住宅街（夜・灯り有り）.jpg"  ]
+[wait  time="1000"  ]
+[playbgm  volume="80"  time="1000"  loop="true"  storage="uwasa.mp3"  ]
+[bg  time="1000"  method="crossfade"  storage="juutakugai_yoru.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
+[tb_start_text mode=4 ]
+――同日　19:00　ハロウィン祭帰り道[p]
+[_tb_end_text]
+
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -179,14 +184,14 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ゆうま
-「ロマンチックでドキドキしちゃうよね～」って[p]
+「結婚式の指輪交換みたいでロマンチックだよね～」って[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ゆうま
-せっかくだから誰か誘ってみなよ！[p]
+せっかくだから誰か誘ってみなよ～！[p]
 [_tb_end_text]
 
 [iscript]
@@ -216,12 +221,32 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [eval exp="f.likeability_hiiro = f.likeability_hiiro + 5"]
 
 [tb_show_message_window  ]
+[iscript]
+f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
+[endscript]
+
+[tb_start_text mode=1 ]
+[cm][p]
+[ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"][p]
+[chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1][p]
+#ダミー
+……よし！　俺は、ひいろと採火して、その後告白するぞ…！[p][p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+[cm][p]
+[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"][p]
+#ゆうま
+&f.nick_name_yuuma[p]
+くん、がんばって～！[p][p]
+[_tb_end_text]
+
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（たしか、ひいろなら最終日なら都合が合うはず。
+（たしか、最終日なら都合が合うはず。
 ………誘ってみるか）[p]
 [_tb_end_text]
 
@@ -251,12 +276,32 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [eval exp="f.likeability_hisui = f.likeability_hisui + 5"]
 
 [tb_show_message_window  ]
+[iscript]
+f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
+[endscript]
+
+[tb_start_text mode=1 ]
+[cm][p]
+[ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"][p]
+[chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1][p]
+#ダミー
+……よし！　俺は、ひすいと採火して、その後告白するぞ…！[p][p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+[cm][p]
+[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"][p]
+#ゆうま
+&f.nick_name_yuuma[p]
+くん、がんばって～！[p][p]
+[_tb_end_text]
+
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（たしか、ひすいなら最終日なら都合が合うはず。
+（たしか、最終日なら都合が合うはず。
 ………誘ってみるか）[p]
 [_tb_end_text]
 
@@ -280,7 +325,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-どうしようかな……
+どうしようかな……[r]
 ゆうま、占ってくれないか？[p]
 [_tb_end_text]
 
@@ -328,8 +373,9 @@ f.likeability_max_player = '水色'
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ゆうま
-もう、しょうがないな～
-ボクの占いだと…そうだね、
+もう、しょうがないな～[r]
+ボクの占いだと…[r]
+そうだね、
 &f.likeability_max_player
 が見えるよ[r]
 でも、運命を引き寄せるのは

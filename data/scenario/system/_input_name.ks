@@ -1,2 +1,2 @@
-[preload  storage="./data/bgimage/名前入力ページ.png"  ]
+[preload  storage="./data/bgimage/input_name.png"  ]
 [return]
