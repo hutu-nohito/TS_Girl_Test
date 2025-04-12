@@ -80,7 +80,7 @@ f.nick_name_yuuma = f.first_name
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ゆうま
-今日、一通り見て回ったけどどうだったかな？[p]
+今日、ひと通り見て回ったけどどうだったかな？[p]
 [_tb_end_text]
 
 [iscript]
@@ -122,7 +122,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ゆうま
-またボクに何か手伝えることがあったら気軽に声かけてね～！[p]
+またボクになにか手伝えることがあったら気軽に声かけてね～！[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]
@@ -154,7 +154,6 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [_tb_end_text]
 
 [chara_hide  name="ゆうま"  time="100"  wait="true"  pos_mode="false"  ]
-
 [playse  volume="100"  time="1000"  buf="0"  storage="esc01.mp3"  ]
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
@@ -201,7 +200,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（転校初日はすごく濃かったけどとても充実した日になった）[p]
+（転校初日はすごく濃かったけどとても充実した１日になった）[p]
 [_tb_end_text]
 
 *scene_end

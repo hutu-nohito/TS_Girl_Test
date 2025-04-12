@@ -86,7 +86,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（みんなを家まで送り終え、ゆうまと二人で帰路につく）[p]
+（みんなを家まで送り終え、ゆうまと２人で帰路につく）[p]
 [_tb_end_text]
 
 [chara_show  name="ゆうま"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="0"  reflect="false"  ]
@@ -124,28 +124,14 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 #ゆうま
 そういえば
 &f.nick_name_yuuma
-、ハロウィン祭会場内にある聖火を採火して、持ち帰ることで1年の無病息災を祈ると思うんだけど、[p]
+、ハロウィン祭では『会場内にある聖火を採火して、持ち帰ることで1年の無病息災を祈る』と思うんだけど、この噂知ってる？[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ゆうま
-この噂知ってる？[p]
-[_tb_end_text]
-
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
-#ゆうま
-━━ハロウィン祭期間中に聖火から採火をするとき、結婚式の指輪交換の様にお互いの持つジャックオランタンに火を灯しあえば、[p]
-[_tb_end_text]
-
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
-#ゆうま
-英雄様の加護の力でその二人は結ばれ、聖火の炎の様に永遠に愛の炎が燃え続ける━━[p]
+――ハロウィン祭期間中に聖火から採火をするとき、お互いの持つジャック・オ・ランタンに火を灯しあえば、英雄様の加護の力でその２人は結ばれ、聖火の炎のように永遠に愛の炎が燃え続ける――[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]

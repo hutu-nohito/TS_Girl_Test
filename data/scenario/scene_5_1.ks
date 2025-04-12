@@ -228,7 +228,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #とうか
-展示チームは祭り会場にジャックオランタンを使った大きなオブジェを作るんだよ！[p]
+展示チームは祭り会場にジャック・オ・ランタンを使った大きなオブジェを作るんだよ！[p]
 [_tb_end_text]
 
 [chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
@@ -264,17 +264,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ちぐさ
-出店も決められたスペースの中でなら何やってもいいから、お祭りの出店みたいにやきそばやクレープを作って売ってもいいし、[p]
-[_tb_end_text]
-
-[chara_mod  name="ひすい"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[chara_mod  name="とうか"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
-#ちぐさ
-迷路つくったりだとか何でもできるんだよぉ[p]
+出店も決められたスペースの中でならなにやってもいいから、お祭りの出店みたいにやきそばやクレープを作って売ってもいいし、迷路つくったりだとかなにでもできるんだよぉ[p]
 [_tb_end_text]
 
 [chara_show  name="ゆうま"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="-145"  top="0"  reflect="false"  ]

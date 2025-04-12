@@ -141,7 +141,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 #青野
 
 &f.nick_name_hiiro
-、転校生だったんだね？びっくりしちゃった！しかも同じ学年で同じクラスだなんて嬉しいな〜〜！！[p]
+、転校生だったんだね？びっくりしちゃった！[r]しかも同じ学年で同じクラスだなんて嬉しいな〜〜！！[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]
@@ -168,7 +168,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 #？？？（ちぐさ）
-ひいろちゃん〜
+ひいろちゃん〜[r]
 &f.nick_name_tigusa
 置いてけぼりだよぉ[p]
 [_tb_end_text]
@@ -198,8 +198,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひいろ
-みんなのこと紹介しなきゃだよね！私、光彩（ひいろ）！
-[r][ruby text="あお"]青[ruby text="の"]野[ruby text="ひ"]光[ruby text="いろ"]彩（あおのひいろ）だよっ！[p]
+みんなのこと紹介しなきゃだよね！　わたし、[ruby text="ひ"]光[ruby text="いろ"]！
+[r][ruby text="あお"]青[ruby text="の"]野[ruby text="ひ"]光[ruby text="いろ"]彩だよっ！[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]
@@ -246,7 +246,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
-わたくしは、[ruby text="き"]鬼[ruby text="つき"]月[ruby text="ひ"]氷[ruby text="すい"]翠ですわ。このRAGクリエイト高等学校の生徒会長をしておりますので、[p]
+わたくしは、[ruby text="き"]鬼[ruby text="つき"]月[ruby text="ひ"]氷[ruby text="すい"]翠ですわ[r]このRAGクリエイト高等学校の生徒会長をしておりますので、[p]
 [_tb_end_text]
 
 [chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]
@@ -256,7 +256,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
-ひいろさんでは頼りないと感じたらわたくしを頼ってくださいませ[p]
+ひいろさんでは頼りないと感じたら、わたくしを頼ってくださいませ[p]
 [_tb_end_text]
 
 [chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
@@ -316,7 +316,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
-ちぐささんは悪くありませんわ！それに毎朝ちぐささんに迎えにきてもらわないと時間通り来れないなんて、[p]
+ちぐささんは悪くありませんわ！それに毎朝ちぐささんに迎えにきてもらわないと時間通り来れないなんて…[p]
 [_tb_end_text]
 
 [chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]
@@ -338,7 +338,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひいろ
-えええ〜〜〜ひすいいじわる〜〜〜〜！！[p]
+えええ〜〜〜ひすいのいじわる〜〜〜〜！！[p]
 [_tb_end_text]
 
 [chara_hide  name="とうか"  time="1"  wait="true"  pos_mode="false"  ]
@@ -350,7 +350,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #とうか
-まあまあ、厳しいこと言ってるけど今朝ひすいは「何かあったのかしら？」ってひいろが来るまでソワソワしてたんだぜ？[p]
+まあまあ、厳しいこと言ってるけど、今朝ひすいは「なにかあったのかしら？」ってひいろが来るまでソワソワしてたんだぜ？[p]
 [_tb_end_text]
 
 [chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]
@@ -396,7 +396,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひいろ
-……実は昨日の夜、[p]
+……実は昨日の夜、いいアイテム思いついちゃって……[p]
 [_tb_end_text]
 
 [chara_mod  name="ちぐさ"  time="10"  wait="false"  face="暗"  cross="false"  ]
@@ -406,8 +406,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひいろ
-いいアイテム思いついちゃって……
-[r]夢中になって作ってたら外から新聞配達のバイクの音が聞こえてきたから[p]
+夢中になって作ってたら外から新聞配達のバイクの音が聞こえてきたから多分5時過ぎてて…[p]
 [_tb_end_text]
 
 [chara_mod  name="ちぐさ"  time="10"  wait="false"  face="暗"  cross="false"  ]
@@ -417,7 +416,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひいろ
-多分5時過ぎてて…気づいたら寝落ちちゃって…[p]
+気づいたら寝落ちちゃって…[p]
 [_tb_end_text]
 
 [chara_hide  name="とうか"  time="1"  wait="true"  pos_mode="false"  ]
@@ -429,8 +428,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #とうか
-なるほどな〜
-んで起きて急いできたけど遅れてしまったってことか。[p]
+なるほどな〜[r]
+んで起きて急いできたけど遅れてしまったってことか[p]
 [_tb_end_text]
 
 [chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]
@@ -440,7 +439,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #とうか
-ものづくりに夢中になれるのはひいろのいいところだけどほどほどにしなよ〜[p]
+ものづくりに夢中になれるのはひいろのいいところだけど、ほどほどにしなよ〜[p]
 [_tb_end_text]
 
 [chara_hide  name="ちぐさ"  time="1"  wait="true"  pos_mode="false"  ]
@@ -475,7 +474,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ゆうま
-僕は[ruby text="あか"]赤[ruby text="い"]井[ruby text="ゆう"]優[ruby text="ま"]魔だよ〜男の子同士よろしくね〜[p]
+僕は[ruby text="あか"]赤[ruby text="い"]井[ruby text="ゆう"]優[ruby text="ま"]魔だよ〜　男の子同士よろしくね〜[p]
 [_tb_end_text]
 
 [iscript]
@@ -525,7 +524,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-じゃあ……、[p]
+じゃあ……[p]
 [_tb_end_text]
 
 [iscript]
@@ -569,7 +568,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（少々緊張していたが、何とかやっていけそうでホッとする）[p]
+（少々緊張していたが、なんとかやっていけそうでホッとする）[p]
 [_tb_end_text]
 
 [iscript]
@@ -735,11 +734,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
-#ダミー
+#
 キーンコーンカーンコーン[p]
 [_tb_end_text]
 
-[wait  time="3000"  ]
 [chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
 [chara_show  name="ひすい"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="555"  top="-45"  reflect="false"  ]
 [chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]

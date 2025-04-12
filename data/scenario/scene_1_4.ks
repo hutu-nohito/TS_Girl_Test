@@ -83,7 +83,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（俺とゆうまを残し、みんなは教室を出て行ってしまった）[r]（さっきまでの賑やかさがウソのように静まり返る）[p]
+（俺とゆうまを残し、みんなは教室を出て行ってしまった[r]
+さっきまでの賑やかさがウソのように静まり返る）[p]
 [_tb_end_text]
 
 [iscript]
@@ -383,7 +384,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ゆうま
-え〜それはわかっても教えないよ〜教えちゃったら面白くないでしょ？[p]
+え〜それはわかっても教えないよ〜[r]
+教えちゃったら面白くないでしょ？[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]

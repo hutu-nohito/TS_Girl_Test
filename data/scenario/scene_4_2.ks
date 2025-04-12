@@ -82,7 +82,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（いろんな形があるけど……鋭い目と牙があるのがいいかな...まるでヒーローの仮面みたいだな）[p]
+（いろんな形があるけど……鋭い目と牙があるのがいいかな…まるでヒーローの仮面みたいだな）[p]
 [_tb_end_text]
 
 [iscript]
@@ -102,7 +102,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひいろ
-えっ！？そのデザインは...！？[p]
+えっ！？そのデザインは…！？[p]
 [_tb_end_text]
 
 [iscript]
@@ -213,7 +213,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #とうか
-あたしも好きだなー！なんか、一番強そうって感じ！[p]
+あたしも好きだなー！なんか、１番強そうって感じ！[p]
 [_tb_end_text]
 
 [chara_show  name="ちぐさ"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="555"  top="-45"  reflect="false"  ]

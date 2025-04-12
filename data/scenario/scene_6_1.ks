@@ -147,7 +147,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ゆうま
-何を物思いにふけってるの～？[p]
+なにを物思いにふけってるの～？[p]
 [_tb_end_text]
 
 [iscript]
@@ -159,7 +159,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-ゆうま！？Happy Halloween？[p]
+ゆうま！？　Happy Halloween[p]
 [_tb_end_text]
 
 [chara_hide  name="ゆうま"  time="1"  wait="true"  pos_mode="false"  ]
@@ -168,7 +168,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ゆうま
-もしかして、恋の悩み？僕が占ってあげようか…？[p]
+もしかして、恋の悩み？ボクが占ってあげようか…？[p]
 [_tb_end_text]
 
 [iscript]
@@ -271,7 +271,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ゆうま
-「太陽の正位置」…このまま一途に意中の相手のために行動すればきっとうまく行くよ！[p]
+「太陽の正位置」……このまま一途に意中の相手のために行動すればきっとうまく行くよ！[p]
 [_tb_end_text]
 
 [iscript]
@@ -537,7 +537,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ゆうま
-あとボクの占い結果もね～♪[p]
+あとボクの占い結果も忘れないでね～♪[p]
 [_tb_end_text]
 
 [iscript]

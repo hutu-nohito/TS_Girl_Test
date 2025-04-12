@@ -120,7 +120,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-どの授業も前の学校で学んでた範囲とそこまで変わらないみたいだから、何とかついていけそうだよ[p]
+どの授業も前の学校で学んでた範囲とそこまで変わらないみたいだから、なんとかついていけそうだよ[p]
 [_tb_end_text]
 
 [chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
@@ -156,7 +156,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
-とうかさんはいい加減一人で勉強できるようになって欲しいですわね…[p]
+とうかさんはいい加減１人で勉強できるようになって欲しいですわね…[p]
 [_tb_end_text]
 
 [chara_hide  name="とうか"  time="1"  wait="true"  pos_mode="false"  ]
@@ -202,7 +202,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-説明といえば…ひすい、ハロウィン祭について教えてくれないか？[p]
+説明といえば……[r]
+ひすい、ハロウィン祭について教えてくれないか？[p]
 [_tb_end_text]
 
 [chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
@@ -226,7 +227,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 #ひすい
 
 &f.nick_name_hisui
-、[ruby text="こう"]黄[ruby text="せん"]泉[ruby text="ちょう"]町について何かご存じのことはありませんか？[p]
+、[ruby text="こう"]黄[ruby text="せん"]泉[ruby text="ちょう"]町についてなにかご存じのことはありませんか？[p]
 [_tb_end_text]
 
 [iscript]
@@ -238,7 +239,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-えっと……ごめん、何か有名なことがあるのか…？[p]
+えっと……ごめん、なにか有名なことがあるのか…？[p]
 [_tb_end_text]
 
 [iscript]
@@ -262,7 +263,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（マズイ…何か非常識な事を言ってしまったかな…？）[p]
+（マズイ……なにか非常識なことを言ってしまったかな…？）[p]
 [_tb_end_text]
 
 [chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
@@ -286,7 +287,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（ひすいが何かぼそりとつぶやいた後、真剣な表情で話し始めた）[p]
+（ひすいがなにかぼそりとつぶやいた後、真剣な表情で話し始めた）[p]
 [_tb_end_text]
 
 [chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
@@ -300,7 +301,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 #ひすい
 
 &f.nick_name_hisui
-。地球では、年に２回この世とあの世がつながる日があるといわれていることはご存じですか？[p]
+。「地球では、年に２回この世とあの世がつながる日がある」といわれていることはご存じですか？[p]
 [_tb_end_text]
 
 [iscript]
@@ -312,7 +313,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-何か聞いたことがあるような…？[p]
+なにか聞いたことがあるような…？[p]
 [_tb_end_text]
 
 [chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
@@ -358,7 +359,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
-科学的根拠はございませんが…、[p]
+科学的根拠はございませんが……[p]
 [_tb_end_text]
 
 [chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]
@@ -476,7 +477,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
-最悪の条件が重なり起こった’悪夢のような現実とその悪夢を祓った英雄の話’がございます[p]
+最悪の条件が重なり起こった“悪夢のような現実とその悪夢を祓った英雄の話”がございます[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]
@@ -484,7 +485,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname="<center><p>ナレーション</p></center>"]
 #ダミー
-━━昔、山奥に隠れたとある村があった。[p]
+――昔、山奥に隠れたとある村があった。[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]
@@ -500,7 +501,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname="<center><p>ナレーション</p></center>"]
 #ダミー
-[ruby text="こう"]黄[ruby text="せん"]泉[ruby text="むら"]村には、悪霊が出ても対処ができる様、悪霊を払う陰陽師が住んでおり、彼らのおかげで村の平和が保たれていた。[p]
+[ruby text="こう"]黄[ruby text="せん"]泉[ruby text="むら"]村には、悪霊が出ても対処ができるよう、悪霊を払う陰陽師が住んでおり、彼らのおかげで村の平和が保たれていた。[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]
@@ -540,7 +541,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname="<center><p>ナレーション</p></center>"]
 #ダミー
-そして[ruby text="し"]死に[ruby text="がみ"]神を封印したことで悪霊たちはあの世へと戻され、この村に再び平和が訪れたのだった━━。[p]
+そして[ruby text="し"]死に[ruby text="がみ"]神を封印したことで悪霊たちはあの世へと戻され、この村に再び平和が訪れたのだった――[p]
 [_tb_end_text]
 
 [chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
@@ -576,7 +577,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ちぐさ
-本当の話だよぉ～。[r]この町には[ruby text="し"]死に[ruby text="がみ"]神を封印するために使用された祠があるし、[p]
+本当の話だよぉ～[r]
+この町には[ruby text="し"]死に[ruby text="がみ"]神を封印するために使用された祠があるし、[p]
 [_tb_end_text]
 
 [chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]
@@ -586,7 +588,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ちぐさ
-英雄様の遺した道具や[ruby text="し"]式き[ruby text="がみ"]神様が神社に祀られているんだよぉ[p]
+英雄様の[ruby text="のこ"]遺した道具や[ruby text="し"]式き[ruby text="がみ"]神様が神社に[ruby text="まつ"祀られているんだよぉ[p]
 [_tb_end_text]
 
 [chara_show  name="ゆうま"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="-145"  top="0"  reflect="false"  ]
@@ -623,7 +625,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひいろ
-かっこいいよねっ！！今は平和過ぎるくらいだけど…現代に悪霊が出てきたら、[p]
+かっこいいよねっ！！[r]
+今は平和過ぎるくらいだけど……現代に悪霊が出てきたら、[p]
 [_tb_end_text]
 
 [chara_mod  name="とうか"  time="10"  wait="false"  face="暗"  cross="false"  ]
@@ -634,7 +637,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひいろ
-私も英雄様やヒーローみたいに悪霊退治とかしてみたいな～！[p]
+わたしも英雄様やヒーローみたいに悪霊退治とかしてみたいな～！[p]
 [_tb_end_text]
 
 [chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
@@ -660,7 +663,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひいろ
-ごめん～...[p]
+ごめん～…[p]
 [_tb_end_text]
 
 [chara_hide  name="とうか"  time="1"  wait="true"  pos_mode="false"  ]
@@ -731,7 +734,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-なるほど。結構伝統的なお祭りなんだな……。[r]名前が結構現代的だから最近始めたものかと思ってたよ…[p]
+なるほど、結構伝統的なお祭りなんだな……[r]
+名前が結構現代的だから最近始めたものかと思ってたよ……[p]
 [_tb_end_text]
 
 [chara_hide  name="ちぐさ"  time="1"  wait="true"  pos_mode="false"  ]
@@ -768,7 +772,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #とうか
-そのお陰もあってか結構町外の人も来るようになったよな！[r]祭りの時期はすげー賑わうんだよ！屋台もたくさん並ぶしな！！[p]
+そのお陰もあってか結構町外の人も来るようになったよな！[r]
+祭りの時期はすげー賑わうんだよ！　屋台もたくさん並ぶしな！！[p]
 [_tb_end_text]
 
 [chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
@@ -781,7 +786,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひいろ
-町中ジャックオランタンだらけになって夜とかも綺麗だよっ！[p]
+町中ジャック・オ・ランタンだらけになって夜とかも綺麗だよっ！[p]
 [_tb_end_text]
 
 [iscript]
@@ -793,7 +798,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-そうなのか。なんだか楽しそうだな！[p]
+そうなのか、なんだか楽しそうだな！p]
 [_tb_end_text]
 
 [iscript]
@@ -860,7 +865,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #とうか
-あたしも部活行かねーとな…[p]
+あたしも部活行かねーとな[p]
 [_tb_end_text]
 
 [chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
@@ -873,7 +878,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひいろ
-それじゃあ、今日は解散だね！[r]私も部活あるし…みんな、また明日！[p]
+それじゃあ、今日は解散だね！[r]
+わたしも部活あるし…みんな、また明日！[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]

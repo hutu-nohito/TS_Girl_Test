@@ -173,7 +173,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
-こ、これが......わたあめ......！[p]
+こ、これが……わたあめ……！[p]
 [_tb_end_text]
 
 [chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
@@ -251,7 +251,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-ここのわたあめ屋はいろんなあじがあるんだな〜[p]
+ここのわたあめ屋はいろんな味があるんだな〜[p]
 [_tb_end_text]
 
 [chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
@@ -290,7 +290,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ちぐさ
-うふふ、わたしは......やっぱりいちご味かなぁ[p]
+うふふ、わたしは……やっぱりいちご味かなぁ[p]
 [_tb_end_text]
 
 [chara_hide  name="ゆうま"  time="1"  wait="true"  pos_mode="false"  ]
@@ -315,7 +315,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-ひすいは何味にするの？[p]
+ひすいはなに味にするの？[p]
 [_tb_end_text]
 
 [chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
@@ -328,7 +328,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
-そうですわね...どれもおいしそうで選べませんわ[p]
+そうですわね…どれも美味しそうで選べませんわ[p]
 [_tb_end_text]
 
 [iscript]
@@ -402,7 +402,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
-......これは！なんて繊細な味......！[p]
+……これは！なんて繊細な味……！[p]
 [_tb_end_text]
 
 [iscript]
@@ -414,7 +414,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（やっぱりひすいは初めてのわたあめだったのか。喜んでいる様でよかった）[p]
+（やっぱりひすいは初めてのわたあめだったのか。喜んでいるようでよかった）[p]
 [_tb_end_text]
 
 [iscript]
@@ -426,7 +426,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（それぞれ好きな味を買い、みんなでわたあめを食べながら、そのまま夜店の並ぶ通りを進んでいく……）[p]
+（それぞれのわたあめをあっという間に食べ終わり、次の屋台を求め夜店の並ぶ通りを進んでいく――）[p]
 [_tb_end_text]
 
 *scene_end

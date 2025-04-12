@@ -15,8 +15,8 @@ mp.frame_opacity = mp.frame_opacity || "255"; // メッセージフレームの�
 [free name="chara_name_area" layer="message0"]
 
 ;メッセージフレーム設定（名前欄）
-[ptext name="chara_name_area" layer="message0" color="&mp.name_color" size=28 x=30 y=410]
-[chara_config ptext="chara_name_area"]
+;[ptext name="chara_name_area" layer="message0" color="&mp.name_color" size=28 x=30 y=410]
+;[chara_config ptext="chara_name_area"]
 
 ;メッセージフレーム設定（全体）
 [position layer=message0 width=960 height=240 top=400 left=0]

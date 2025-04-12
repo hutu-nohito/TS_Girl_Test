@@ -276,7 +276,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひいろ
-みんなで一個ずつ選んで、これつけて回ろうよっ！[p]
+みんなで１個ずつ選んで、これつけて回ろうよっ！[p]
 [_tb_end_text]
 
 [chara_hide  name="とうか"  time="1"  wait="true"  pos_mode="false"  ]
@@ -417,7 +417,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
-お二人とも、我が校の生徒として羽目を外しすぎない様にしてくださいね…！[p]
+お２人とも、我が校の生徒として羽目を外しすぎないようにしてくださいね…！[p]
 [_tb_end_text]
 
 [iscript]
@@ -429,7 +429,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（みんなでお面をつけ、そのまま出店の並ぶ通りを進んでいく…）[p]
+（みんなでお面をつけ、そのまま出店の並ぶ通りを進んでいく――）[p]
 [_tb_end_text]
 
 *scene_end

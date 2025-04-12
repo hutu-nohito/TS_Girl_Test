@@ -285,7 +285,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（――そして、日も暮れてきたころ、俺たちは聖火台ののある黄泉山神社の中心へと向かった）[p]
+（――そして、日も暮れてきたころ、俺たちは聖火台のある黄泉山神社の中心へと向かった）[p]
 [_tb_end_text]
 
 [iscript]
@@ -321,7 +321,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（手持ちジャクオランタンを買い、みんなで採火の列に並ぶ）[p]
+（手持ちジャック・オ・ランタンを買い、みんなで採火の列に並ぶ）[p]
 [_tb_end_text]
 
 [iscript]
@@ -358,7 +358,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（――一人ずつ、聖火から自分のランタンへと火を灯していく）[p]
+（１人ずつ、聖火から自分のランタンへと火を灯していく）[p]
 [_tb_end_text]
 
 [iscript]
@@ -406,7 +406,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（――その後、特に誰と何をするでもなく、俺たちは祭りの余韻を楽しんでいた）[p]
+（――その後、特に誰となにをするでもなく、俺たちは祭りの余韻を楽しんでいた）[p]
 [_tb_end_text]
 
 [chara_hide  name="ゆうま"  time="1"  wait="true"  pos_mode="false"  ]
@@ -419,7 +419,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ゆうま
-そろそろ帰ろっか～、ひすいさんの門限もあるし[p]
+そろそろ帰ろっか～ひすいさんの門限もあるし[p]
 [_tb_end_text]
 
 [chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
@@ -445,7 +445,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #とうか
-おっけー！ また来年も全力で盛り上げよー！[p]
+おっけー！ それにまた来年も全力で盛り上げような！[p]
 [_tb_end_text]
 
 [chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
@@ -591,12 +591,12 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（――静かな夜道に、ランタンの灯りの余韻がふわりと残っていた）[p]
+（静かな夜道に、ランタンの灯りの余韻がふわりと残っていた――）[p]
 [_tb_end_text]
 
-[tb_start_text mode=1 ]
+[tb_start_text mode=4 ]
 #
-END：Trick or Treat ? [p]
+END５『Trick or Treat ?』[p]
 [_tb_end_text]
 
 *scene_end

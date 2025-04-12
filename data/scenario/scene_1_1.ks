@@ -80,12 +80,17 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 
 [bg  time="1000"  method="crossfade"  storage="住宅街２（日中）.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
+[tb_start_text mode=1 ]
+10月1日　…[p]
+[_tb_end_text]
+
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-今日から新しい学校…新しいクラスか……[p]
+今日から新しい学校…
+新しいクラスか……[p]
 [_tb_end_text]
 
 [iscript]
@@ -295,6 +300,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [bg  time="1000"  method="crossfade"  storage="room.jpg"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="esc01.mp3"  ]
+[tb_start_text mode=4 ]
+#
+[_tb_end_text]
+
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]
 [cm]
@@ -326,7 +335,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname="<center><p>校長</p></center>"]
 #ダミー
-それもあってか生徒たちは皆自分の技量や才能を伸ばすように伸び伸び生活を送っているよ。[p]
+それもあってか生徒たちは皆、自分の技量や才能を伸ばすようにのびのび生活を送っているよ。[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]
@@ -335,7 +344,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname="<center><p>校長</p></center>"]
 #ダミー
 &f.last_name
-くんにもぜひ我が校で伸び伸びと学校生活を楽しんでほしい[p]
+くんにもぜひ我が校でのびのびと学校生活を楽しんでほしい[p]
 [_tb_end_text]
 
 [iscript]
@@ -602,7 +611,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname="<center><p>先生</p></center>"]
-#ダミー
+#
 キーンコーンカーンコーン[p]
 [_tb_end_text]
 
@@ -634,6 +643,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 *scene_end
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[tb_start_text mode=1 ]
+#
+[_tb_end_text]
+
 [chara_hide_all  time="1000"  wait="true"  ]
 [jump  storage="scene_1_2.ks"  target="*scene_start"  ]
 [end]

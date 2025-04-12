@@ -130,7 +130,7 @@ f.nick_name_yuuma = f.first_name
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ゆうま
-まぁまぁ二人とも～[p]
+まぁまぁ２人とも～[p]
 [_tb_end_text]
 
 [chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
@@ -222,7 +222,8 @@ f.nick_name_yuuma = f.first_name
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひいろ
-あっ！お面屋さん！お面屋さんがある～！かぼちゃライダーのお面、あったりしないかなぁ？？[p]
+あっ！お面屋さん！お面屋さんがある～！[r]
+かぼちゃライダーのお面、あったりしないかなぁ？？[p]
 [_tb_end_text]
 
 [chara_hide  name="とうか"  time="1"  wait="true"  pos_mode="false"  ]

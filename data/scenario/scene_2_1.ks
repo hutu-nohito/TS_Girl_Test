@@ -101,8 +101,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ゆうま
-あはは、たしかにめずらしいかも～
-[r]ウチの学校は工業系の学科もあるからね～[p]
+あはは、たしかにめずらしいかも～[r]
+うちの学校は工業系の学科もあるからね～[p]
 [_tb_end_text]
 
 [iscript]
@@ -123,8 +123,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ゆうま
-ウチの班のリーダーのひいろちゃんが科学部だよ～
-[r]さあ、着いたよ！[p]
+うちの班のリーダーのひいろちゃんが科学部だよ～[r]
+さあ、着いたよ！[p]
 [_tb_end_text]
 
 [iscript]
@@ -157,10 +157,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひいろ
-あ！
+あ！　
 &f.nick_name_hiiro
-とゆうまだ！やっほー！どうしたの？
-[r]科学部に入部希望なのかなっ！？[p]
+とゆうまだ！　やっほー！[r]
+どうしたの？　科学部に入部希望なのかなっ！？[p]
 [_tb_end_text]
 
 [chara_mod  name="ゆうま"  time="10"  wait="false"  face="暗"  cross="false"  ]
@@ -178,7 +178,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 #ひいろ
 [delay speed="5"]
 &f.nick_name_hiiro
-は何作りたい？？道具とかも工業系学科が使ってる専門の道具とかが使い放題だし、[p]
+はなに作りたい？？　道具とかも工業系学科が使ってる専門の道具とかが使い放題だし、[p]
 [_tb_end_text]
 
 [chara_mod  name="ゆうま"  time="10"  wait="false"  face="暗"  cross="false"  ]
@@ -186,7 +186,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひいろ
-材料も部費の中でだけど好きなもの調達できて最高だよっ！あとは……[p]
+材料も部費の中でだけど好きなもの調達できて最高だよっ！[r]
+あとは……[p]
 [resetdelay]
 [_tb_end_text]
 
@@ -199,7 +200,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（俺たちが何か話す隙もなく、どんどん話が進んでいく）[p]
+（俺たちがなにか話す隙もなく、どんどん話が進んでいく）[p]
 [_tb_end_text]
 
 [chara_hide  name="ゆうま"  time="1"  wait="true"  pos_mode="false"  ]
@@ -310,7 +311,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-へえ……すごいな。アイデアだけじゃなくて、ちゃんと形にもしてるんだな。[p]
+へえ……すごいな[r]
+アイデアだけじゃなくて、ちゃんと形にもしてるんだな[p]
 [_tb_end_text]
 
 [iscript]
@@ -322,7 +324,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（周りをよく見ると、ノートに書かれていた道具に似たものがたくさん転がっていた）[p]
+（周りをよく見ると、ノートに書かれていたアイテムに似たものがたくさん転がっていた）[p]
 [_tb_end_text]
 
 [chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
@@ -332,7 +334,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひいろ
-えへへ、でしょ？
+えへへ～でしょ？[r]
 &f.nick_name_hiiro
 にはこのアイテムがオススメかなっ！[p]
 [_tb_end_text]
@@ -432,7 +434,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひいろ
-誰かを守れる力を、ちゃんと“カタチ”にする……そんな人に、なりたいの[p]
+誰かを守れる力を、ちゃんと“カタチ”にする……そんな人に、なりたいの…！[p]
 [_tb_end_text]
 
 [iscript]
@@ -454,7 +456,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ゆうま
-それじゃあそろそろ次の場所の案内に行こうかな～[p]
+それじゃあ、そろそろ次の場所の案内に行こうかな～[p]
 [_tb_end_text]
 
 [chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
@@ -464,7 +466,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひいろ
-うんっ！存分にRAGクリエイト高校を探検してきなよっ！ばいばい！[p]
+うんっ！存分にRAGクリエイト高校を探検してきなよっ！[r]
+ばいばい！[p]
 [_tb_end_text]
 
 *scene_end

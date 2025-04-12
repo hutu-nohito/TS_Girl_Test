@@ -141,7 +141,9 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
-へ、変な意味はございませんわ！[r]えっと……以前他の生徒が友人同士で火を交換し合うとお聞きしましたので…！[p]
+へ、変な意味はございませんわ！[r]
+えっと……以前、他の生徒が友人同士で火を交換し合うとお聞きしましたので…！[r]
+あくまで“調査”の一環ですわ！！[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]
@@ -205,7 +207,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-この手持ちランタン、制作の時に見慣れてたけど、火が点くとそれっぽくなっていいな[p]
+この手持ちランタン、制作して見慣れてたけど、火が点くとそれっぽくなって新鮮でいいな[p]
 [_tb_end_text]
 
 [chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
@@ -247,7 +249,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-どうした、ひすい？[p]
+ひすい、どうした？[p]
 [_tb_end_text]
 
 [chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
@@ -504,7 +506,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
-何かあるとよくこの教会に来ていたので、ここからの景色をみると落ち着くのです[p]
+なにかあるとよくこの教会に来ていたので、ここからの景色をみると落ち着くのです[p]
 [_tb_end_text]
 
 [iscript]
@@ -528,7 +530,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（日も暮れ、祭りや町の明かりだけでなく、人々の持つジャックオランタンの明かりが町中を動いているのがよく見える。）[p]
+（日も暮れ、祭りや町の明かりだけでなく、人々の持つジャック・オ・ランタンの明かりが町中を動いているのがよく見える。）[p]
 [_tb_end_text]
 
 [chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
@@ -551,7 +553,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-うん、でも1か月って思えないくらい色んなことあったな…ひすいたちと出会って、[p]
+うん、でも1か月って思えないくらい色んなことあったな……[p]
 [_tb_end_text]
 
 [iscript]
@@ -563,7 +565,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-ハロウィン祭の準備とかいろいろできて楽しかったな[p]
+ひすいたちと出会って、ハロウィン祭の準備とかいろいろできて楽しかったな[p]
 [_tb_end_text]
 
 [chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
@@ -683,19 +685,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-━━ハロウィン祭期間中に聖火から採火をするとき、結婚式の指輪交換の様にお互いの持つジャックオランタンに火を灯しあえば、[p]
-[_tb_end_text]
-
-[iscript]
-f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
-[endscript]
-
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
-[chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
-#ダミー
-英雄様の加護の力でその二人は結ばれ、聖火の炎の様に永遠に愛の炎が燃え続ける━━[p]
+――ハロウィン祭期間中に聖火から採火をするとき、お互いの持つジャック・オ・ランタンに火を灯しあえば、英雄様の加護の力でその２人は結ばれ、聖火の炎のように永遠に愛の炎が燃え続ける――[p]
 [_tb_end_text]
 
 [chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
@@ -737,7 +727,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-俺……いや、[p]
+俺……いや、私
+&f.first_name
+はひすいのことを
+病める時も　健やかなる時も　[p]
 [_tb_end_text]
 
 [iscript]
@@ -749,21 +742,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-私はひすいのことを
-[r]病める時も　健やかなる時も
-[r]富める時も　貧しき時も[p]
-[_tb_end_text]
-
-[iscript]
-f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
-[endscript]
-
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
-[chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
-#ダミー
-愛し　敬い　慈しむ事をこの聖火に誓います！[p]
+富める時も　貧しき時も[r]
+愛し　敬い　慈しむことをこの聖火に誓います！[p]
 [_tb_end_text]
 
 [chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
@@ -868,7 +848,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-……ひすいも、すごく、きれいだ。[p]
+……ひすいも、すごく、きれいだ[p]
 [_tb_end_text]
 
 [iscript]
@@ -880,12 +860,13 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（数々と打ちあがる花火を見上げるひすいの横顔を、ずっと見ていた。[r]聖火に誓った約束を末永く）[p]
+（数々と打ちあがる花火を見上げるひすいの横顔を、ずっと見ていた。[r]
+ひすいと……聖火に誓った約束を末永く――）[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #
-END『聖なる夜に』[p][p]
+END２『聖なる夜に』[p][p]
 [_tb_end_text]
 
 *scene_end

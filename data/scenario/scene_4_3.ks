@@ -82,7 +82,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（派手な形もあったけど……やっぱり定番が一番しっくり来るな）[p]
+（派手な形もいいけど……やっぱり定番が１番しっくり来るよな……）[p]
 [_tb_end_text]
 
 [iscript]
@@ -102,7 +102,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
-……あなた、その形を選ばれたのですね[p]
+&f.nick_name_hisui
+、そのデザインは……[p]
 [_tb_end_text]
 
 [iscript]
@@ -114,7 +115,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-うん。昔ながらのこの顔が、やっぱり落ち着くっていうか[p]
+うん。オーソドックスなこの顔が、一番しっくりくると思って[p]
 [_tb_end_text]
 
 [chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
@@ -123,7 +124,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
-ええ、とても良いご選択ですわ[p]
+ええ、とても良いと思いますわ[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]
@@ -149,7 +150,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-へぇ、そうなんだ。何気なく選んだけど、ちゃんと意味があるんだな[p]
+へぇ、そうなんだ。よく見る形だけど、ちゃんと意味があるんだな[p]
 [_tb_end_text]
 
 [chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
@@ -200,7 +201,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ゆうま
-ふふっその形ボクが今朝のタロットで引いた太陽のカードにちょっと似てるかも～[p]
+ふふっその形、ボクが今朝のタロットで引いた太陽のカードにちょっと似てるかも～[p]
 [_tb_end_text]
 
 [iscript]
@@ -300,7 +301,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ゆうま
-うんっ！たとえばミカンくんとか！いやほのおちゃんもいいかも～[p]
+うんっ！たとえば“ニコニコ”とか！いや“メラメラ”もいいかも～[p]
 [_tb_end_text]
 
 [chara_hide  name="とうか"  time="1"  wait="true"  pos_mode="false"  ]
@@ -313,7 +314,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #とうか
-おまえネーミングセンス独特すぎ！でも嫌いじゃないっ！[p]
+おまえ、ネーミングセンス独特すぎ！でもかわいい名前だな！[p]
 [_tb_end_text]
 
 [chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
@@ -326,7 +327,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
-あの、一応来場される皆様にお渡しするものですので変わった名前をつけるのはご遠慮いただけると...[p]
+あの、一応来場される皆様にお渡しするものですので変わった名前をつけるのはご遠慮いただけると…[p]
 [_tb_end_text]
 
 [iscript]

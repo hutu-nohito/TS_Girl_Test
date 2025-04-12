@@ -123,19 +123,22 @@ if(tf.text_skip == 'OFF'){$(".unread_off").attr("src","data/others/plugin/theme_
 ;--------------------------------------------------------------------------------
 *backtitle
 [iscript]
-tf.flag_back=$(".message1_fore").css("display");
+;tf.flag_back=$(".message1_fore").css("display");
 [endscript]
 
-[if exp="tf.flag_back=='none'"]
+;[if exp="tf.flag_back=='none'"]
 
 [cm]
-[layopt layer=message1 visible=false]
-[freeimage layer=1]
-[clearfix]
+;[layopt layer=message1 visible=false]
+;[freeimage layer=1]
+;[clearfix]
+
+[freelayer layer=message0]
+
 ;コンフィグの呼び出しに sleepgame を使っているので、必ず awakegame で戻してやってください
 [awakegame]
 
-[endif]
+;[endif]
 
 [return]
 

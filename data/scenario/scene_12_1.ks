@@ -171,7 +171,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-ありがと。でも、ひすいのには敵わないな[p]
+ありがとう。でも、ひすいのには敵わないな[p]
 [_tb_end_text]
 
 [chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
@@ -227,7 +227,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-あはは、まあね～[r]お、あっちに射的と金魚すくいもあるみたいだな。ひすいは何かやってみたいのある？[p]
+あはは、まあね～[r]
+お、あっちに射的と金魚すくいもあるみたいだな。ひすいはなにかやってみたいのある？[p]
 [_tb_end_text]
 
 [chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
@@ -290,7 +291,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-生徒会長として他の生徒たちのと同じようなことをやってみて、危険なものでないかを調査しないか？[p]
+生徒会長として他の生徒たちと同じようなことをやってみて、危険なものでないかを調査しないか？[p]
 [_tb_end_text]
 
 [chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
@@ -299,16 +300,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
-なるほど…それは良いアイディアかもしれませんわね……[r]それでは
+なるほど…それは良いアイディアかもしれませんわね……[r]
+それでは、
 &f.nick_name_hisui
-はそういった知識が豊富かと思いますので、[p]
-[_tb_end_text]
-
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
-#ひすい
-ご案内をよろしくお願いいたしますわ[p]
+はそういった知識が豊富かと思いますので、ご案内をよろしくお願いいたしますわ[p]
 [_tb_end_text]
 
 [iscript]
@@ -383,7 +378,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
-……仕方ありません、少しだけですからね？[p]
+…………仕方ありません、少しだけですからね？[p]
 [_tb_end_text]
 
 [iscript]
@@ -395,7 +390,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（焼きそばを購入し、ひすいに手渡す。[r]ひすいは焼きそばのパックを持ちながら、慎重に口元へ運ぶ）[p]
+（焼きそばを購入し、ひすいに手渡す[r]
+ひすいは焼きそばのパックを持ちながら、慎重に口元へ運ぶ）[p]
 [_tb_end_text]
 
 [chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
@@ -449,7 +445,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（立ち食いに慣れていないひすいがつまづき、傾く体を受け止める）[p]
+（食べ歩きに慣れていないひすいがつまづき、傾く体を受け止める）[p]
 [_tb_end_text]
 
 [chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
@@ -536,7 +532,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（二人で他の人の通行の邪魔にならなそうな道のわきに移動する）[p]
+（２人で他の人の通行の邪魔にならなそうな道のわきに移動する）[p]
 [_tb_end_text]
 
 [chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
@@ -580,7 +576,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
-なっ！？ふ、不純ですわ！！？！[p]
+なっ！？　ふ、不純ですわ！！？！[p]
 [_tb_end_text]
 
 [iscript]
@@ -592,7 +588,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-そんなことないよ、祭りはたくさん出店があるから色んな料理を楽しむ為に同行者とシェアしながら食べるものなんだよ[p]
+そんなことないよ、祭りはたくさん出店があるから色んな料理を楽しむために同行者とシェアしながら食べるものなんだよ[p]
 [_tb_end_text]
 
 [chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]

@@ -223,7 +223,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-かぼちゃグラタン！？そんな洒落たもんがあるのか、うちの文化祭……[p]
+かぼちゃグラタン！？そんな洒落たもんがあるのか、うちのハロウィン祭……[p]
 [_tb_end_text]
 
 [chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
@@ -331,7 +331,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（そうこう話しているうちに目的地についたらしく、ひいろが一つの屋台の前で立ち止まる）[p]
+（そうこう話しているうちに目的地についたらしく、ひいろが１つの屋台の前で立ち止まる）[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]
@@ -339,7 +339,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname="<center><p>屋台スタッフ</p></center>"]
 #ダミー
-ひいろ先輩、Happy Halloween！何にしますか？[p]
+ひいろ先輩、Happy Halloween！なににしますか？[p]
 [_tb_end_text]
 
 [chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
@@ -410,7 +410,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-……うまっ。なんだこれ、ガチで店出せるレベルじゃん[p]
+……うまっ！？　なんだこれ、ガチで店出せるレベルじゃん！[p]
 [_tb_end_text]
 
 [chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
@@ -503,7 +503,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひいろ
-え！？私は恥ずかしいからいいよ…！[p]
+え！？わたしは恥ずかしいからいいよ…！[p]
 [_tb_end_text]
 
 [iscript]
@@ -561,7 +561,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-そういえばさ、去年の文化祭って――[p]
+そういえばさ、去年のハロウィン祭って――[p]
 [_tb_end_text]
 
 [iscript]
@@ -657,7 +657,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（少し進んだところで、遠くに青色に光る”✖”印が見える。間違いない、自作したと言っていたひいろの頭の飾りだ）[p]
+（少し進んだところで、遠くに青色に光る“✖”印が見える。間違いない、自作したと言っていたひいろの頭の飾りだ）[p]
 [_tb_end_text]
 
 [iscript]

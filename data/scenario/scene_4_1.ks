@@ -108,15 +108,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname="<center><p>先生</p></center>"]
 #ダミー
-授業の時間も使ってハロウィン祭の準備となるが、[p]
-[_tb_end_text]
-
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
-[chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname="<center><p>先生</p></center>"]
-#ダミー
-ハロウィン祭まで1週間しかないので班やチームの中でよーく計画を練って制作に取り掛かるように！[p]
+授業の時間も使ってハロウィン祭の準備をするが、ハロウィン祭まで1週間しかないので班やチームの中でよーく計画を練って制作に取り掛かるように！[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]
@@ -132,7 +124,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname="<center><p>先生</p></center>"]
 #ダミー
-ではホームルームは以上！各班に分かれて作業開始！[p]
+では、ホームルームは以上！各班に分かれて作業開始！[p]
 [_tb_end_text]
 
 [chara_show  name="ひいろ"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="-45"  reflect="false"  ]
@@ -180,7 +172,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひいろ
-関係大有りだよっ！ハロウィン祭はこの町の一大イベントだから、町民みんなで準備して参加するんだよ！[p]
+関係大有りだよっ！ハロウィン祭はこの町のいち大イベントだから、町民みんなで準備して参加するんだよ！[p]
 [_tb_end_text]
 
 [iscript]
@@ -228,8 +220,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ちぐさ
-神社境内の広場の中心に点火された
-聖なる炎の周りを囲って踊って～[p]
+神社境内の広場の中心に点火された“聖なる炎”の周りを囲って踊って～[p]
 [_tb_end_text]
 
 [chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]
@@ -238,16 +229,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ちぐさ
-祭り開催前日までに神社に奉納したジャックオランタンや持ち帰り用の手持ちランタンに聖なる炎を採火して、[p]
-[_tb_end_text]
-
-[chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[chara_mod  name="ひすい"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
-#ちぐさ
-各家庭に持ち帰ることで1年の無病息災を祈るんだぁ[p]
+祭り開催前日までに神社に奉納したジャック・オ・ランタンや持ち帰り用の手持ちランタンに“聖なる炎”を採火して、各家庭に持ち帰ることで1年の無病息災を祈るんだぁ[p]
 [_tb_end_text]
 
 [chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]
@@ -344,7 +326,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-そうなのか…それで、俺たちは今から何をするんだ？[p]
+そうなのか…？　それで、俺たちは今からなにをするんだ？[p]
 [_tb_end_text]
 
 [chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
@@ -356,7 +338,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひいろ
-今からは聖火を持ち帰るための手持ちランタンづくりをするよ！[p]
+今からは神社でお祭りの参加者に頒布する[r]
+聖火を持ち帰るための手持ちランタンづくりをするよ！[p]
 [_tb_end_text]
 
 [chara_mod  name="ひすい"  time="10"  wait="false"  face="暗"  cross="false"  ]
@@ -366,7 +349,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひいろ
-とはいっても、今日は各班でデザインを考えて、デザイン案を提出するだけだけどね！[p]
+……とはいっても、今日は各班でデザインを考えて、デザイン案を提出するだけだけどね！[p]
 [_tb_end_text]
 
 [chara_mod  name="ひすい"  time="10"  wait="false"  face="暗"  cross="false"  ]
@@ -398,7 +381,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-なんでちぐさのお父さんなんだ？[p]
+ん？　なんで、ちぐさのお父さんが出てくるんだ？[p]
 [_tb_end_text]
 
 [chara_hide  name="ちぐさ"  time="1"  wait="true"  pos_mode="false"  ]
@@ -468,7 +451,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-なるほど……すごいこと任されてるんだね。[p]
+なるほど……すごいこと任されてるんだね[p]
 [_tb_end_text]
 
 [chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
@@ -480,7 +463,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひいろ
-ということで～…、じゃーん！[p]
+ということで～……じゃーん！[p]
 [_tb_end_text]
 
 [iscript]
@@ -540,7 +523,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひいろ
-みんなでジャックオランタンのデザインを考えて、よかったやつを採用するよっ！[p]
+みんなでジャック・オ・ランタンのデザインを考えて、よかったやつを採用するよっ！[p]
 [_tb_end_text]
 
 [iscript]
@@ -559,7 +542,6 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [chara_hide  name="ひすい"  time="100"  wait="true"  pos_mode="false"  ]
 [chara_hide  name="とうか"  time="100"  wait="true"  pos_mode="false"  ]
 [chara_hide  name="ちぐさ"  time="100"  wait="true"  pos_mode="false"  ]
-
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
@@ -569,7 +551,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（紙を受け取ると、皆思い思いにペンを走らせ始める）[p]
+（紙を受け取ると、みんな思い思いにペンを走らせ始める）[p]
 [_tb_end_text]
 
 [iscript]

@@ -169,7 +169,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname="<center><p>陸上部員C</p></center>"]
 #ダミー
-あんな風に走れるようになりたいなぁ……。[p]
+あんな風に走れるようになりたいなぁ……[p]
 [_tb_end_text]
 
 [chara_hide  name="とうか"  time="1"  wait="true"  pos_mode="false"  ]
@@ -189,7 +189,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ゆうま
-とうかさん、ほんと人気者だねぇ～。憧れの的って感じ～。[p]
+とうかさん、ほんと人気者だねぇ～[r]
+憧れの的って感じ～[p]
 [_tb_end_text]
 
 [iscript]
@@ -201,7 +202,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（後輩たちの目がキラキラしてる……とうかって、本当に慕われてるんだな）[p]
+（後輩たちの目がキラキラしてる……[r]
+とうかって、みんなにすごく慕われてるんだな）[p]
 [_tb_end_text]
 
 [chara_hide  name="とうか"  time="1"  wait="true"  pos_mode="false"  ]
@@ -211,7 +213,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #とうか
-――っと！ おーい、そこの二人！ 見学しに来たのかー？[p]
+――っと！ おーい、そこの２人！ 見学しに来たのかー？[p]
 [_tb_end_text]
 
 [chara_hide  name="ゆうま"  time="1"  wait="true"  pos_mode="false"  ]
@@ -221,9 +223,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ゆうま
-そうだよ～。
+そうだよ～　
 &f.nick_name_yuuma
-を連れてきたんだ～。とうかさんの得意技見せてあげて～。[p]
+を連れてきたんだ～[r]
+とうかさんの得意技見せてあげて～[p]
 [_tb_end_text]
 
 [chara_hide  name="とうか"  time="1"  wait="true"  pos_mode="false"  ]
@@ -267,7 +270,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname="<center><p>陸上部員A</p></center>"]
 #ダミー
-うわっ、出た！ 先輩の必殺ブーストダッシュだ！[p]
+出た！ 先輩の必殺ブーストダッシュだ！！[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]
@@ -287,7 +290,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（ま、眩しい……男子でもあんな風に走れる人、見たことない……！）[p]
+（す、すごい……男子でもあんな風に走れる人、見たことない……！）p]
 [_tb_end_text]
 
 [iscript]
@@ -357,7 +360,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #とうか
-二人とも悪い！あんま話せなくて…。[p]
+２人とも悪い！あんま話せなくて…[p]
 [_tb_end_text]
 
 [iscript]
@@ -435,7 +438,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ゆうま
-だよね～。それじゃあそろそろ次の場所に行こっか～[p]
+だよね～　それじゃあそろそろ次の場所に行こっか～[p]
 [_tb_end_text]
 
 *scene_end

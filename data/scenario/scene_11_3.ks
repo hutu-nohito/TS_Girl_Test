@@ -195,7 +195,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-この手持ちランタン、制作の時に見慣れてたけど、火が点くとそれっぽくなっていいな[p]
+この手持ちランタン、制作して見慣れてたけど、火が点くとそれっぽくなって新鮮でいいな[p]
 [_tb_end_text]
 
 [chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
@@ -276,7 +276,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-お前、前を見て歩かないと━━[p]
+お前、前を見て歩かないと――[p]
 [_tb_end_text]
 
 [chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
@@ -309,7 +309,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（何かに足を引っかけ転びそうになるひいろを咄嗟に引き寄せる）[p]
+（なにかに足を引っかけ転びそうになるひいろを咄嗟に引き寄せる）[p]
 [_tb_end_text]
 
 [iscript]
@@ -330,14 +330,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひいろ
-ご、ごめん……ありがとう[p]
-[_tb_end_text]
-
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
-#ひいろ
-そろそろつくよっ！[p]
+ご、ごめん……ありがとう[r]
+また助けられちゃった……[p]
 [_tb_end_text]
 
 [iscript]
@@ -349,7 +343,29 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（ひいろがパッと離れ、再び歩き出す。[r]少し歩くとツリーハウスの様なものが見えてきた。）[p]
+ん？　なにか言ったか？[p]
+[_tb_end_text]
+
+[chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
+[chara_show  name="ひいろ"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="-45"  reflect="false"  ]
+[tb_start_text mode=4 ]
+[cm]
+[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
+#ひいろ
+ううん、そろそろつくよっ！[p]
+[_tb_end_text]
+
+[iscript]
+f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
+[endscript]
+
+[tb_start_text mode=4 ]
+[cm]
+[ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
+[chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
+#ダミー
+（ひいろがパッと離れ、再び歩き出す[r]
+少し歩くとツリーハウスのようなものが見えてきた）[p]
 [_tb_end_text]
 
 [iscript]
@@ -365,7 +381,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-神社に何でこんなものが…[p]
+神社になんでこんなものが…[p]
 [_tb_end_text]
 
 [chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
@@ -374,7 +390,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひいろ
-じゃーん！ここが私たちの秘密基地だよっ！[p]
+じゃーん！ここがわたしたちの秘密基地だよっ！[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]
@@ -412,7 +428,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-[r]登った先には小さめの小屋がある）[p]
+登った先には小さめの小屋がある）[p]
 [_tb_end_text]
 
 [iscript]
@@ -517,7 +533,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひいろ
-それだけじゃないよ？[ruby text="こう"]黄[ruby text="せん"]泉[ruby text="ちょう"]町の街並みも見えるんだよ！[r]わたし、ここから見る[ruby text="こう"]黄[ruby text="せん"]泉[ruby text="ちょう"]町が一番好きなんだ…！[p]
+それだけじゃないよ？[ruby text="こう"]黄[ruby text="せん"]泉[ruby text="ちょう"]町の街並みも見えるんだよ！[r]
+わたし、ここから見る[ruby text="こう"]黄[ruby text="せん"]泉[ruby text="ちょう"]町が１番好きなんだ…！[p]
 [_tb_end_text]
 
 [iscript]
@@ -541,7 +558,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（日も暮れ、祭りや町の明かりだけでなく、人々の持つジャックオランタンの明かりが町中を動いているのがよく見える。）[p]
+（日も暮れ、祭りや町の明かりだけでなく、人々の持つジャック・オ・ランタンの明かりが町中を動いているのがよく見える）[p]
 [_tb_end_text]
 
 [chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
@@ -564,7 +581,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-うん、でも1か月って思えないくらい色んなことあったな…ひいろたちと出会って、[p]
+うん、でも1か月って思えないくらい色んなことあったな…[p]
 [_tb_end_text]
 
 [iscript]
@@ -576,7 +593,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-ハロウィン祭の準備とかいろいろできて楽しかったな[p]
+ひいろたちと出会って、ハロウィン祭の準備とかいろいろできて楽しかったな[p]
 [_tb_end_text]
 
 [chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
@@ -585,7 +602,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひいろ
-なんだかずっと前から一緒にいた気がする[p]
+なんだかずっと前から一緒にいた気がするなっ[p]
 [_tb_end_text]
 
 [iscript]
@@ -663,7 +680,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-でも、何事にもまっすぐで、明るくて、一生懸命で……[r]俺、気づいたらひいろに惹かれてたんだ[p]
+でも、なに事にもまっすぐで、明るくて、一生懸命で……[r]
+俺、気づいたらひいろに惹かれてたんだ[p]
 [_tb_end_text]
 
 [chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
@@ -684,7 +702,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-━━ハロウィン祭期間中に聖火から採火をするとき、結婚式の指輪交換の様にお互いの持つジャックオランタンに火を灯しあえば、[p]
+――ハロウィン祭期間中に聖火から採火をするとき、お互いの持つジャック・オ・ランタンに火を灯しあえば、英雄様の加護の力でその２人は結ばれ、聖火の炎のように永遠に愛の炎が燃え続ける――[p]
 [_tb_end_text]
 
 [iscript]
@@ -813,7 +831,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひいろ
-ヒーローって、誰か一人だけじゃなくてみんなを助けるものなんだよ？[p]
+ヒーローって、誰か１人だけじゃなくてみんなを助けるものなんだよ？[p]
 [_tb_end_text]
 
 [iscript]
@@ -834,14 +852,14 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひいろ
-……でもね、一人だけを守るヒーローがいてもいいかもね[p]
+……でもね、１人だけを守るヒーローがいてもいいかもね[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひいろ
-だから……
+だから……[r]
 &f.nick_name_hiiro
 、私だけのヒーローになってください！[p]
 [_tb_end_text]
@@ -942,8 +960,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（数々と打ちあがる花火を見上げるひいろの横顔を、ずっと見ていた。
-ひいろを…俺たちの、これからを守りたいと思った。）[p]
+（数々と打ちあがる花火を見上げるひいろの横顔を、ずっと見ていた。[r]
+ひいろを…俺たちの、これからを守りたいと思いながら――）[p]
 [_tb_end_text]
 
 [iscript]
@@ -952,7 +970,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 
 [tb_start_text mode=4 ]
 #
-END『わたしだけのヒーロー』[p]
+END１『わたしだけのヒーロー』[p]
 [_tb_end_text]
 
 *scene_end

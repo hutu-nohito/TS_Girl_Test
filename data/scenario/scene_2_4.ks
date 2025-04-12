@@ -158,7 +158,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ちぐさ
-…んふふ、よしよし、にんじん美味しい？、はい、次はそっちの子～[p]
+…んふふ、よしよし、にんじん美味しい？[r]
+はい、次はそっちの子ねぇ～[p]
 [_tb_end_text]
 
 [iscript]
@@ -266,7 +267,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-えっ、紹介って…俺、何を話せば…[p]
+えっ、紹介って…俺、なにを話せば…[p]
 [_tb_end_text]
 
 [chara_hide  name="ちぐさ"  time="1"  wait="true"  pos_mode="false"  ]
@@ -356,7 +357,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ちぐさ
-えへへぇ…、そんな風に言ってもらえて、嬉しいなぁ[p]
+えへへ～そんな風に言ってもらえて、嬉しいなぁ[p]
 [_tb_end_text]
 
 [chara_hide  name="ゆうま"  time="1"  wait="true"  pos_mode="false"  ]
@@ -378,8 +379,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 #ちぐさ
 
 &f.nick_name_tigusa
-、もしよかったら、また来てね？
-みんなも喜ぶよぉ[p]
+、もしよかったら、また来てね？　みんなも喜ぶよぉ[p]
 [_tb_end_text]
 
 [iscript]

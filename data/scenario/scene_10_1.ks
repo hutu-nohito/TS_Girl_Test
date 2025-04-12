@@ -157,7 +157,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname="<center><p>店主</p></center>"]
 #ダミー
-そこの少年いらっしゃい、大切な人にアクセサリーのプレゼントはどうじゃ？[p]
+そこの小童、大切な人にアクセサリーのプレゼントはどうじゃ？[p]
 [_tb_end_text]
 
 [iscript]
@@ -169,7 +169,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（ジャックオランタンの被り物を被った店主に勧められるがままに商品を見る）[p]
+（ジャック・オ・ランタンの被り物を被った店主に勧められるがままに商品を見る）[p]
 [_tb_end_text]
 
 [iscript]
@@ -221,7 +221,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（せっかくだし、一つ買うか…）[p]
+（せっかくだし、１つ買うか…）[p]
 [_tb_end_text]
 
 [iscript]
@@ -285,7 +285,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 #とうか
 
 &f.nick_name_touka
-お待たせ～！[p]
+、お待たせ～！[p]
 [_tb_end_text]
 
 [iscript]
@@ -321,7 +321,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ちぐさ
-こんな所で何してるのぉ？[p]
+こんな所でなにしてるのぉ？[p]
 [_tb_end_text]
 
 [iscript]
@@ -333,7 +333,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-出店でも見ながら皆を待っておこうかなって思って見てたんだよね[p]
+出店でも見ながらみんなを待っておこうかなって思って見てたんだ[p]
 [_tb_end_text]
 
 [chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
@@ -465,7 +465,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-そ、そうだな…[p]
+そ、そうだな……[p]
 [_tb_end_text]
 
 [chara_hide  name="とうか"  time="1"  wait="true"  pos_mode="false"  ]
@@ -478,7 +478,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #とうか
-おしっ！じゃあ、あっちの屋台も回ろうぜ！！[p]
+おしっ！じゃあ、気を取り直してあっちの屋台も回ろうぜ！！[p]
 [_tb_end_text]
 
 [chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
@@ -491,7 +491,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
-…申し訳ないのですが、わたくしはそろそろ門限ですので帰りたく…[p]
+……申しわけないのですが、わたくしはそろそろ門限ですので帰りたく……[p]
 [_tb_end_text]
 
 [chara_hide  name="ちぐさ"  time="1"  wait="true"  pos_mode="false"  ]
@@ -558,7 +558,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ちぐさ
-わたしはここが家だからここで……。
+わたしはここがお家だからここで……[r]
 &f.nick_name_tigusa
 、ゆうまくん、みんなのことよろしくねぇ[p]
 [_tb_end_text]

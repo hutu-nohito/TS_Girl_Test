@@ -84,7 +84,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ゆうま
-次は～...この時間なら生徒会室にいるかな？[p]
+次は～…この時間なら生徒会室にいるかな？[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]
@@ -101,7 +101,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ゆうま
-さっき自己紹介でも言っていたけどひすいさんはこの学校の生徒会長なんだよ～[p]
+さっき自己紹介でも言っていたけど、ひすいさんはこの学校の生徒会長なんだよ～[p]
 [_tb_end_text]
 
 [iscript]
@@ -143,8 +143,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
-あなた！ノックもせずに生徒会室に入ってくるとはマナーがなっていませんわ！
-[p]
+あなた！ノックもせずに生徒会室に入ってくるとはマナーがなっていませんわ！[p]
 [_tb_end_text]
 
 [chara_mod  name="ゆうま"  time="10"  wait="false"  face="暗"  cross="false"  ]
@@ -152,9 +151,9 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
-あら、あなたは転校生の
+……あら？あなたは転校生の
 &f.nick_name_hisui
-ではありませんか。転校生といえどマナーは大事ですわよ[p]
+はありませんか。転校生といえどマナーは大事ですわよ[p]
 [_tb_end_text]
 
 [chara_hide  name="ゆうま"  time="1"  wait="true"  pos_mode="false"  ]
@@ -330,7 +329,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
-ええ、ですが私の通っていた学校は礼拝やマナー教育はありましたがそれ以外はいたって普通の学校と同じでしたわ[p]
+ええ。ですが、わたくしの通っていた学校は礼拝やマナー教育はありましたがそれ以外はいたって普通の学校と同じでしたわ[p]
 [_tb_end_text]
 
 [chara_hide  name="ゆうま"  time="1"  wait="true"  pos_mode="false"  ]
@@ -362,7 +361,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
-わたくし、理想の学園というものを常に目指しておりますの。誰もが安心して学べる場所を…[p]
+わたくし、理想の学園というものを常に目指しておりますの[r]
+誰もが安心して学べる場所を…[p]
 [_tb_end_text]
 
 [chara_mod  name="ゆうま"  time="10"  wait="false"  face="暗"  cross="false"  ]
@@ -370,7 +370,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
-そのためには、多少の厳しさも必要ですわ。……時に嫌われようとも[p]
+そのためには、多少の厳しさも必要ですわ[r]
+……時に嫌われようとも[p]
 [_tb_end_text]
 
 [iscript]
@@ -382,7 +383,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-……それでも、誰かがやらなきゃいけないことだよな[p]
+……それでも、誰かがやらなきゃいけないことなんだよな？[p]
 [_tb_end_text]
 
 [chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
@@ -404,7 +405,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-ああ。やらされてるんじゃなくて、自分で選んでやってるんだろ？[p]
+ああ。でも、やらされてるんじゃなくて、自分で選んでやってるんだろ？ひすいはすごいな……[p]
 [_tb_end_text]
 
 [chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
@@ -456,7 +457,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-あ、ああ……頼りにしてるよ、生徒会長[p]
+ああ。頼りにしてるよ、生徒会長[p]
 [_tb_end_text]
 
 [chara_hide  name="ゆうま"  time="1"  wait="true"  pos_mode="false"  ]
