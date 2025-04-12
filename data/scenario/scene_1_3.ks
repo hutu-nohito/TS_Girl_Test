@@ -557,7 +557,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
 [wait  time="1000"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="放課後のおしゃべり.mp3"  fadein="true"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="houkago.mp3"  fadein="true"  ]
 [tb_image_hide  time="1000"  ]
 [bg  time="1000"  method="crossfade"  storage="room.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]

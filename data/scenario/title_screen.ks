@@ -21,7 +21,7 @@
 [tb_ptext_show  x="178"  y="251"  size="92"  color="0xffffff"  time="1000"  text="PUSH&nbsp;START"  anim="false"  face="undefined"  edge="0x120f0f"  shadow="undefined"  ]
 *start_title
 
-[playbgm  volume="50"  time="1000"  loop="true"  storage="rpg.mp3"  ]
+[playbgm  volume="20"  time="1000"  loop="true"  storage="rpg.mp3"  ]
 [tb_ptext_hide  time="1000"  ]
 [layopt layer=message0 visible=false]
 
