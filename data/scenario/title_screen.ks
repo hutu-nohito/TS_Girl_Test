@@ -7,22 +7,22 @@
 
 [mask  time="100"  effect="fadeIn"  color="0x000000"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
-[tb_image_show  time="1000"  storage="default/NewRAGロゴ_Vtuber.png"  width="1500"  height="1173"  x="237"  y="125"  _clickable_img=""  name="img_4"  ]
+[tb_image_show  time="1000"  storage="default/NewRAGロゴ_Vtuber.png"  width="441"  height="345"  x="258"  y="144"  _clickable_img=""  name="img_5"  ]
 [wait  time="3000"  ]
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [tb_image_hide  time="1000"  ]
 [mask_off  time="100"  effect="fadeOut"  ]
-[tb_image_show  time="1000"  storage="default/【ロゴ】悪霊退散ハロウィンジャー.PNG"  width="616"  height="435"  x="168"  y="107"  _clickable_img=""  name="img_9"  ]
+[tb_image_show  time="1000"  storage="default/【ロゴ】悪霊退散ハロウィンジャー.PNG"  width="616"  height="435"  x="168"  y="107"  _clickable_img=""  name="img_10"  ]
 [wait  time="3000"  ]
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [tb_image_hide  time="1000"  ]
 [bg  time="1000"  method="crossfade"  storage="title.png"  ]
 [mask_off  time="100"  effect="fadeOut"  ]
-[glink  x="350"  y="260"  text="PUSH&nbsp;START"  target="*start_title"  color="orange"  width=""  height=""  _clickable_img=""  ]
-[s  ]
+[tb_ptext_show  x="178"  y="251"  size="92"  color="0xffffff"  time="1000"  text="PUSH&nbsp;START"  anim="false"  face="undefined"  edge="0x120f0f"  shadow="undefined"  ]
 *start_title
 
 [playbgm  volume="50"  time="1000"  loop="true"  storage="rpg.mp3"  ]
+[tb_ptext_hide  time="1000"  ]
 [layopt layer=message0 visible=false]
 
 [chara_show  name="とうか"  time="1500"  wait="true"  storage="chara/3/とうか_普通.png"  width="509"  height="1000"  left="-66"  top="150"  reflect="false"  ]
