@@ -73,6 +73,8 @@ f.nick_name_yuuma = f.first_name
 
 [endif]
 
+[stopbgm  time="1000"  fadeout="true"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="放課後のおしゃべり.mp3"  fadein="true"  ]
 [bg  time="1000"  method="crossfade"  storage="rouka.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [chara_show  name="ゆうま"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="0"  reflect="false"  ]
@@ -157,7 +159,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひいろ
-あ！　
+あ！
 &f.nick_name_hiiro
 とゆうまだ！　やっほー！[r]
 どうしたの？　科学部に入部希望なのかなっ！？[p]

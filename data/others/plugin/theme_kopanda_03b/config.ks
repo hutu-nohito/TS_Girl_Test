@@ -123,22 +123,20 @@ if(tf.text_skip == 'OFF'){$(".unread_off").attr("src","data/others/plugin/theme_
 ;--------------------------------------------------------------------------------
 *backtitle
 [iscript]
-;tf.flag_back=$(".message1_fore").css("display");
+tf.flag_back=$(".message1_fore").css("display");
 [endscript]
 
-;[if exp="tf.flag_back=='none'"]
+[if exp="tf.flag_back=='none'"]
 
 [cm]
-;[layopt layer=message1 visible=false]
-;[freeimage layer=1]
-;[clearfix]
-
-[freelayer layer=message0]
+[layopt layer=message1 visible=false]
+[freeimage layer=1]
+[clearfix]
 
 ;コンフィグの呼び出しに sleepgame を使っているので、必ず awakegame で戻してやってください
 [awakegame]
 
-;[endif]
+[endif]
 
 [return]
 
@@ -173,28 +171,28 @@ if(tf.current_se_vol == 0){$(".sevol_0").attr("src","data/others/plugin/theme_ko
 ;▼テキスト速度
 ;--------------------------------------------------------------------------------
 *ch_speed_change
-;[iscript]
-;	$(".ch").attr("src","data/others/plugin/theme_kopanda_03b/image/config/c_btn.gif");
-;	$(".ch_"+tf.set_ch_speed).attr("src","data/others/plugin/theme_kopanda_03b/image/config/c_set_speed.gif");
-;[endscript]
-;[configdelay speed="&tf.set_ch_speed"]
+[iscript]
+	$(".ch").attr("src","data/others/plugin/theme_kopanda_03b/image/config/c_btn.gif");
+	$(".ch_"+tf.set_ch_speed).attr("src","data/others/plugin/theme_kopanda_03b/image/config/c_set_speed.gif");
+[endscript]
+[configdelay speed="&tf.set_ch_speed"]
 
 ;	テキスト速度サンプル
-;	[position layer=message1 left=40 top=510 width=880 height=100 page=fore visible=true opacity=0]
-;	[layopt layer=message1 visible=true]
-;	[current layer=message1]
+	[position layer=message1 left=40 top=510 width=880 height=100 page=fore visible=true opacity=0]
+	[layopt layer=message1 visible=true]
+	[current layer=message1]
 ;	↓文字色を変えたいときはここをいじる
-;	[font color="0x383c5f"]
-;	このスピードで表示されます
+	[font color="0x383c5f"]
+	このスピードで表示されます
 
-;		[iscript]
-;		tf.system.backlog.pop(); // 上の「このスピードで表示されます」のテキストを履歴から削除
-;		[endscript]
+		[iscript]
+		tf.system.backlog.pop(); // 上の「このスピードで表示されます」のテキストを履歴から削除
+		[endscript]
 
-;	[wait time=2000]
-;	[er]
-;	[layopt layer=message1 visible=false]
-;	[return]
+	[wait time=2000]
+	[er]
+	[layopt layer=message1 visible=false]
+	[return]
 
 ;--------------------------------------------------------------------------------
 ;▼オート速度

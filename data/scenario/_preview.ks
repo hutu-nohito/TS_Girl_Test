@@ -1,381 +1,155 @@
 [_tb_system_call storage=system/_preview.ks ]
 
 [mask time=10]
-[bg  time="10"  method="crossfade"  storage="room.jpg"  ]
-[tb_show_message_window] 
-[chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[chara_mod  name="ひすい"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[chara_show  name="ひいろ"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="-45"  reflect="false"  ]
-[chara_show  name="ひすい"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="380"  top="-45"  reflect="false"  ]
-[chara_show  name="ちぐさ"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="30"  top="-45"  reflect="false"  ]
 [mask_off time=10]
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
-#ちぐさ
-祭り開催前日までに神社に奉納したジャック・オ・ランタンや持ち帰り用の手持ちランタンに“聖なる炎”を採火して、各家庭に持ち帰ることで1年の無病息災を祈るんだぁ[p]
-[_tb_end_text]
+[chara_config pos_mode=false]
 
-[chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[chara_mod  name="ひすい"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
-#ちぐさ
-各家庭に持ち帰ることで1年の無病息災を祈るんだぁ[p]
-[_tb_end_text]
+[chara_config talk_anim=up talk_anim_value=20 talk_anim_time=200]
 
-[chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[chara_mod  name="ひすい"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
-#ちぐさ
-聖なる炎は[ruby text="こう"]黄[ruby text="せん"]泉[ruby text="えい"]英[ruby text="ゆう"]雄[ruby text="でん"]伝[ruby text="せつ"]説の英雄様をお呼びする迎え火と送り火の役割があるから、祭りに参加した者は英雄様の加護の力を得られ、[p]
-[_tb_end_text]
+[ptext name="name_area" layer="message0" color="0x000000" size=26 x=15 y=410 width=300 bold="true" text=""]
 
-[chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[chara_mod  name="ひすい"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
-#ちぐさ
-悪霊から守られるんだよぉ[p]
-[_tb_end_text]
+[chara_config ptext="name_area"]
 
 [iscript]
-f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
+f.set_name= '<center><p><ruby><rb><span style="color:#000099; text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;">？？？</span></rb><rt><span style="color:#2020FF; font-family:sans-serif;"><b></b></span></rt></ruby></p></center>'
 [endscript]
 
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
-[chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
-#ダミー
-なるほど…思ったより仰々しいお祭りなんだな…[p]
-[_tb_end_text]
+[chara_new name="？？？（ひいろ）" storage="chara/1/ひいろ_普通.png" jname='&f.set_name']
 
-[chara_show  name="とうか"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="565"  top="-45"  reflect="false"  ]
-[chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[chara_mod  name="ひすい"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[chara_mod  name="ちぐさ"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
-#とうか
-そんなことはないよ！ハロウィンらしく化け物の仮装して、聖なる炎の周りを盆踊りみたいに踊って、[p]
-[_tb_end_text]
+[chara_face name="？？？（ひいろ）" face="普通" storage="chara/1/ひいろ_普通.png"]
 
-[chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[chara_mod  name="ひすい"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[chara_mod  name="ちぐさ"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
-#とうか
-帰りに火をもらって帰るだけだぜ？[p]
-[_tb_end_text]
-
-[chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[chara_mod  name="ひすい"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[chara_mod  name="ちぐさ"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
-#とうか
-採火すること以外は浴衣のかわりに化け物の仮装をする夏まつりみたいなものだしな！[p]
-[_tb_end_text]
+[chara_face name="？？？（ひいろ）" face="暗" storage="chara/1/ひいろ_暗.png"]
 
 [iscript]
-f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
+f.set_name= '<center><p><ruby><rb><span style="color:#000099; text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;">青野</span></rb><rt><span style="color:#2020FF; font-family:sans-serif;"><b>あおの</b></span></rt></ruby></p></center>'
 [endscript]
 
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
-[chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
-#ダミー
-そんなに軽く捉えていいのか！？[p]
-[_tb_end_text]
+[chara_new name="青野" storage="chara/1/ひいろ_普通.png" jname='&f.set_name']
 
-[chara_hide  name="ちぐさ"  time="1"  wait="true"  pos_mode="false"  ]
-[chara_show  name="ちぐさ"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="30"  top="-45"  reflect="false"  ]
-[chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[chara_mod  name="ひすい"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[chara_mod  name="とうか"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
-#ちぐさ
-英雄様も優しいから、気楽にお祭り楽しんで大丈夫だよぉ[p]
-[_tb_end_text]
+[chara_face name="青野" face="普通" storage="chara/1/ひいろ_普通.png"]
+
+[chara_face name="青野" face="暗" storage="chara/1/ひいろ_暗.png"]
 
 [iscript]
-f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
+f.set_name= '<center><p><ruby><rb><span style="color:#000099; text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;">青野光彩</span></rb><rt><span style="color:#2020FF; font-family:sans-serif;"><b>あおのひいろ</b></span></rt></ruby></p></center>'
 [endscript]
 
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
-[chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
-#ダミー
-そうなのか…それで、俺たちは今から何をするんだ？[p]
-[_tb_end_text]
+[chara_new name="ひいろ" storage="chara/1/ひいろ_普通.png" jname='&f.set_name']
 
-[chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
-[chara_show  name="ひいろ"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="-45"  reflect="false"  ]
-[chara_mod  name="ひすい"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[chara_mod  name="ちぐさ"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[chara_mod  name="とうか"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
-#ひいろ
-今からは聖火を持ち帰るための手持ちランタンづくりをするよ！[p]
-[_tb_end_text]
+[chara_face name="ひいろ" face="普通" storage="chara/1/ひいろ_普通.png"]
 
-[chara_mod  name="ひすい"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[chara_mod  name="ちぐさ"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[chara_mod  name="とうか"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
-#ひいろ
-とはいっても、今日は各班でデザインを考えて、デザイン案を提出するだけだけどね！[p]
-[_tb_end_text]
-
-[chara_mod  name="ひすい"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[chara_mod  name="ちぐさ"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[chara_mod  name="とうか"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
-#ひいろ
-うちの学校で出た案を集めて、先生とちぐさのお父さんで今年の手持ちランタンのデザインを決めるんだ！[p]
-[_tb_end_text]
-
-[chara_mod  name="ひすい"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[chara_mod  name="ちぐさ"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[chara_mod  name="とうか"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
-#ひいろ
-そして明日以降、決まったデザインの手持ちランタンをうちの学校の生徒みんなで作るんだよっ！[p]
-[_tb_end_text]
+[chara_face name="ひいろ" face="暗" storage="chara/1/ひいろ_暗.png"]
 
 [iscript]
-f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
+f.set_name= '<center><p><ruby><rb><span style="color:#009900; text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;">鬼月氷翠</span></rb><rt><span style="color:#50AA50; font-family:sans-serif;"><b>きつきひすい</b></span></rt></ruby></p></center>'
 [endscript]
 
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
-[chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
-#ダミー
-なんでちぐさのお父さんなんだ？[p]
-[_tb_end_text]
+[chara_new name="ひすい" storage="chara/2/ひすい_普通.png" jname='&f.set_name']
 
-[chara_hide  name="ちぐさ"  time="1"  wait="true"  pos_mode="false"  ]
-[chara_show  name="ちぐさ"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="30"  top="-45"  reflect="false"  ]
-[chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[chara_mod  name="ひすい"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[chara_mod  name="とうか"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
-#ちぐさ
-あれぇ？言うの忘れてたかも…？[p]
-[_tb_end_text]
+[chara_face name="ひすい" face="普通" storage="chara/2/ひすい_普通.png"]
 
-[chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[chara_mod  name="ひすい"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[chara_mod  name="とうか"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
-#ちぐさ
-ハロウィン祭の会場は黄泉山神社で、神社の当主はわたしのお父さんなんだぁ[p]
-[_tb_end_text]
+[chara_face name="ひすい" face="暗" storage="chara/2/ひすい_暗.png"]
 
 [iscript]
-f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
+f.set_name= '<center><p><ruby><rb><span style="color:#FF5010; text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;">神尾橙夏</span></rb><rt><span style="color:#FFC000; font-family:sans-serif;"><b>かみおとうか</b></span></rt></ruby></p></center>'
 [endscript]
 
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
-[chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
-#ダミー
-ええ～！？[p]
-[_tb_end_text]
+[chara_new name="とうか" storage="chara/3/とうか_普通.png" jname='&f.set_name']
 
-[chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
-[chara_show  name="ひいろ"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="-45"  reflect="false"  ]
-[chara_mod  name="ひすい"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[chara_mod  name="ちぐさ"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[chara_mod  name="とうか"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
-#ひいろ
-うちはものづくりが売りの学校だし、ちぐさがいるから、うちの学校が手持ちランタン制作を任されてるんだよっ！[p]
-[_tb_end_text]
+[chara_face name="とうか" face="普通" storage="chara/3/とうか_普通.png"]
 
-[chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
-[chara_show  name="ひすい"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="380"  top="-45"  reflect="false"  ]
-[chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[chara_mod  name="ちぐさ"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[chara_mod  name="とうか"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
-#ひすい
-手持ちランタンは、校外の方にもお渡しするものですので、責任重大ですわ。デザインも重要になりますわね[p]
-[_tb_end_text]
+[chara_face name="とうか" face="暗" storage="chara/3/とうか_暗.png"]
 
 [iscript]
-f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
+f.set_name= '<center><p><ruby><rb><span style="color:#009999; text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;">黄泉山千種</span></rb><rt><span style="color:#50EEEE; font-family:sans-serif;"><b>よみやまちぐさ</b></span></rt></ruby></p></center>'
 [endscript]
 
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
-[chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
-#ダミー
-なるほど……すごいこと任されてるんだね。[p]
-[_tb_end_text]
+[chara_new name="ちぐさ" storage="chara/4/ちぐさ_普通.png" jname='&f.set_name']
 
-[chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
-[chara_show  name="ひいろ"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="-45"  reflect="false"  ]
-[chara_mod  name="ひすい"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[chara_mod  name="ちぐさ"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[chara_mod  name="とうか"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
-#ひいろ
-ということで～…、じゃーん！[p]
-[_tb_end_text]
+[chara_face name="ちぐさ" face="普通" storage="chara/4/ちぐさ_普通.png"]
+
+[chara_face name="ちぐさ" face="暗" storage="chara/4/ちぐさ_暗.png"]
 
 [iscript]
-f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
+f.set_name= '<center><p><ruby><rb><span style="color:#009999; text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;">？？？</span></rb><rt><span style="color:#50EEEE; font-family:sans-serif;"><b></b></span></rt></ruby></p></center>'
 [endscript]
 
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
-[chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
-#ダミー
-（配られた紙には、カボチャの形が描かれている）[p]
-[_tb_end_text]
+[chara_new name="？？？（ちぐさ）" storage="chara/4/ちぐさ_普通.png" jname='&f.set_name']
+
+[chara_face name="？？？（ちぐさ）" face="普通" storage="chara/4/ちぐさ_普通.png"]
+
+[chara_face name="？？？（ちぐさ）" face="暗" storage="chara/4/ちぐさ_暗.png"]
 
 [iscript]
-f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
+f.set_name= '<center><p><ruby><rb><span style="color:#FF2020; text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;">赤井優魔</span></rb><rt><span style="color:#991010; font-family:sans-serif;"><b>あかいゆうま</b></span></rt></ruby></p></center>'
 [endscript]
 
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
-[chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
-#ダミー
-（もしかして…）[p]
-[_tb_end_text]
+[chara_new name="ゆうま" storage="chara/5/ゆうま_普通.png" jname='&f.set_name']
 
-[iscript]
-f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
-[endscript]
+[chara_face name="ゆうま" face="普通" storage="chara/5/ゆうま_普通.png"]
 
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
-[chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
-#ダミー
-ジャック・オ・ランタンの設計図をこれに描くってこと…？[p]
-[_tb_end_text]
+[chara_face name="ゆうま" face="暗" storage="chara/5/ゆうま_暗.png"]
 
-[chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
-[chara_show  name="ひいろ"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="-45"  reflect="false"  ]
-[chara_mod  name="ひすい"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[chara_mod  name="ちぐさ"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[chara_mod  name="とうか"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
-#ひいろ
-おっ、
-&f.nick_name_hiiro
-冴えてるね！その通り！！[p]
-[_tb_end_text]
+[chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.last_name]
 
-[chara_mod  name="ひすい"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[chara_mod  name="ちぐさ"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[chara_mod  name="とうか"  time="10"  wait="false"  face="暗"  cross="false"  ]
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
-#ひいろ
-みんなでジャックオランタンのデザインを考えて、よかったやつを採用するよっ！[p]
-[_tb_end_text]
+[chara_face name="ダミー" face="普通" storage="chara/6/ひいろ_ダミー.png"]
 
-[iscript]
-f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
-[endscript]
+[eval exp="f.likeability_hiiro = 0"]
 
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
-[chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
-#ダミー
-なるほど……[p]
-[_tb_end_text]
+[eval exp="f.likeability_hisui = 0"]
 
-[chara_hide  name="ひいろ"  time="100"  wait="true"  pos_mode="false"  ]
-[chara_hide  name="ひすい"  time="100"  wait="true"  pos_mode="false"  ]
-[chara_hide  name="とうか"  time="100"  wait="true"  pos_mode="false"  ]
-[chara_hide  name="ちぐさ"  time="100"  wait="true"  pos_mode="false"  ]
-[iscript]
-f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
-[endscript]
+[eval exp="f.likeability_touka = 0"]
 
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
-[chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
-#ダミー
-（紙を受け取ると、皆思い思いにペンを走らせ始める）[p]
-[_tb_end_text]
+[eval exp="f.likeability_tigusa = 0"]
 
-[iscript]
-f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
-[endscript]
+[eval exp="f.likeability_yuuma = 0"]
 
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
-[chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
-#ダミー
-（うーん……どんなデザインにしようかな…？）[p]
-[_tb_end_text]
+[cm  ]
+[clearfix]
 
-[playse  volume="100"  time="1000"  buf="0"  storage="button64.mp3"  ]
-[tb_hide_message_window  ]
-[button  storage="scene_4_1.ks"  target="*4_2"  graphic="選択肢/無題953_20250408223825.png"  width="600"  height="70"  y="200"  x="180"  _clickable_img=""  name="img_173"  ]
-[button  storage="scene_4_1.ks"  target="*4_3"  graphic="選択肢/無題953_20250408223922.png"  width="600"  height="70"  x="180"  y="300"  ]
+[bg  storage="名前入力ページ.png"  time="0"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
+[layopt layer=0 visible=true]
+
+*name_entry
+
+[cm  ]
+[freeimage layer="0"]
+
+[ptext layer=0 text="お名前を入力してください" x=-140 y=140 size=40 color="black" width=1280 align=center time=0]
+
+[ptext layer=0 text="" x=-160 y=190 size=40 color="black" width=1280 align=center time=0]
+
+[ptext layer=0 text="※それぞれ最大6文字まで" x=10 y=340 size=24 color="black"  width=1280 align=center time=0]
+
+[ptext layer=0 text="姓" x=205 y=222 size=30 color="black"  width=240 align=left time=0]
+
+[ptext layer=0 text="名" x=525 y=222 size=30 color="black"  width=240 align=left time=0]
+
+[edit  name="f.last_name"  width="280"  height="70"  size="30"  left="200"  top="260"  maxchars="6"  initial="赤庭"  reflect="false"  ]
+[edit  name="f.first_name"  width="260"  height="70"  size="30"  left="520"  top="260"  maxchars="6"  initial="星"  ]
+[button  graphic="button/決定ボタン.png"  target="*commit"  x="343"  y="440"  enterimg="button/決定ボタン_フロート.png"  storage=""  width="278"  height="81"  _clickable_img="button/決定ボタン_フロート.png"  ]
 [s  ]
-*4_2
+*commit
 
-[eval exp="f.likeability_hiiro = f.likeability_hiiro + 10"]
+[commit  ]
+[jump  target="*retry"  cond="!f.last_name&nbsp;||&nbsp;!f.first_name"  storage=""  ]
+[iscript]
+f.player_name = f.last_name + f.first_name
+tf.name_entry_text = "あなたのお名前は【" + f.player_name + "】でよろしいですか？";
+[endscript]
 
-[playse  volume="100"  time="1000"  buf="0"  storage="button16.mp3"  ]
-[jump  storage="scene_4_2.ks"  target=""  ]
-*4_3
+[dialog text="&tf.name_entry_text" type="confirm" target_cancel="*name_entry"]
 
-[eval exp="f.likeability_hisui = f.likeability_hisui + 10"]
+[cm  ]
+[freeimage layer=0]
 
-[playse  volume="100"  time="1000"  buf="0"  storage="button16.mp3"  ]
-[jump  storage="scene_4_3.ks"  target=""  ]
-*scene_end
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[add_theme_button]
 
-[end]
+[jump  storage="scene_1_3.ks"  target=""  ]
+*retry
 
+[dialog text="入力されていません"]
+
+[jump  target="*name_entry"  storage=""  ]

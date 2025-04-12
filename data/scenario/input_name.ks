@@ -145,7 +145,7 @@ tf.name_entry_text = "あなたのお名前は【" + f.player_name + "】でよ�
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [add_theme_button]
 
-[jump  storage="scene_1_1.ks"  target=""  ]
+[jump  storage="scene_1_3.ks"  target=""  ]
 *retry
 
 [dialog text="入力されていません"]

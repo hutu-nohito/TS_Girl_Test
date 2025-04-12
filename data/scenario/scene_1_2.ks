@@ -149,19 +149,16 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #青野
 [delay speed="5"]
-ねえねえ、前の学校ってどんなところだったの？都会？？それともうちとそんなに変わらないところ？？それか、[p]
-[_tb_end_text]
-
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
-#青野
+[font size="20" ]
+ねえねえ、前の学校ってどんなところだったの？都会？？それともうちとそんなに変わらないところ？？それか、
 実は
 &f.nick_name_hiiro
-は世界の平和を守るために活動している秘密結社からこの学校に送り込まれてきた隊員とか…[p]
+は世界の平和を守るために活動している秘密結社からこの学校に送り込まれてきた隊員とか…
 [resetdelay]
+[resetfont]
 [_tb_end_text]
 
+[wait  time="2000"  ]
 [chara_mod  name="青野"  time="10"  wait="false"  face="暗"  cross="false"  ]
 [chara_show  name="？？？（ちぐさ）"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="380"  top="-45"  reflect="false"  ]
 [tb_start_text mode=4 ]
@@ -198,7 +195,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひいろ
-みんなのこと紹介しなきゃだよね！　わたし、[ruby text="ひ"]光[ruby text="いろ"]！
+みんなのこと紹介しなきゃだよね！　わたし、[ruby text="ひ"]光[ruby text="いろ"]彩！
 [r][ruby text="あお"]青[ruby text="の"]野[ruby text="ひ"]光[ruby text="いろ"]彩だよっ！[p]
 [_tb_end_text]
 
@@ -729,7 +726,6 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
 
-[playse  volume="100"  time="1000"  buf="0"  storage="学校のチャイム.mp3"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -798,6 +794,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 *scene_end
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[tb_start_text mode=1 ]
+#
+[_tb_end_text]
+
 [chara_hide_all  time="1000"  wait="true"  ]
 [jump  storage="scene_1_3.ks"  target="*scene_start"  ]
 [end]

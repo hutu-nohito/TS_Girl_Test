@@ -3,7 +3,6 @@
 *scene_start
 
 [tb_show_message_window  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="放課後のおしゃべり.mp3"  ]
 [if exp="f.likeability_hiiro < 15"]
 
 [iscript]
@@ -78,6 +77,7 @@ f.nick_name_yuuma = f.first_name
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
 
+[playbgm  volume="100"  time="1000"  loop="true"  storage="放課後のおしゃべり.mp3"  ]
 [bg  time="1000"  method="crossfade"  storage="住宅街２（日中）.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=1 ]
@@ -102,7 +102,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（親の転勤の都合でつい先日、ここ[ruby text="こう"]黄[ruby text="せん"]泉[ruby text="ちょう"]町（こうせんちょう）に引っ越してきた）[p]
+（親の転勤の都合でつい先日、ここ[ruby text="こう"]黄[ruby text="せん"]泉[ruby text="ちょう"]町に引っ越してきた）[p]
 [_tb_end_text]
 
 [iscript]
@@ -298,7 +298,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [_tb_end_text]
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
-[bg  time="1000"  method="crossfade"  storage="room.jpg"  ]
+[bg  time="1000"  method="crossfade"  storage="学校の職員室（日中）.jpg"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="esc01.mp3"  ]
 [tb_start_text mode=4 ]
 #
@@ -359,6 +359,14 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 はい！[p]
 [_tb_end_text]
 
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="esc01.mp3"  ]
+[bg  time="1000"  method="crossfade"  storage="rouka.jpg"  ]
+[tb_start_text mode=1 ]
+#
+[_tb_end_text]
+
+[mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -461,6 +469,14 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 （そう祈りながら、俺は先生の後に続いて教室に入った）[p]
 [_tb_end_text]
 
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="sliding-door02.mp3"  ]
+[bg  time="1000"  method="crossfade"  storage="room.jpg"  ]
+[tb_start_text mode=1 ]
+#
+[_tb_end_text]
+
+[mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -606,7 +622,6 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 は知らないのか。ハロウィン祭っていうのは……[p]
 [_tb_end_text]
 
-[playse  volume="100"  time="1000"  buf="0"  storage="学校のチャイム.mp3"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -615,7 +630,6 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 キーンコーンカーンコーン[p]
 [_tb_end_text]
 
-[wait  time="3000"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]

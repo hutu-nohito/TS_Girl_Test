@@ -78,7 +78,7 @@ f.nick_name_yuuma = f.first_name
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname="<center><p>ナレーション</p></center>"]
-#ダミー
+#
 放課後[p]
 [_tb_end_text]
 
@@ -480,11 +480,20 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 最悪の条件が重なり起こった“悪夢のような現実とその悪夢を祓った英雄の話”がございます[p]
 [_tb_end_text]
 
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[tb_start_text mode=1 ]
+#
+[_tb_end_text]
+
+[stopbgm  time="1000"  fadeout="true"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="能面師.mp3"  fadein="true"  ]
+[tb_image_show  time="1000"  storage="default/【伝説】死に神と式き神使いの戦い.PNG"  width="960"  height="680"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname="<center><p>ナレーション</p></center>"]
-#ダミー
+#
 ――昔、山奥に隠れたとある村があった。[p]
 [_tb_end_text]
 
@@ -492,7 +501,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname="<center><p>ナレーション</p></center>"]
-#ダミー
+#
 その村は霊がひと際出現することから、黄泉の国への出入り口と言われ、「[ruby text="よ"]黄[ruby text="み"]泉の村」。「[ruby text="こう"]黄[ruby text="せん"]泉[ruby text="むら"]村」と名がついた。[p]
 [_tb_end_text]
 
@@ -500,7 +509,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname="<center><p>ナレーション</p></center>"]
-#ダミー
+#
 [ruby text="こう"]黄[ruby text="せん"]泉[ruby text="むら"]村には、悪霊が出ても対処ができるよう、悪霊を払う陰陽師が住んでおり、彼らのおかげで村の平和が保たれていた。[p]
 [_tb_end_text]
 
@@ -508,7 +517,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname="<center><p>ナレーション</p></center>"]
-#ダミー
+#
 だがある日、ひと際力の強い悪霊が現れ、他の悪霊を使役し、田畑を荒らし、村人を病で苦しめた。[p]
 [_tb_end_text]
 
@@ -516,7 +525,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname="<center><p>ナレーション</p></center>"]
-#ダミー
+#
 村中の陰陽師がその悪霊を祓うべく戦ったが敵う者はおらず、人々はその悪霊を『[ruby text="し"]死に[ruby text="がみ"]神』と呼んだ。[p]
 [_tb_end_text]
 
@@ -524,7 +533,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname="<center><p>ナレーション</p></center>"]
-#ダミー
+#
 そんな絶望の中、1人の男が現れ、その男は数々の『[ruby text="し"]式き[ruby text="がみ"]神』と呼ばれる使い魔を司り、悪霊や[ruby text="し"]死に[ruby text="がみ"]神と戦った。[p]
 [_tb_end_text]
 
@@ -532,7 +541,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname="<center><p>ナレーション</p></center>"]
-#ダミー
+#
 [ruby text="し"]式き[ruby text="がみ"]神使いは10日にも及ぶ戦いの末、神無月のつごもりになんとか[ruby text="し"]死に[ruby text="がみ"]神を封印した。[p]
 [_tb_end_text]
 
@@ -540,10 +549,16 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname="<center><p>ナレーション</p></center>"]
-#ダミー
+#
 そして[ruby text="し"]死に[ruby text="がみ"]神を封印したことで悪霊たちはあの世へと戻され、この村に再び平和が訪れたのだった――[p]
 [_tb_end_text]
 
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="放課後のおしゃべり.mp3"  fadein="true"  ]
+[tb_image_hide  time="1000"  ]
+[bg  time="1000"  method="crossfade"  storage="room.jpg"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
 [chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
 [chara_show  name="ひすい"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="30"  top="-45"  reflect="false"  ]
 [chara_mod  name="ひいろ"  time="10"  wait="false"  face="暗"  cross="false"  ]
@@ -588,7 +603,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ちぐさ
-英雄様の[ruby text="のこ"]遺した道具や[ruby text="し"]式き[ruby text="がみ"]神様が神社に[ruby text="まつ"祀られているんだよぉ[p]
+英雄様の[ruby text="のこ"]遺した道具や[ruby text="し"]式き[ruby text="がみ"]神様が神社に[ruby text="まつ"]祀られているんだよぉ[p]
 [_tb_end_text]
 
 [chara_show  name="ゆうま"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="-145"  top="0"  reflect="false"  ]
@@ -798,7 +813,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-そうなのか、なんだか楽しそうだな！p]
+そうなのか、なんだか楽しそうだな！[p]
 [_tb_end_text]
 
 [iscript]
@@ -893,6 +908,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 *scene_end
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[tb_start_text mode=1 ]
+#
+[_tb_end_text]
+
 [chara_hide_all  time="1000"  wait="true"  ]
 [jump  storage="scene_1_4.ks"  target="*scene_start"  ]
 [end]
