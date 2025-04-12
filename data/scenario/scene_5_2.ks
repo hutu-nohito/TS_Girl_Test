@@ -164,11 +164,15 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[tb_start_text mode=1 ]
+#
+[_tb_end_text]
+
 [chara_hide  name="ひすい"  time="100"  wait="true"  pos_mode="false"  ]
 [chara_hide  name="ちぐさ"  time="100"  wait="true"  pos_mode="false"  ]
 [chara_hide  name="ゆうま"  time="100"  wait="true"  pos_mode="false"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="esc01.mp3"  ]
-[bg  time="1000"  method="crossfade"  storage="文化系の部室（日中）.jpg"  ]
+[bg  time="1000"  method="crossfade"  storage="教室の後ろの方（日中）.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]
 [cm]
@@ -476,6 +480,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 *scene_end
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[tb_start_text mode=1 ]
+#
+[_tb_end_text]
+
 [chara_hide_all  time="1000"  wait="true"  ]
 [jump  storage="scene_6_1.ks"  target=""  ]
 [end]

@@ -73,6 +73,8 @@ f.nick_name_yuuma = f.first_name
 
 [endif]
 
+[stopbgm  time="1000"  fadeout="true"  ]
+[playbgm  volume="80"  time="1000"  loop="true"  fadein="true"  storage="縁側_DOVA.mp3"  ]
 [bg  time="1000"  method="crossfade"  storage="縁日の屋台（夜）.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]
@@ -114,7 +116,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-！？[r]ゆうまに…みんな！？[p]
+！？
+[r]ゆうまに…みんな！？[p]
 [_tb_end_text]
 
 [chara_show  name="ひいろ"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="380"  top="-45"  reflect="false"  ]
@@ -125,7 +128,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 #ひいろ
 あ！
 &f.nick_name_hiiro
-！Happy Halloween！[r]さっきそこでみんなでばったり会ったんだ～！[p]
+！Happy Halloween！
+[r]さっきそこでみんなでばったり会ったんだ～！[p]
 [_tb_end_text]
 
 [chara_show  name="ちぐさ"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="30"  top="-45"  reflect="false"  ]
@@ -601,9 +605,13 @@ END５『Trick or Treat ?』[p]
 
 *scene_end
 
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [chara_hide_all  time="1000"  wait="true"  ]
 [tb_hide_message_window  ]
-[tb_image_hide  time="1000"  ]
+[freeimage layer="base"]
+
+[mask_off  time="1000"  effect="fadeOut"  ]
 [jump  storage="title_screen.ks"  target=""  ]
 [end]
 

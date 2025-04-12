@@ -228,6 +228,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
 
+[playse  volume="100"  time="1000"  buf="0"  storage="button64.mp3"  ]
+[tb_hide_message_window  ]
 [button  storage="scene_10_1.ks"  target="*藍"  graphic="選択肢/無題953_20250408224039.png"  width="600"  height="70"  x="180"  y="200"  ]
 [button  storage="scene_10_1.ks"  target="*翠"  graphic="選択肢/無題953_20250408224054.png"  width="600"  height="70"  x="180"  y="300"  ]
 [s  ]
@@ -235,6 +237,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 
 [eval exp="f.likeability_hiiro = f.likeability_hiiro + 10"]
 
+[tb_show_message_window  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -256,6 +259,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 
 [eval exp="f.likeability_hisui = f.likeability_hisui + 10"]
 
+[tb_show_message_window  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -353,6 +357,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
 
+[stopbgm  time="1000"  fadeout="true"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -474,6 +479,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [chara_mod  name="ゆうま"  time="10"  wait="false"  face="暗"  cross="false"  ]
 [chara_mod  name="ひすい"  time="10"  wait="false"  face="暗"  cross="false"  ]
 [chara_mod  name="ちぐさ"  time="10"  wait="false"  face="暗"  cross="false"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="縁側_DOVA.mp3"  fadein="true"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
@@ -616,6 +622,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 *scene_end
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[tb_start_text mode=1 ]
+#
+[_tb_end_text]
+
 [chara_hide_all  time="1000"  wait="true"  ]
 [jump  storage="scene_10_2.ks"  target=""  ]
 [end]

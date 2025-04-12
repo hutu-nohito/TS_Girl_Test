@@ -73,6 +73,7 @@ f.nick_name_yuuma = f.first_name
 
 [endif]
 
+[stopbgm  time="1000"  fadeout="true"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]
 [cm]
@@ -159,7 +160,12 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [_tb_end_text]
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[tb_start_text mode=1 ]
+#
+[_tb_end_text]
+
 [playse  volume="100"  time="1000"  buf="0"  storage="esc01.mp3"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  fadein="true"  storage="縁側_DOVA.mp3"  ]
 [bg  time="1000"  method="crossfade"  storage="射的の屋台（夜）.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
@@ -268,6 +274,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 *scene_end
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[tb_start_text mode=1 ]
+#
+[_tb_end_text]
+
 [chara_hide_all  time="1000"  wait="true"  ]
 [jump  storage="scene_11_3.ks"  target=""  ]
 [end]

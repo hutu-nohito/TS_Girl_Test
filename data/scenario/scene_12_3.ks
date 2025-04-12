@@ -78,7 +78,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
 
 [stopbgm  time="1000"  ]
-[playbgm  volume="20"  time="1000"  loop="true"  storage="キジバトのさえずり1.mp3"  ]
+[playbgm  volume="80"  time="1000"  loop="true"  storage="あなたと共に.mp3"  ]
 [bg  time="1000"  method="crossfade"  storage="神社（夜・照明ON）.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]
@@ -162,7 +162,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（これって、ゆうまから聞いた噂のやつだよな…？[r]なんとなく知らないふりをしておこう）[p]
+（これって、ゆうまから聞いた噂のやつだよな…？
+[r]なんとなく知らないふりをしておこう）[p]
 [_tb_end_text]
 
 [iscript]
@@ -228,7 +229,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-そういえばそろそろ門限の時間じゃないか？[r]家まで送るよ[p]
+そういえばそろそろ門限の時間じゃないか？
+[r]家まで送るよ[p]
 [_tb_end_text]
 
 [chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
@@ -279,7 +281,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
-……あなたの“悪いところ”が、うつってしまったみたいですわ[r]それに今日は“調査”ですものね…？[p]
+……あなたの“悪いところ”が、うつってしまったみたいですわ
+[r]それに今日は“調査”ですものね…？[p]
 [_tb_end_text]
 
 [iscript]
@@ -291,7 +294,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-…！[r]あはは、まいったな[p]
+…！
+[r]あはは、まいったな[p]
 [_tb_end_text]
 
 [chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
@@ -323,7 +327,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
-ふふ、でしたらわたくしがとっておきの場所を案内いたしますわ[r]少し歩きますがついてきてくださいませ[p]
+ふふ、でしたらわたくしがとっておきの場所を案内いたしますわ
+[r]少し歩きますがついてきてくださいませ[p]
 [_tb_end_text]
 
 [iscript]
@@ -343,7 +348,13 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[tb_start_text mode=1 ]
+#
+[_tb_end_text]
+
 [playse  volume="100"  time="1000"  buf="0"  storage="esc01.mp3"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
+[playbgm  volume="40"  time="1000"  loop="true"  storage="キジバトのさえずり1.mp3"  ]
 [bg  time="1000"  method="crossfade"  storage="街中の横断歩道（夜・青信号）.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]
@@ -372,14 +383,16 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
-わたくしは生徒会長ですのよ？[r]今年のハロウィン祭の花火は我がRAGクリエイト高校より上げるのです。[p]
+わたくしは生徒会長ですのよ？
+[r]今年のハロウィン祭の花火は我がRAGクリエイト高校より上げるのです。[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
-そしてその許可を出したのもわたくしですわ[r]花火師さんにお聞きした設置位置と打ち上げ予定の花火の高さから、[p]
+そしてその許可を出したのもわたくしですわ
+[r]花火師さんにお聞きした設置位置と打ち上げ予定の花火の高さから、[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]
@@ -490,7 +503,13 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
-[bg  time="1000"  method="crossfade"  storage="池のある公園（夜）.jpg"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
+[playbgm  volume="80"  time="1000"  loop="true"  storage="あなたと共に.mp3"  ]
+[tb_start_text mode=1 ]
+#
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="夜空.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]
 [cm]
@@ -610,7 +629,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-そういえばこの前、また学校でひいろを怒ってたよな？[r]あんまり怒ってばかりだとおでこにしわができるぞ[p]
+そういえばこの前、また学校でひいろを怒ってたよな？
+[r]あんまり怒ってばかりだとおでこにしわができるぞ[p]
 [_tb_end_text]
 
 [chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
@@ -631,7 +651,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-ははは、ひすいって本当に不器用だよな[r]食べ歩きも結構危なっかしかったし[p]
+ははは、ひすいって本当に不器用だよな
+[r]食べ歩きも結構危なっかしかったし[p]
 [_tb_end_text]
 
 [chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
@@ -664,7 +685,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-色んな表情見せてくれるようになって…[r]俺、気づいたらそんなひすいに惹かれてたんだ[p]
+色んな表情見せてくれるようになって…
+[r]俺、気づいたらそんなひすいに惹かれてたんだ[p]
 [_tb_end_text]
 
 [chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
@@ -706,7 +728,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-知らないふりしててごめん、この噂……実はゆうまから聞いててさ[r]今日はひすいと採火したくて祭りに誘ったんだ[p]
+知らないふりしててごめん、この噂……実はゆうまから聞いててさ
+[r]今日はひすいと採火したくて祭りに誘ったんだ[p]
 [_tb_end_text]
 
 [chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]
@@ -773,7 +796,9 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
-……[r]まるで結婚式ですわね[r]……ええ、誓いますわ…！[p]
+……
+[r]まるで結婚式ですわね
+[r]……ええ、誓いますわ…！[p]
 [_tb_end_text]
 
 [iscript]
@@ -871,9 +896,13 @@ END２『聖なる夜に』[p][p]
 
 *scene_end
 
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [chara_hide_all  time="1000"  wait="true"  ]
 [tb_hide_message_window  ]
+[freeimage layer="base"]
+
+[mask_off  time="1000"  effect="fadeOut"  ]
 [jump  storage="title_screen.ks"  target=""  ]
-[tb_image_hide  time="1000"  ]
 [end]
 

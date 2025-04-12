@@ -255,6 +255,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 
 [playse  volume="100"  time="1000"  buf="0"  storage="button64.mp3"  ]
 [chara_hide_all  time="1000"  wait="true"  ]
+[tb_hide_message_window  ]
 [button  storage="scene_9_1.ks"  target="*9_2"  graphic="選択肢/無題953_20250408224657.png"  width="600"  height="70"  x="180"  y="200"  name="img_108"  ]
 [button  storage="scene_9_1.ks"  target="*9_3"  graphic="選択肢/無題953_20250408224714.png"  width="600"  height="70"  x="180"  y="300"  ]
 [s  ]

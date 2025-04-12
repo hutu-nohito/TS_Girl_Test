@@ -129,6 +129,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
 
+[playse  volume="100"  time="1000"  buf="0"  storage="ドアを開ける1.mp3"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -194,7 +195,11 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [_tb_end_text]
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
-[playse  volume="100"  time="1000"  buf="0"  storage="ドアを開ける1.mp3"  ]
+[tb_start_text mode=1 ]
+#
+[_tb_end_text]
+
+[playse  volume="100"  time="1000"  buf="0"  storage="esc01.mp3"  ]
 [bg  time="1000"  method="crossfade"  storage="事務所.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [iscript]
@@ -483,6 +488,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 *scene_end
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[tb_start_text mode=1 ]
+#
+[_tb_end_text]
+
 [chara_hide_all  time="1000"  wait="true"  ]
 [jump  storage="scene_2_3.ks"  target=""  ]
 [end]

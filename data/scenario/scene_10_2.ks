@@ -78,7 +78,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
 
 [stopbgm  time="1000"  ]
-[playbgm  volume="20"  time="1000"  loop="true"  storage="キジバトのさえずり1.mp3"  ]
+[playbgm  volume="80"  time="1000"  loop="true"  storage="隣の噂好きさん的なBGM.mp3"  ]
 [bg  time="1000"  method="crossfade"  storage="住宅街（夜・灯り有り）.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]
@@ -228,11 +228,19 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [if exp="f.likeability_hiiro >= 25"]
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[tb_start_text mode=1 ]
+#
+[_tb_end_text]
+
 [chara_hide_all  time="1000"  wait="true"  ]
 [jump  storage="scene_11_1.ks"  target=""  ]
 [else]
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[tb_start_text mode=1 ]
+#
+[_tb_end_text]
+
 [chara_hide_all  time="1000"  wait="true"  ]
 [jump  storage="scene_15_1.ks"  target=""  ]
 [endif]

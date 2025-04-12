@@ -1,5 +1,5 @@
 [preload  storage="./data/bgimage/神社（夜・照明ON）.jpg"  ]
-[preload  storage="./data/bgimage/田舎道（夜・照明ON）.jpg"  ]
+[preload  storage="./data/bgimage/森_夜.jpg"  ]
 [preload  storage="./data/bgimage/地下室（照明ON強め）.jpg"  ]
-[preload  storage="./data/bgimage/公園の東屋のベンチ（夜）.jpg"  ]
+[preload  storage="./data/bgimage/夜空.jpg"  ]
 [return]

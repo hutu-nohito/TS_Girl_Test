@@ -148,7 +148,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #青野
-[delay speed="5"]
+[delay speed="20"]
 [font size="20" ]
 ねえねえ、前の学校ってどんなところだったの？都会？？それともうちとそんなに変わらないところ？？それか、
 実は
@@ -471,7 +471,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ゆうま
-僕は[ruby text="あか"]赤[ruby text="い"]井[ruby text="ゆう"]優[ruby text="ま"]魔だよ〜　男の子同士よろしくね〜[p]
+ボクは[ruby text="あか"]赤[ruby text="い"]井[ruby text="ゆう"]優[ruby text="ま"]魔だよ〜　男の子同士よろしくね〜[p]
 [_tb_end_text]
 
 [iscript]

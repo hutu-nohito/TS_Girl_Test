@@ -41,8 +41,6 @@
 [cm  ]
 [showload]
 
-[add_theme_button]
-
 [jump  target="*title"  storage=""  ]
 [s  ]
 *first

@@ -77,6 +77,9 @@ f.nick_name_yuuma = f.first_name
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
 
+[stopbgm  time="1000"  fadeout="true"  ]
+[wait  time="1000"  ]
+[playbgm  volume="80"  time="1000"  loop="true"  fadein="true"  storage="Raspberry_Days.mp3"  ]
 [bg  time="1000"  method="crossfade"  storage="room.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]

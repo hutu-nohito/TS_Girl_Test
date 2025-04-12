@@ -73,7 +73,7 @@ f.nick_name_yuuma = f.first_name
 
 [endif]
 
-[bg  time="1000"  method="crossfade"  storage="学校の昇降口（日中）.jpg"  ]
+[bg  time="1000"  method="crossfade"  storage="schoolgate-day.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [chara_show  name="ゆうま"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="0"  reflect="false"  ]
 [tb_start_text mode=4 ]

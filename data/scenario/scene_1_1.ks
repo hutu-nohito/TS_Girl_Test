@@ -77,7 +77,7 @@ f.nick_name_yuuma = f.first_name
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
 
-[playbgm  volume="100"  time="1000"  loop="true"  storage="放課後のおしゃべり.mp3"  ]
+[playbgm  volume="80"  time="1000"  loop="true"  storage="放課後のおしゃべり.mp3"  ]
 [bg  time="1000"  method="crossfade"  storage="住宅街２（日中）.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=1 ]

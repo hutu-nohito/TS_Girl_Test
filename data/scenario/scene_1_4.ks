@@ -129,7 +129,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 へっ？！？[p]
 [_tb_end_text]
 
-[playbgm  volume="100"  time="1000"  loop="true"  storage="隣の噂好きさん的なBGM.mp3"  fadein="true"  ]
+[playbgm  volume="80"  time="1000"  loop="true"  storage="隣の噂好きさん的なBGM.mp3"  fadein="true"  ]
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]

@@ -305,7 +305,13 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [_tb_end_text]
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[tb_start_text mode=1 ]
+#
+[_tb_end_text]
+
 [chara_hide  name="ゆうま"  time="100"  wait="true"  pos_mode="false"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  fadein="true"  storage="能面師.mp3"  ]
 [bg  time="1000"  method="crossfade"  storage="神社（日中）.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]
@@ -437,6 +443,12 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [chara_hide  name="ひすい"  time="100"  wait="true"  pos_mode="false"  ]
+[tb_start_text mode=1 ]
+#
+[_tb_end_text]
+
+[stopbgm  time="1000"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="縁側_DOVA.mp3"  ]
 [bg  time="1000"  method="crossfade"  storage="縁日の屋台（日中）.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]
@@ -577,6 +589,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 *scene_end
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[tb_start_text mode=1 ]
+#
+[_tb_end_text]
+
 [chara_hide_all  time="1000"  wait="true"  ]
 [jump  storage="scene_9_1.ks"  target=""  ]
 [end]

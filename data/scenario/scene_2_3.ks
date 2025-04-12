@@ -77,7 +77,7 @@ f.nick_name_yuuma = f.first_name
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
 
-[bg  time="1000"  method="crossfade"  storage="学校のグラウンド（日中）.jpg"  ]
+[bg  time="1000"  method="crossfade"  storage="schoolgate-day.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [chara_show  name="ゆうま"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="0"  reflect="false"  ]
 [tb_start_text mode=4 ]
@@ -109,6 +109,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
 
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[bg  time="1000"  method="crossfade"  storage="学校のグラウンド（日中）.jpg"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="esc01.mp3"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
@@ -223,7 +227,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ゆうま
-そうだよ～　
+そうだよ～
 &f.nick_name_yuuma
 を連れてきたんだ～[r]
 とうかさんの得意技見せてあげて～[p]
@@ -290,7 +294,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（す、すごい……男子でもあんな風に走れる人、見たことない……！）p]
+（す、すごい……男子でもあんな風に走れる人、見たことない……！）[p]
 [_tb_end_text]
 
 [iscript]
@@ -385,6 +389,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 おう！！ありがと！！[p]
 [_tb_end_text]
 
+[playse  volume="100"  time="1000"  buf="0"  storage="esc01.mp3"  ]
+[chara_hide  name="とうか"  time="1"  wait="true"  pos_mode="false"  ]
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
@@ -444,6 +450,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 *scene_end
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[tb_start_text mode=1 ]
+#
+[_tb_end_text]
+
 [chara_hide_all  time="1000"  wait="true"  ]
 [jump  storage="scene_2_4.ks"  target=""  ]
 [end]

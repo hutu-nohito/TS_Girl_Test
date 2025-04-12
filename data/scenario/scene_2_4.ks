@@ -140,8 +140,12 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [_tb_end_text]
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[tb_start_text mode=1 ]
+#
+[_tb_end_text]
+
 [playse  volume="100"  time="1000"  buf="0"  storage="esc01.mp3"  ]
-[bg  time="1000"  method="crossfade"  storage="学校のベンチ（日中）.jpg"  ]
+[bg  time="1000"  method="crossfade"  storage="back-of-school-day.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [chara_hide  name="ゆうま"  time="1"  wait="true"  pos_mode="false"  ]
 [chara_show  name="ゆうま"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="0"  reflect="false"  ]
@@ -397,6 +401,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 *scene_end
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[tb_start_text mode=1 ]
+#
+[_tb_end_text]
+
 [chara_hide_all  time="1000"  wait="true"  ]
 [jump  storage="scene_2_5.ks"  target=""  ]
 [end]

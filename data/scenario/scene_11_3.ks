@@ -78,7 +78,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
 
 [stopbgm  time="1000"  ]
-[playbgm  volume="20"  time="1000"  loop="true"  storage="キジバトのさえずり1.mp3"  ]
+[playbgm  volume="80"  time="1000"  loop="true"  storage="あなたと共に.mp3"  ]
 [bg  time="1000"  method="crossfade"  storage="神社（夜・照明ON）.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]
@@ -120,7 +120,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 #ひいろ
 
 &f.nick_name_hiiro
-のランタンはわたしが灯してあげるっ！[r][p]
+のランタンはわたしが灯してあげるっ！
+[r][p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]
@@ -183,7 +184,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（これって、ゆうまから聞いた噂のやつだよな…？[r]なんとなく知らないふりをしてひいろと火を灯しあう）[p]
+（これって、ゆうまから聞いた噂のやつだよな…？
+[r]なんとなく知らないふりをしてひいろと火を灯しあう）[p]
 [_tb_end_text]
 
 [iscript]
@@ -236,8 +238,14 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [_tb_end_text]
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[tb_start_text mode=1 ]
+#
+[_tb_end_text]
+
 [playse  volume="100"  time="1000"  buf="0"  storage="esc01.mp3"  ]
-[bg  time="1000"  method="crossfade"  storage="田舎道（夜・照明ON）.jpg"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
+[playbgm  volume="40"  time="1000"  loop="true"  fadein="true"  storage="キジバトのさえずり1.mp3"  ]
+[bg  time="1000"  method="crossfade"  storage="森_夜.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]
 [cm]
@@ -373,6 +381,10 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[tb_start_text mode=1 ]
+#
+[_tb_end_text]
+
 [playse  volume="100"  time="1000"  buf="0"  storage="esc01.mp3"  ]
 [bg  time="1000"  method="crossfade"  storage="地下室（照明ON強め）.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
@@ -397,7 +409,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひいろ
-小さいときにちぐさとゆうまたちとでここでよく遊んでたんだ～！[r]まあ、たまに今も遊びに来るんだけどね？[p]
+小さいときにちぐさとゆうまたちとでここでよく遊んでたんだ～！
+[r]まあ、たまに今も遊びに来るんだけどね？[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]
@@ -449,7 +462,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひいろ
-当たり前じゃん！私の研究所でもあるんだから！[r]学校がお休みの時はここで色々作ってるんだ～[p]
+当たり前じゃん！私の研究所でもあるんだから！
+[r]学校がお休みの時はここで色々作ってるんだ～[p]
 [_tb_end_text]
 
 [iscript]
@@ -504,8 +518,12 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[tb_start_text mode=1 ]
+#
+[_tb_end_text]
+
 [playse  volume="100"  time="1000"  buf="0"  storage="esc01.mp3"  ]
-[bg  time="1000"  method="crossfade"  storage="公園の東屋のベンチ（夜）.jpg"  ]
+[bg  time="1000"  method="crossfade"  storage="夜空.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]
 [cm]
@@ -563,6 +581,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 
 [chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
 [chara_show  name="ひいろ"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="-45"  reflect="false"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  fadein="true"  storage="あなたと共に.mp3"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
@@ -659,7 +679,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-ひいろって本当に危なっかしいよね[r]迷子になるわ、変な人に絡まれるわ、転びそうになるわ……[p]
+ひいろって本当に危なっかしいよね
+[r]迷子になるわ、変な人に絡まれるわ、転びそうになるわ……[p]
 [_tb_end_text]
 
 [chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
@@ -705,18 +726,6 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 ――ハロウィン祭期間中に聖火から採火をするとき、お互いの持つジャック・オ・ランタンに火を灯しあえば、英雄様の加護の力でその２人は結ばれ、聖火の炎のように永遠に愛の炎が燃え続ける――[p]
 [_tb_end_text]
 
-[iscript]
-f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
-[endscript]
-
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
-[chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
-#ダミー
-英雄様の加護の力でその二人は結ばれ、聖火の炎の様に永遠に愛の炎が燃え続ける━━[p]
-[_tb_end_text]
-
 [chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
 [chara_show  name="ひいろ"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="-45"  reflect="false"  ]
 [tb_start_text mode=4 ]
@@ -735,7 +744,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-知らないふりしててごめん、この噂……実はゆうまから聞いててさ[r]今日はひいろと採火しに行きたくて誘ったんだ[p]
+知らないふりしててごめん、この噂……実はゆうまから聞いててさ
+[r]今日はひいろと採火しに行きたくて誘ったんだ[p]
 [_tb_end_text]
 
 [chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
@@ -756,7 +766,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-この聖火は人々を守ってくれるんだよね？[r]俺にも、ひいろのこと……ずっと守らせてほしい[p]
+この聖火は人々を守ってくれるんだよね？
+[r]俺にも、ひいろのこと……ずっと守らせてほしい[p]
 [_tb_end_text]
 
 [iscript]
@@ -975,9 +986,13 @@ END１『わたしだけのヒーロー』[p]
 
 *scene_end
 
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [chara_hide_all  time="1000"  wait="true"  ]
 [tb_hide_message_window  ]
+[freeimage layer="base"]
+
+[mask_off  time="1000"  effect="fadeOut"  ]
 [jump  storage="title_screen.ks"  target=""  ]
-[tb_image_hide  time="1000"  ]
 [end]
 

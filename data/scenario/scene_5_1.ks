@@ -73,6 +73,8 @@ f.nick_name_yuuma = f.first_name
 
 [endif]
 
+[stopbgm  time="1000"  fadeout="true"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="放課後のおしゃべり.mp3"  ]
 [bg  time="1000"  method="crossfade"  storage="room.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]
