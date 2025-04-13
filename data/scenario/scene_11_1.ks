@@ -79,7 +79,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 
 [stopbgm  time="1000"  ]
 [wait  time="1000"  ]
-[playbgm  volume="80"  time="1000"  loop="true"  storage="enngawa.mp3"  ]
+[playbgm  volume="60"  time="1000"  loop="true"  storage="enngawa.mp3"  ]
 [bg  time="1000"  method="crossfade"  storage="enniti_yoru.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]
@@ -125,7 +125,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（声をかけられて振り返ると、そこには青を基調とした衣装を身にまとったひすいが立っていた。）[p]
+（声をかけられて振り返ると、そこには青を基調とした衣装を身にまとったひいろが立っていた。）[p]
 [_tb_end_text]
 
 [iscript]
@@ -258,7 +258,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひいろ
-うんっ！こっちこっち？！[p]
+うんっ！こっちこっち！！[p]
 [_tb_end_text]
 
 [iscript]

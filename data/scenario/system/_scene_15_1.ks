@@ -1,3 +1,5 @@
 [preload  storage="./data/bgimage/enniti_yoru.jpg"  ]
 [preload  storage="./data/fgimage/undefined"  ]
+[preload  storage="./data/bgimage/jinnja_yoru.jpg"  ]
+[preload  storage="./data/bgimage/juutakugai_yoru.jpg"  ]
 [return]

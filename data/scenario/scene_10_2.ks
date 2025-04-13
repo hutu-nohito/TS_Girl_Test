@@ -225,20 +225,20 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
 
-[tb_start_text mode=1 ]
-[cm][p]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"][p]
-[chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1][p]
+[tb_start_text mode=4 ]
+[cm]
+[ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
+[chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-……よし！　俺は、ひいろと採火して、その後告白するぞ…！[p][p]
+……よし！　俺は、ひいろと採火して、その後告白するぞ…！[p]
 [_tb_end_text]
 
-[tb_start_text mode=1 ]
-[cm][p]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"][p]
+[tb_start_text mode=4 ]
+[cm]
+[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ゆうま
-&f.nick_name_yuuma[p]
-くん、がんばって～！[p][p]
+&f.nick_name_yuuma
+、がんばって～！[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]
@@ -253,7 +253,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [if exp="f.likeability_hiiro >= 25"]
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
-[tb_start_text mode=1 ]
+[tb_start_text mode=4 ]
 #
 [_tb_end_text]
 
@@ -262,7 +262,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [else]
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
-[tb_start_text mode=1 ]
+[tb_start_text mode=4 ]
 #
 [_tb_end_text]
 
@@ -280,20 +280,20 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
 
-[tb_start_text mode=1 ]
-[cm][p]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"][p]
-[chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1][p]
+[tb_start_text mode=4 ]
+[cm]
+[ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
+[chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-……よし！　俺は、ひすいと採火して、その後告白するぞ…！[p][p]
+……よし！　俺は、ひすいと採火して、その後告白するぞ…！[p]
 [_tb_end_text]
 
-[tb_start_text mode=1 ]
-[cm][p]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"][p]
+[tb_start_text mode=4 ]
+[cm]
+[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ゆうま
-&f.nick_name_yuuma[p]
-くん、がんばって～！[p][p]
+&f.nick_name_yuuma
+、がんばって～！[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]
@@ -308,11 +308,19 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [if exp="f.likeability_hisui >= 25"]
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[tb_start_text mode=4 ]
+#
+[_tb_end_text]
+
 [chara_hide_all  time="1000"  wait="true"  ]
 [jump  storage="scene_12_1.ks"  target=""  ]
 [else]
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[tb_start_text mode=4 ]
+#
+[_tb_end_text]
+
 [chara_hide_all  time="1000"  wait="true"  ]
 [jump  storage="scene_15_1.ks"  target=""  ]
 [endif]
@@ -374,7 +382,13 @@ f.likeability_max_player = '水色'
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ゆうま
 もう、しょうがないな～[r]
-ボクの占いだと…[r]
+ボクの占いだと…[p]
+[_tb_end_text]
+
+[tb_start_text mode=4 ]
+[cm]
+[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
+#ゆうま
 そうだね、
 &f.likeability_max_player
 が見えるよ[r]

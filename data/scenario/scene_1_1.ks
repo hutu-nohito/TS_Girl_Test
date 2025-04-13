@@ -298,7 +298,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [_tb_end_text]
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
-[bg  time="1000"  method="crossfade"  storage="syokuinnsitu_hiru.jpg"  ]
+[bg  time="1000"  method="crossfade"  storage="koutyousitu.jpg"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="esc01.mp3"  ]
 [tb_start_text mode=4 ]
 #

@@ -75,14 +75,14 @@ f.nick_name_yuuma = f.first_name
 
 [stopbgm  time="1000"  fadeout="true"  ]
 [wait  time="1000"  ]
-[playbgm  volume="80"  time="1000"  loop="true"  storage="enngawa.mp3"  fadein="true"  ]
+[playbgm  volume="60"  time="1000"  loop="true"  storage="enngawa.mp3"  fadein="true"  ]
 [bg  time="1000"  method="crossfade"  storage="enniti_hiru.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname="<center><p>ナレーション</p></center>"]
-#ダミー
+#
 ――10月25日　9:00　ハロウィン祭初日[p]
 [_tb_end_text]
 
@@ -459,7 +459,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 
 [stopbgm  time="1000"  ]
 [wait  time="1000"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="enngawa.mp3"  ]
+[playbgm  volume="60"  time="1000"  loop="true"  storage="enngawa.mp3"  ]
 [bg  time="1000"  method="crossfade"  storage="enniti_hiru.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [iscript]

@@ -4,7 +4,7 @@
 
 [chara_config talk_anim=up talk_anim_value=20 talk_anim_time=200]
 
-[ptext name="name_area" layer="message0" color="0x6e6e6e" edge="0xFFFFFF" size=26 x=15 y=410 width=300 bold="true" text=""]
+[ptext name="name_area" layer="message0" color="0x000000" size=26 x=15 y=410 width=300 bold="true" text=""]
 
 [chara_config ptext="name_area"]
 

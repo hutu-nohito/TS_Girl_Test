@@ -111,7 +111,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（手持ちジャクオランタンを買い、ひすいと共に採火の列に並ぶ）[p]
+（手持ちジャック・オ・ランタンを買い、ひすいと共に採火の列に並ぶ）[p]
 [_tb_end_text]
 
 [chara_show  name="ひすい"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="-45"  reflect="false"  ]
@@ -143,7 +143,13 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
 へ、変な意味はございませんわ！[r]
-えっと……以前、他の生徒が友人同士で火を交換し合うとお聞きしましたので…！[r]
+えっと……以前、他の生徒が友人同士で火を交換し合うとお聞きしましたので…！[p]
+[_tb_end_text]
+
+[tb_start_text mode=4 ]
+[cm]
+[ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
+#ひすい
 あくまで“調査”の一環ですわ！！[p]
 [_tb_end_text]
 

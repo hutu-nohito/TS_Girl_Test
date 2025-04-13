@@ -2,154 +2,61 @@
 
 [mask time=10]
 [mask_off time=10]
-[chara_config pos_mode=false]
-
-[chara_config talk_anim=up talk_anim_value=20 talk_anim_time=200]
-
-[ptext name="name_area" layer="message0" color="0x6e6e6e" edge="0xFFFFFF" size=26 x=15 y=410 width=300 bold="true" text=""]
-
-[chara_config ptext="name_area"]
-
-[iscript]
-f.set_name= '<center><p><ruby><rb><span style="text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;">？？？</span></rb><rt><span style="font-family:sans-serif;"><b></b></span></rt></ruby></p></center>'
-[endscript]
-
-[chara_new name="？？？（ひいろ）" storage="chara/1/ひいろ_普通.png" jname='&f.set_name']
-
-[chara_face name="？？？（ひいろ）" face="普通" storage="chara/1/ひいろ_普通.png"]
-
-[chara_face name="？？？（ひいろ）" face="暗" storage="chara/1/ひいろ_暗.png"]
-
-[iscript]
-f.set_name= '<center><p><ruby><rb><span style="text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;">青野</span></rb><rt><span style="font-family:sans-serif;"><b>あおの</b></span></rt></ruby></p></center>'
-[endscript]
-
-[chara_new name="青野" storage="chara/1/ひいろ_普通.png" jname='&f.set_name']
-
-[chara_face name="青野" face="普通" storage="chara/1/ひいろ_普通.png"]
-
-[chara_face name="青野" face="暗" storage="chara/1/ひいろ_暗.png"]
-
-[iscript]
-f.set_name= '<center><p><ruby><rb><span style="text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;">青野　光彩</span></rb><rt><span style="font-family:sans-serif;"><b>あおの　ひいろ</b></span></rt></ruby></p></center>'
-[endscript]
-
-[chara_new name="ひいろ" storage="chara/1/ひいろ_普通.png" jname='&f.set_name']
-
-[chara_face name="ひいろ" face="普通" storage="chara/1/ひいろ_普通.png"]
-
-[chara_face name="ひいろ" face="暗" storage="chara/1/ひいろ_暗.png"]
-
-[iscript]
-f.set_name= '<center><p><ruby><rb><span style="text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;">鬼月　氷翠</span></rb><rt><span style="font-family:sans-serif;"><b>きつき　ひすい</b></span></rt></ruby></p></center>'
-[endscript]
-
-[chara_new name="ひすい" storage="chara/2/ひすい_普通.png" jname='&f.set_name']
-
-[chara_face name="ひすい" face="普通" storage="chara/2/ひすい_普通.png"]
-
-[chara_face name="ひすい" face="暗" storage="chara/2/ひすい_暗.png"]
-
-[iscript]
-f.set_name= '<center><p><ruby><rb><span style="text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;">神尾　橙夏</span></rb><rt><span style="font-family:sans-serif;"><b>かみお　とうか</b></span></rt></ruby></p></center>'
-[endscript]
-
-[chara_new name="とうか" storage="chara/3/とうか_普通.png" jname='&f.set_name']
-
-[chara_face name="とうか" face="普通" storage="chara/3/とうか_普通.png"]
-
-[chara_face name="とうか" face="暗" storage="chara/3/とうか_暗.png"]
-
-[iscript]
-f.set_name= '<center><p><ruby><rb><span style="text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;">黄泉山　千種</span></rb><rt><span style="font-family:sans-serif;"><b>よみやま　ちぐさ</b></span></rt></ruby></p></center>'
-[endscript]
-
-[chara_new name="ちぐさ" storage="chara/4/ちぐさ_普通.png" jname='&f.set_name']
-
-[chara_face name="ちぐさ" face="普通" storage="chara/4/ちぐさ_普通.png"]
-
-[chara_face name="ちぐさ" face="暗" storage="chara/4/ちぐさ_暗.png"]
-
-[iscript]
-f.set_name= '<center><p><ruby><rb><span style="text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;">？？？</span></rb><rt><span style="font-family:sans-serif;"><b></b></span></rt></ruby></p></center>'
-[endscript]
-
-[chara_new name="？？？（ちぐさ）" storage="chara/4/ちぐさ_普通.png" jname='&f.set_name']
-
-[chara_face name="？？？（ちぐさ）" face="普通" storage="chara/4/ちぐさ_普通.png"]
-
-[chara_face name="？？？（ちぐさ）" face="暗" storage="chara/4/ちぐさ_暗.png"]
-
-[iscript]
-f.set_name= '<center><p><ruby><rb><span style="text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;">赤井　優魔</span></rb><rt><span style="font-family:sans-serif;"><b>あかい　ゆうま</b></span></rt></ruby></p></center>'
-[endscript]
-
-[chara_new name="ゆうま" storage="chara/5/ゆうま_普通.png" jname='&f.set_name']
-
-[chara_face name="ゆうま" face="普通" storage="chara/5/ゆうま_普通.png"]
-
-[chara_face name="ゆうま" face="暗" storage="chara/5/ゆうま_暗.png"]
-
-[chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.last_name]
-
-[chara_face name="ダミー" face="普通" storage="chara/6/ひいろ_ダミー.png"]
-
-[eval exp="f.likeability_hiiro = 0"]
-
-[eval exp="f.likeability_hisui = 0"]
-
-[eval exp="f.likeability_touka = 0"]
-
-[eval exp="f.likeability_tigusa = 0"]
-
-[eval exp="f.likeability_yuuma = 0"]
-
 [cm  ]
-[clearfix]
+*start
 
-[bg  storage="input_name.png"  time="0"  ]
+[mask  time="100"  effect="fadeIn"  color="0x000000"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
-[layopt layer=0 visible=true]
-
-*name_entry
-
-[cm  ]
-[freeimage layer="0"]
-
-[ptext layer=0 text="お名前を入力してください" x=-140 y=140 size=40 color="black" width=1280 align=center time=0]
-
-[ptext layer=0 text="" x=-160 y=190 size=40 color="black" width=1280 align=center time=0]
-
-[ptext layer=0 text="※それぞれ最大5文字まで" x=10 y=340 size=24 color="black"  width=1280 align=center time=0]
-
-[ptext layer=0 text="姓" x=205 y=222 size=30 color="black"  width=240 align=left time=0]
-
-[ptext layer=0 text="名" x=525 y=222 size=30 color="black"  width=240 align=left time=0]
-
-[edit  name="f.last_name"  width="280"  height="70"  size="30"  left="200"  top="260"  maxchars="5"  initial="赤庭"  reflect="false"  ]
-[edit  name="f.first_name"  width="260"  height="70"  size="30"  left="520"  top="260"  maxchars="5"  initial="星"  ]
-[button  graphic="button/決定ボタン.png"  target="*commit"  x="343"  y="440"  enterimg="button/決定ボタン_フロート.png"  storage=""  width="415"  height="121"  _clickable_img="button/決定ボタン_フロート.png"  ]
-[s  ]
-*commit
-
-[commit  ]
-[jump  target="*retry"  cond="!f.last_name&nbsp;||&nbsp;!f.first_name"  storage=""  ]
-[iscript]
-f.player_name = f.last_name + f.first_name
-tf.name_entry_text = "あなたのお名前は【" + f.player_name + "】でよろしいですか？";
-[endscript]
-
-[dialog text="&tf.name_entry_text" type="confirm" target_cancel="*name_entry"]
-
-[cm  ]
-[freeimage layer=0]
-
+[tb_image_show  time="1000"  storage="default/NewRAGロゴ_Vtuber.png"  width="441"  height="345"  x="258"  y="144"  _clickable_img=""  name="img_4"  ]
+[wait  time="3000"  ]
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
-[add_theme_button]
+[tb_image_hide  time="1000"  ]
+[mask_off  time="100"  effect="fadeOut"  ]
+[tb_image_show  time="1000"  storage="default/【ロゴ】悪霊退散ハロウィンジャー.PNG"  width="616"  height="435"  x="168"  y="107"  _clickable_img=""  name="img_9"  ]
+[wait  time="3000"  ]
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[tb_image_hide  time="1000"  ]
+[bg  time="1000"  method="crossfade"  storage="title.png"  ]
+[mask_off  time="100"  effect="fadeOut"  ]
+[tb_ptext_show  x="271"  y="240"  size="92"  color="0xffffff"  time="1000"  text="PUSH&nbsp;START"  anim="false"  face="monospace"  edge="0x120f0f"  shadow="undefined"  ]
+*start_title
 
-[jump  storage="scene_1_1.ks"  target=""  ]
-*retry
+[playbgm  volume="20"  time="1000"  loop="true"  storage="rpg.mp3"  ]
+[tb_ptext_hide  time="1000"  ]
+[layopt layer=message0 visible=false]
 
-[dialog text="入力されていません"]
+[chara_show  name="とうか"  time="1500"  wait="true"  storage="chara/3/とうか_普通.png"  width="509"  height="1000"  left="-66"  top="150"  reflect="false"  ]
+[chara_show  name="ひすい"  time="1500"  wait="true"  storage="chara/2/ひすい_普通.png"  width="509"  height="1000"  left="318"  top="150"  reflect="false"  ]
+[chara_show  name="ちぐさ"  time="1500"  wait="true"  storage="chara/4/ちぐさ_普通.png"  width="509"  height="1000"  left="500"  top="150"  reflect="false"  ]
+[chara_show  name="ひいろ"  time="1500"  wait="true"  storage="chara/1/ひいろ_普通.png"  width="509"  height="1000"  left="141"  top="150"  reflect="false"  ]
+[wait  time="1500"  ]
+[tb_image_show  time="1000"  storage="default/ろご_EA_3.png"  width="596"  height="369"  x="185"  y="-65"  _clickable_img=""  name="img_23"  ]
+[wait  time="4500"  ]
+*title
 
-[jump  target="*name_entry"  storage=""  ]
+[button  storage="title_screen.ks"  target="*first"  graphic="title/無題953_20250408231325.png"  width="300"  height="70"  x="145"  y="500"  _clickable_img=""  name="img_25"  ]
+[button  storage="title_screen.ks"  target="*loadmenu"  graphic="title/無題953_20250408231345.png"  width="300"  height="70"  y="500"  x="515"  _clickable_img=""  name="img_26"  ]
+[button  name="role_button"  role="sleepgame"  width="60"  height="60"  graphic="../others/plugin/theme_kopanda_03b/image/button/sleep.png"  enterimg="../others/plugin/theme_kopanda_03b/image/button/sleep2.png"  x="890"  y="575"  storage="../others/plugin/theme_kopanda_03b/config.ks"  target=""  ]
+[s  ]
+*loadmenu
+
+[cm  ]
+[showload]
+
+[jump  target="*title"  storage=""  ]
+[s  ]
+*first
+
+[cm  ]
+[freeimage layer=1]
+
+[r]
+
+[playse  volume="100"  time="1000"  buf="0"  storage="UI/button69.mp3"  ]
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[chara_hide_all  time="1000"  wait="true"  ]
+[layopt layer=message0 visible=false]
+
+[tb_ptext_hide  time="1000"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
+[jump  storage="input_name.ks"  target=""  ]

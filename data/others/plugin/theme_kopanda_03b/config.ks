@@ -2,7 +2,8 @@
 ; コンフィグ モード　画面作成
 ;=========================================
 ;	メッセージレイヤ０を不可視に
-	[layopt layer=message0 visible=false]
+	;[layopt layer=message0 visible=false]
+	[tb_hide_message_window  ]
 ;	fixボタン消し
 	[clearfix]
 ;	前景レイヤの中身をすべて空に
@@ -123,19 +124,22 @@ if(tf.text_skip == 'OFF'){$(".unread_off").attr("src","data/others/plugin/theme_
 ;--------------------------------------------------------------------------------
 *backtitle
 [iscript]
-tf.flag_back=$(".message1_fore").css("display");
+;tf.flag_back=$(".message1_fore").css("display");
 [endscript]
 
-[if exp="tf.flag_back=='none'"]
+;[if exp="tf.flag_back=='none'"]
 
 [cm]
 [layopt layer=message1 visible=false]
 [freeimage layer=1]
 [clearfix]
 ;コンフィグの呼び出しに sleepgame を使っているので、必ず awakegame で戻してやってください
+
+[ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" text="てすと" overwrite="true"]
+[chara_config ptext="name_area"]
 [awakegame]
 
-[endif]
+;[endif]
 
 [return]
 
@@ -182,7 +186,7 @@ if(tf.current_se_vol == 0){$(".sevol_0").attr("src","data/others/plugin/theme_ko
 	[current layer=message1]
 ;	↓文字色を変えたいときはここをいじる
 	[font color="0x383c5f"]
-	■■■■■■■■■■■■■■■
+	このスピードで表示されます
 
 		[iscript]
 		tf.system.backlog.pop(); // 上の「このスピードで表示されます」のテキストを履歴から削除

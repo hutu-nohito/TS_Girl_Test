@@ -79,7 +79,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 
 [stopbgm  time="1000"  ]
 [wait  time="1000"  ]
-[playbgm  volume="80"  time="1000"  loop="true"  storage="enngawa.mp3"  ]
+[playbgm  volume="60"  time="1000"  loop="true"  storage="enngawa.mp3"  ]
 [bg  time="1000"  method="crossfade"  storage="enniti_yuu.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]

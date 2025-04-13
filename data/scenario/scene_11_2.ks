@@ -165,7 +165,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [_tb_end_text]
 
 [playse  volume="100"  time="1000"  buf="0"  storage="esc01.mp3"  ]
-[playbgm  volume="80"  time="1000"  loop="true"  fadein="true"  storage="enngawa.mp3"  ]
+[wait  time="1000"  ]
+[playbgm  volume="60"  time="1000"  loop="true"  fadein="true"  storage="enngawa.mp3"  ]
 [bg  time="1000"  method="crossfade"  storage="yatai_yoru.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]

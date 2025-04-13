@@ -75,19 +75,11 @@ f.nick_name_yuuma = f.first_name
 
 [stopbgm  time="1000"  fadeout="true"  ]
 [wait  time="1000"  ]
-[playbgm  volume="80"  time="1000"  loop="true"  fadein="true"  storage="enngawa.mp3"  ]
+[playbgm  volume="60"  time="1000"  loop="true"  fadein="true"  storage="enngawa.mp3"  ]
 [bg  time="1000"  method="crossfade"  storage="enniti_yoru.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]
 ――10月31日　15:00　ハロウィン祭最終日[p]
-[_tb_end_text]
-
-[tb_start_text mode=4 ]
-[cm]
-[ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
-[chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname="<center><p>ナレーション</p></center>"]
-#ダミー
-10月31日　ハロウィン祭最終日[p]
 [_tb_end_text]
 
 [iscript]
@@ -297,6 +289,14 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 （――そして、日も暮れてきたころ、俺たちは聖火台のある黄泉山神社の中心へと向かった）[p]
 [_tb_end_text]
 
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="esc01.mp3"  ]
+[tb_start_text mode=4 ]
+#
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="jinnja_yoru.jpg"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]
@@ -507,6 +507,15 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 （――そして、俺たちはそれぞれの帰り道へと散っていった）[p]
 [_tb_end_text]
 
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[chara_hide_all  time="1000"  wait="true"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="esc01.mp3"  ]
+[tb_start_text mode=4 ]
+#
+[_tb_end_text]
+
+[bg  time="1000"  method="crossfade"  storage="juutakugai_yoru.jpg"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
 [iscript]
 f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [endscript]

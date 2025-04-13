@@ -1,5 +1,5 @@
 [preload  storage="./data/bgimage/juutakugai_hiru.jpg"  ]
-[preload  storage="./data/bgimage/syokuinnsitu_hiru.jpg"  ]
+[preload  storage="./data/bgimage/koutyousitu.jpg"  ]
 [preload  storage="./data/bgimage/rouka.jpg"  ]
 [preload  storage="./data/bgimage/room.jpg"  ]
 [return]

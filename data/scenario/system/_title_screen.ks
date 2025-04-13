@@ -1,5 +1,5 @@
 [preload  storage="./data/fgimage/default/NewRAGロゴ_Vtuber.png"  ]
 [preload  storage="./data/fgimage/default/【ロゴ】悪霊退散ハロウィンジャー.PNG"  ]
 [preload  storage="./data/bgimage/title.png"  ]
-[preload  storage="./data/fgimage/default/ろご_EA_1.png"  ]
+[preload  storage="./data/fgimage/default/ろご_EA_3.png"  ]
 [return]
