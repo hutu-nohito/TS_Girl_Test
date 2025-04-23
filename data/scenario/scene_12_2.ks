@@ -100,7 +100,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
-ええ、そうですわね[r]次こそ”食べ歩き”を完璧に成功させますわ…！[p]
+ええ、そうですわね[r]
+次こそ“食べ歩き”を完璧に成功させますわ…！[p]
 [_tb_end_text]
 
 [iscript]
@@ -242,7 +243,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 #ひすい
 で、できましたわ！[r]
 &f.nick_name_hisui
-、見ましたか？わたくし”食べ歩き”できましたわよ！[p]
+、見ましたか？わたくし“食べ歩き”できましたわよ！[p]
 [_tb_end_text]
 
 [iscript]

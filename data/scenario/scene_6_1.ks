@@ -83,7 +83,7 @@ f.nick_name_yuuma = f.first_name
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname="<center><p>ナレーション</p></center>"]
 #
-――10月25日　9:00　ハロウィン祭初日[p]
+――10月21日　9:00　ハロウィン祭初日[p]
 [_tb_end_text]
 
 [iscript]

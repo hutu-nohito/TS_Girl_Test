@@ -99,7 +99,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（出店で買ったものを飲み食いしてる人たち、踊っているたち人、そして、聖火台での採火に並ぶ人たち……）[p]
+（屋台で買ったものを飲み食いしてる人たち、踊っているたち人、そして、聖火台での採火に並ぶ人たち……）[p]
 [_tb_end_text]
 
 [iscript]

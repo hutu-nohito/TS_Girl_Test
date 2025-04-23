@@ -144,7 +144,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひすい
-あなた！ノックもせずに生徒会室に入ってくるとはマナーがなっていませんわ！[p]
+あなた！ノックもせずに生徒会室のドアを開けるとはマナーがなっていませんわ！[p]
 [_tb_end_text]
 
 [chara_mod  name="ゆうま"  time="10"  wait="false"  face="暗"  cross="false"  ]
@@ -154,7 +154,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 #ひすい
 ……あら？あなたは転校生の
 &f.nick_name_hisui
-はありませんか。転校生といえどマナーは大事ですわよ[p]
+ではありませんか。転校生といえどマナーは大事ですわよ[p]
 [_tb_end_text]
 
 [chara_hide  name="ゆうま"  time="1"  wait="true"  pos_mode="false"  ]

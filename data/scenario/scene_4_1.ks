@@ -95,7 +95,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname="<center><p>ナレーション</p></center>"]
 #ダミー
-――10月18日　9:00　ハロウィン祭準備期間初日[p]
+――10月14日　9:00　ハロウィン祭準備期間初日[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]

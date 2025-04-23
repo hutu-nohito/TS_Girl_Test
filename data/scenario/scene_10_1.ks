@@ -75,6 +75,14 @@ f.nick_name_yuuma = f.first_name
 
 [bg  time="1000"  method="crossfade"  storage="enniti_yoru.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
+[tb_start_text mode=4 ]
+[cm]
+[ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
+[chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname="<center><p>ナレーション</p></center>"]
+#
+――同日　18:30　ハロウィン祭初日[p]
+[_tb_end_text]
+
 [chara_show  name="ひいろ"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="205"  top="-45"  reflect="false"  ]
 [tb_start_text mode=4 ]
 [cm]
@@ -152,7 +160,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（なんだか不思議な雰囲気の出店があるな…）[p]
+（なんだか不思議な雰囲気の屋台があるな…）[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]
@@ -284,7 +292,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [jump  storage="scene_10_1.ks"  target="*shop_end"  ]
 *shop_end
 
-[stopbgm  time="1000"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [wait  time="1000"  ]
 [playbgm  volume="80"  time="1000"  loop="true"  storage="enngawa.mp3"  ]
 [chara_show  name="とうか"  face="普通"  time="10"  wait="true"  width="550"  height="1080"  left="565"  top="-45"  reflect="false"  ]
@@ -345,7 +353,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-出店でも見ながらみんなを待っておこうかなって思って見てたんだ[p]
+屋台でも見ながらみんなを待っておこうかなって思って見てたんだ[p]
 [_tb_end_text]
 
 [chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
@@ -359,7 +367,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [cm]
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #ひいろ
-出店？そこ出店ないよ…？[p]
+屋台？そこ屋台ないよ…？[p]
 [_tb_end_text]
 
 [iscript]
@@ -383,7 +391,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（振り返ると先ほどまでそこにあったはずの出店と店主が消えていた）[p]
+（振り返ると先ほどまでそこにあったはずの屋台と店主が消えていた）[p]
 [_tb_end_text]
 
 [iscript]

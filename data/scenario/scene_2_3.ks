@@ -274,7 +274,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname="<center><p>陸上部員A</p></center>"]
 #ダミー
-出た！ 先輩の必殺ブーストダッシュだ！！[p]
+でた！ 先輩の必殺ブーストダッシュだ！！[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]
@@ -346,7 +346,8 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="410" overwrite="true"]
 #とうか
 みんなありがとな[r]
-よーし、次はリレーの練習だ！　 タイム測るから気合い入れていくよー！　みんな準備開始！[p]
+よーし、次はリレーの練習だ！[r]
+タイム測るから気合い入れていくよー！　みんな準備開始！[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]

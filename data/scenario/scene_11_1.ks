@@ -650,7 +650,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（とりあえずそのまままっすぐ進んでいるだろうと予測し、人の間をかいくぐりながらひいろを探す）[p]
+（とりあえずそのまままっすぐ進んでいるだろうと予測し、人の間を縫うように進みながらひいろを探す）[p]
 [_tb_end_text]
 
 [iscript]

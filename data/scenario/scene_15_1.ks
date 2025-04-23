@@ -222,7 +222,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（出店の明かり、仮装した人たちの笑い声、どこまでも続くかのような賑わい）[p]
+（屋台の明かり、仮装した人たちの笑い声、どこまでも続くかのような賑わい）[p]
 [_tb_end_text]
 
 [chara_hide  name="ひいろ"  time="1"  wait="true"  pos_mode="false"  ]
@@ -318,7 +318,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（出店で買ったものを飲み食いしてる人たち、踊っているたち人、そして、聖火台での採火に並ぶ人たち……）[p]
+（屋台で買ったものを飲み食いしてる人たち、踊っているたち人、そして、聖火台での採火に並ぶ人たち……）[p]
 [_tb_end_text]
 
 [iscript]
@@ -403,7 +403,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（――ランタンの灯が、夜空に優しく揺れていた）[p]
+（ランタンの灯が、夜空に優しく揺れていた）[p]
 [_tb_end_text]
 
 [iscript]

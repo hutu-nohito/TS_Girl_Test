@@ -84,7 +84,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]
 [cm]
-――10月31日　15:00　ハロウィン祭最終日）[p]
+――10月31日　15:00　ハロウィン祭最終日[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]
@@ -594,7 +594,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-そんなことないよ、祭りはたくさん出店があるから色んな料理を楽しむために同行者とシェアしながら食べるものなんだよ[p]
+そんなことないよ、祭りはたくさん屋台があるから色んな料理を楽しむために同行者とシェアしながら食べるものなんだよ[p]
 [_tb_end_text]
 
 [chara_hide  name="ひすい"  time="1"  wait="true"  pos_mode="false"  ]

@@ -99,7 +99,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
-（出店で買ったものを飲み食いしてる人たち、踊っているたち人、そして、聖火台での採火に並ぶ人たち……）[p]
+（屋台で買ったものを飲み食いしてる人たち、踊っているたち人、そして、聖火台での採火に並ぶ人たち……）[p]
 [_tb_end_text]
 
 [iscript]
@@ -760,8 +760,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 #ダミー
 俺……いや、私
 &f.first_name
-はひすいのことを
-病める時も　健やかなる時も　[p]
+はひすいのことを[p]
 [_tb_end_text]
 
 [iscript]
@@ -773,6 +772,7 @@ f.name1="<center><p>"+f.last_name+f.first_name+"</p></center>"
 [ptext name="name_area" layer="message0" color="0x000000" x="15" y="420" overwrite="true"]
 [chara_new name="ダミー" color="0x202020"  storage="chara/6/ひいろ_ダミー_仮.png"  jname=&f.name1]
 #ダミー
+病める時も　健やかなる時も[r]
 富める時も　貧しき時も[r]
 愛し　敬い　慈しむことをこの聖火に誓います！[p]
 [_tb_end_text]
